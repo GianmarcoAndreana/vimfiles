@@ -16,6 +16,11 @@ set nrformats-=octal       " Remove octal support from 'nrformats'.
 set tabstop=4              " Size of a Tab character.
 set shiftwidth=0           " Use same value as 'tabstop'.
 set softtabstop=-1         " Use same value as 'shiftwidth'.
+set clipboard=unnamed      " Use system clipboard
+
+" Python integration
+set pythonthreedll=python39.dll      " Specify which python dll
+let g:UltiSnipsUsePythonVersion = 3  " Tell ultisnips to use py3
 
 " Store temporary files in ~/vimfiles/tmp
  set viminfo+=n~/vimfiles/tmp/viminfo
@@ -34,6 +39,9 @@ Plug 'scrooloose/nerdtree'
 
 " Gruvbox colorscheme
 Plug 'morhetz/gruvbox'
+
+" Air-line
+Plug 'vim-airline/vim-airline'
 
 call plug#end()
 

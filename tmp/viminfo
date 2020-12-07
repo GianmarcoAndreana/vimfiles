@@ -12,13 +12,15 @@
 ~h
 # Command Line History (newest to oldest):
 :q
-|2,0,1607379099,,"q"
+|2,0,1607379526,,"q"
+:Q
+|2,0,1607379524,,"Q"
+:PlugInstall
+|2,0,1607379467,,"PlugInstall"
 :NERDTree
 |2,0,1607379082,,"NERDTree"
 :w
 |2,0,1607379035,,"w"
-:PlugInstall
-|2,0,1607378825,,"PlugInstall"
 :PlugUpdate
 |2,0,1607378770,,"PlugUpdate"
 :$MYVIMRC
@@ -87,10 +89,34 @@
 # Jumplist (newest first):
 -'  1  0  ~\vimfiles\vimrc
 |4,39,1,0,1607379099,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607379099,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607379099,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607379099,"~\\vimfiles\\vimrc"
 -'  41  16  ~\vimfiles\vimrc
 |4,39,41,16,1607379064,"~\\vimfiles\\vimrc"
 -'  41  16  ~\vimfiles\vimrc
 |4,39,41,16,1607379064,"~\\vimfiles\\vimrc"
+-'  41  16  ~\vimfiles\vimrc
+|4,39,41,16,1607379064,"~\\vimfiles\\vimrc"
+-'  41  16  ~\vimfiles\vimrc
+|4,39,41,16,1607379064,"~\\vimfiles\\vimrc"
+-'  41  16  ~\vimfiles\vimrc
+|4,39,41,16,1607379064,"~\\vimfiles\\vimrc"
+-'  41  16  ~\vimfiles\vimrc
+|4,39,41,16,1607379064,"~\\vimfiles\\vimrc"
+-'  41  16  ~\vimfiles\vimrc
+|4,39,41,16,1607379064,"~\\vimfiles\\vimrc"
+-'  41  16  ~\vimfiles\vimrc
+|4,39,41,16,1607379064,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607379009,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607379009,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607379009,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
 |4,39,1,0,1607379009,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimrc
@@ -101,6 +127,42 @@
 |4,39,1,0,1607378983,"~\\vimrc"
 -'  1  0  ~\vimrc
 |4,39,1,0,1607378983,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1607378983,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1607378983,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1607378983,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1607378983,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1607378983,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1607378983,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1607378983,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1607378983,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1607378983,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1607378983,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1607378983,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1607378983,"~\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607378970,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607378970,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607378970,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607378970,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607378970,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607378970,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
 |4,39,1,0,1607378970,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
@@ -117,10 +179,70 @@
 |4,39,40,72,1607378924,"~\\vimfiles\\vimrc"
 -'  40  72  ~\vimfiles\vimrc
 |4,39,40,72,1607378924,"~\\vimfiles\\vimrc"
+-'  40  72  ~\vimfiles\vimrc
+|4,39,40,72,1607378924,"~\\vimfiles\\vimrc"
+-'  40  72  ~\vimfiles\vimrc
+|4,39,40,72,1607378924,"~\\vimfiles\\vimrc"
+-'  40  72  ~\vimfiles\vimrc
+|4,39,40,72,1607378924,"~\\vimfiles\\vimrc"
+-'  40  72  ~\vimfiles\vimrc
+|4,39,40,72,1607378924,"~\\vimfiles\\vimrc"
+-'  40  72  ~\vimfiles\vimrc
+|4,39,40,72,1607378924,"~\\vimfiles\\vimrc"
+-'  40  72  ~\vimfiles\vimrc
+|4,39,40,72,1607378924,"~\\vimfiles\\vimrc"
+-'  40  72  ~\vimfiles\vimrc
+|4,39,40,72,1607378924,"~\\vimfiles\\vimrc"
+-'  40  72  ~\vimfiles\vimrc
+|4,39,40,72,1607378924,"~\\vimfiles\\vimrc"
+-'  40  72  ~\vimfiles\vimrc
+|4,39,40,72,1607378924,"~\\vimfiles\\vimrc"
+-'  40  72  ~\vimfiles\vimrc
+|4,39,40,72,1607378924,"~\\vimfiles\\vimrc"
+-'  40  72  ~\vimfiles\vimrc
+|4,39,40,72,1607378924,"~\\vimfiles\\vimrc"
+-'  40  72  ~\vimfiles\vimrc
+|4,39,40,72,1607378924,"~\\vimfiles\\vimrc"
+-'  40  72  ~\vimfiles\vimrc
+|4,39,40,72,1607378924,"~\\vimfiles\\vimrc"
+-'  40  72  ~\vimfiles\vimrc
+|4,39,40,72,1607378924,"~\\vimfiles\\vimrc"
+-'  40  72  ~\vimfiles\vimrc
+|4,39,40,72,1607378924,"~\\vimfiles\\vimrc"
+-'  40  72  ~\vimfiles\vimrc
+|4,39,40,72,1607378924,"~\\vimfiles\\vimrc"
+-'  40  72  ~\vimfiles\vimrc
+|4,39,40,72,1607378924,"~\\vimfiles\\vimrc"
+-'  40  72  ~\vimfiles\vimrc
+|4,39,40,72,1607378924,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
 |4,39,1,0,1607378868,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
 |4,39,1,0,1607378868,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607378868,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607378868,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607378868,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607378868,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607378868,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607378868,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607378834,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607378834,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607378834,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607378834,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607378834,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607378834,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
 |4,39,1,0,1607378834,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
@@ -145,146 +267,24 @@
 |4,39,38,12,1607378817,"~\\vimfiles\\vimrc"
 -'  38  12  ~\vimfiles\vimrc
 |4,39,38,12,1607378817,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607378615,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607378615,"~\\vimfiles\\vimrc"
--'  29  0  ~\vimfiles\vimrc
-|4,39,29,0,1607378524,"~\\vimfiles\\vimrc"
--'  29  0  ~\vimfiles\vimrc
-|4,39,29,0,1607378524,"~\\vimfiles\\vimrc"
--'  29  0  ~\vimfiles\vimrc
-|4,39,29,0,1607378524,"~\\vimfiles\\vimrc"
--'  29  0  ~\vimfiles\vimrc
-|4,39,29,0,1607378524,"~\\vimfiles\\vimrc"
--'  29  0  ~\vimfiles\vimrc
-|4,39,29,0,1607378524,"~\\vimfiles\\vimrc"
--'  29  0  ~\vimfiles\vimrc
-|4,39,29,0,1607378524,"~\\vimfiles\\vimrc"
--'  29  0  ~\vimfiles\vimrc
-|4,39,29,0,1607378524,"~\\vimfiles\\vimrc"
--'  29  0  ~\vimfiles\vimrc
-|4,39,29,0,1607378524,"~\\vimfiles\\vimrc"
--'  29  0  ~\vimfiles\vimrc
-|4,39,29,0,1607378524,"~\\vimfiles\\vimrc"
--'  29  0  ~\vimfiles\vimrc
-|4,39,29,0,1607378524,"~\\vimfiles\\vimrc"
--'  29  0  ~\vimfiles\vimrc
-|4,39,29,0,1607378524,"~\\vimfiles\\vimrc"
--'  29  0  ~\vimfiles\vimrc
-|4,39,29,0,1607378524,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607378192,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607378192,"~\\vimfiles\\vimrc"
--'  31  8  ~\vimfiles\vimrc
-|4,39,31,8,1607378189,"~\\vimfiles\\vimrc"
--'  31  8  ~\vimfiles\vimrc
-|4,39,31,8,1607378189,"~\\vimfiles\\vimrc"
--'  31  8  ~\vimfiles\vimrc
-|4,39,31,8,1607378189,"~\\vimfiles\\vimrc"
--'  31  8  ~\vimfiles\vimrc
-|4,39,31,8,1607378189,"~\\vimfiles\\vimrc"
--'  31  8  ~\vimfiles\vimrc
-|4,39,31,8,1607378189,"~\\vimfiles\\vimrc"
--'  31  8  ~\vimfiles\vimrc
-|4,39,31,8,1607378189,"~\\vimfiles\\vimrc"
--'  31  8  ~\vimfiles\vimrc
-|4,39,31,8,1607378189,"~\\vimfiles\\vimrc"
--'  31  8  ~\vimfiles\vimrc
-|4,39,31,8,1607378189,"~\\vimfiles\\vimrc"
--'  31  8  ~\vimfiles\vimrc
-|4,39,31,8,1607378189,"~\\vimfiles\\vimrc"
--'  31  8  ~\vimfiles\vimrc
-|4,39,31,8,1607378189,"~\\vimfiles\\vimrc"
--'  31  8  ~\vimfiles\vimrc
-|4,39,31,8,1607378189,"~\\vimfiles\\vimrc"
--'  31  8  ~\vimfiles\vimrc
-|4,39,31,8,1607378189,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607378146,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607378146,"~\\vimfiles\\vimrc"
--'  31  9  ~\vimfiles\vimrc
-|4,39,31,9,1607378133,"~\\vimfiles\\vimrc"
--'  31  9  ~\vimfiles\vimrc
-|4,39,31,9,1607378133,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607378096,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607378096,"~\\vimfiles\\vimrc"
--'  31  9  ~\vimfiles\vimrc
-|4,39,31,9,1607378076,"~\\vimfiles\\vimrc"
--'  31  9  ~\vimfiles\vimrc
-|4,39,31,9,1607378076,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607377943,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607377943,"~\\vimfiles\\vimrc"
--'  31  2  ~\vimfiles\vimrc
-|4,39,31,2,1607377940,"~\\vimfiles\\vimrc"
--'  31  2  ~\vimfiles\vimrc
-|4,39,31,2,1607377940,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607377929,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607377929,"~\\vimfiles\\vimrc"
--'  31  2  ~\vimfiles\vimrc
-|4,39,31,2,1607377904,"~\\vimfiles\\vimrc"
--'  31  2  ~\vimfiles\vimrc
-|4,39,31,2,1607377904,"~\\vimfiles\\vimrc"
--'  31  2  ~\vimfiles\vimrc
-|4,39,31,2,1607377904,"~\\vimfiles\\vimrc"
--'  31  2  ~\vimfiles\vimrc
-|4,39,31,2,1607377904,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607377864,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607377864,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607377864,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607377864,"~\\vimfiles\\vimrc"
--'  31  9  ~\vimfiles\vimrc
-|4,39,31,9,1607377861,"~\\vimfiles\\vimrc"
--'  31  9  ~\vimfiles\vimrc
-|4,39,31,9,1607377861,"~\\vimfiles\\vimrc"
--'  31  9  ~\vimfiles\vimrc
-|4,39,31,9,1607377861,"~\\vimfiles\\vimrc"
--'  31  9  ~\vimfiles\vimrc
-|4,39,31,9,1607377861,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607377728,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607377728,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607377728,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607377728,"~\\vimfiles\\vimrc"
--'  31  90  ~\vimfiles\vimrc
-|4,39,31,90,1607377725,"~\\vimfiles\\vimrc"
--'  31  90  ~\vimfiles\vimrc
-|4,39,31,90,1607377725,"~\\vimfiles\\vimrc"
--'  31  90  ~\vimfiles\vimrc
-|4,39,31,90,1607377725,"~\\vimfiles\\vimrc"
--'  31  90  ~\vimfiles\vimrc
-|4,39,31,90,1607377725,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607377675,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607377675,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607377675,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607377675,"~\\vimfiles\\vimrc"
--'  30  14  ~\vimfiles\vimrc
-|4,39,30,14,1607377672,"~\\vimfiles\\vimrc"
--'  30  14  ~\vimfiles\vimrc
-|4,39,30,14,1607377672,"~\\vimfiles\\vimrc"
--'  30  14  ~\vimfiles\vimrc
-|4,39,30,14,1607377672,"~\\vimfiles\\vimrc"
--'  30  14  ~\vimfiles\vimrc
-|4,39,30,14,1607377672,"~\\vimfiles\\vimrc"
+-'  38  12  ~\vimfiles\vimrc
+|4,39,38,12,1607378817,"~\\vimfiles\\vimrc"
+-'  38  12  ~\vimfiles\vimrc
+|4,39,38,12,1607378817,"~\\vimfiles\\vimrc"
+-'  38  12  ~\vimfiles\vimrc
+|4,39,38,12,1607378817,"~\\vimfiles\\vimrc"
+-'  38  12  ~\vimfiles\vimrc
+|4,39,38,12,1607378817,"~\\vimfiles\\vimrc"
+-'  38  12  ~\vimfiles\vimrc
+|4,39,38,12,1607378817,"~\\vimfiles\\vimrc"
+-'  38  12  ~\vimfiles\vimrc
+|4,39,38,12,1607378817,"~\\vimfiles\\vimrc"
+-'  38  12  ~\vimfiles\vimrc
+|4,39,38,12,1607378817,"~\\vimfiles\\vimrc"
+-'  38  12  ~\vimfiles\vimrc
+|4,39,38,12,1607378817,"~\\vimfiles\\vimrc"
+-'  38  12  ~\vimfiles\vimrc
+|4,39,38,12,1607378817,"~\\vimfiles\\vimrc"
 
 # History of marks within files (newest to oldest):
 

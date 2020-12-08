@@ -1,3 +1,26 @@
+
+"         GGGGGGGGGGGGG               AAA               
+"      GGG::::::::::::G              A:::A              
+"    GG:::::::::::::::G             A:::::A             
+"   G:::::GGGGGGGG::::G            A:::::::A            
+"  G:::::G       GGGGGG           A:::::::::A           
+" G:::::G                        A:::::A:::::A          
+" G:::::G                       A:::::A A:::::A         
+" G:::::G    GGGGGGGGGG        A:::::A   A:::::A        
+" G:::::G    G::::::::G       A:::::A     A:::::A       
+" G:::::G    GGGGG::::G      A:::::AAAAAAAAA:::::A      
+" G:::::G        G::::G     A:::::::::::::::::::::A     
+"  G:::::G       G::::G    A:::::AAAAAAAAAAAAA:::::A    
+"   G:::::GGGGGGGG::::G   A:::::A             A:::::A   
+"    GG:::::::::::::::G  A:::::A               A:::::A  
+"      GGG::::::GGG:::G A:::::A                 A:::::A 
+"         GGGGGG   GGGGAAAAAAA                   AAAAAAA
+                                                      
+
+" GitHub: https://github.com/Giammy2094  
+
+
+"******************** General Settings *********************
 set nocompatible           " Vim defaults rather than vi ones. Keep at top.
 filetype plugin indent on  " Enable filetype-specific settings.
 syntax on                  " Enable syntax highlighting.
@@ -18,16 +41,11 @@ set tabstop=4              " Size of a Tab character.
 set shiftwidth=0           " Use same value as 'tabstop'.
 set softtabstop=-1         " Use same value as 'shiftwidth'.
 set clipboard=unnamed      " Use system clipboard
+
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
 let g:SimpylFold_docstring_preview=1
-
-" Python integration
-set pythonthreedll=python39.dll      " Specify which python dll
-let g:UltiSnipsUsePythonVersion = 3  " Tell ultisnips to use py3
-set encoding=utf-8
-let python_highlight_all=1
 
 " Store temporary files in ~/vimfiles/tmp
 set viminfo+=n~/vimfiles/tmp/viminfo
@@ -38,6 +56,14 @@ if !isdirectory(&backupdir) | call mkdir(&backupdir, 'p', 0700) | endif
 if !isdirectory(&dir)       | call mkdir(&dir, 'p', 0700)       | endif
 if !isdirectory(&viewdir)   | call mkdir(&viewdir, 'p', 0700)   | endif
 
+
+"******************** Python integration *********************
+set pythonthreedll=python39.dll      " Specify which python dll
+let g:UltiSnipsUsePythonVersion = 3  " Tell ultisnips to use py3
+set encoding=utf-8
+let python_highlight_all=1
+
+"******************** Vim-Plug *******************************
 " Install Vim-Plug
 if empty(glob('~/vimfiles/autoload/plug.vim'))
   silent !curl -fLo ~/vimfiles/autoload/plug.vim --create-dirs
@@ -71,17 +97,19 @@ Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
+
+"******************** Package settings *******************************
+" Gruvbox settings
 autocmd vimenter * ++nested colorscheme gruvbox " Set Gruvbox colorscheme
 set termguicolors
 
 " ALE settings
-
 let g:ale_linters = {
       \   'python': ['flake8', 'pylint'],
 	  \}
 
-" Key-bindings
 
+"******************** Package settings *******************************
 " Easy switching between splits using ctrl 
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>

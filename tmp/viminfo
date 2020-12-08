@@ -11,12 +11,14 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
-:q!
-|2,0,1607453109,,"q!"
 :q
-|2,0,1607453107,,"q"
+|2,0,1607457954,,"q"
 :w
-|2,0,1607452505,,"w"
+|2,0,1607457942,,"w"
+:wjkk
+|2,0,1607457854,,"wjkk"
+:q!
+|2,0,1607456203,,"q!"
 ::q
 |2,0,1607452121,,":q"
 :ALEFix yapf
@@ -94,76 +96,179 @@
 
 # Registers:
 "0	LINE	0
+	"******************** Package settings *******************************
+|3,0,0,1,1,0,1607457866,"\"******************** Package settings *******************************"
+""1	LINE	0
 	
-|3,0,0,1,1,0,1607448470,""
-"1	LINE	0
-	print
-|3,0,1,1,1,0,1607453086,"print"
-"2	LINE	0
+|3,1,1,1,1,0,1607457909,""
+"2	CHAR	0
+	Key-bindings
 	
-|3,0,2,1,1,0,1607452729,""
+|3,0,2,0,2,0,1607457888,"Key-bindings",""
 "3	LINE	0
 	
-|3,0,3,1,1,0,1607452728,""
+|3,0,3,1,1,0,1607457860,""
 "4	LINE	0
-	def pippo():
-|3,0,4,1,1,0,1607452725,"def pippo():"
+	
+|3,0,4,1,1,0,1607457665,""
 "5	LINE	0
 	
-|3,0,5,1,1,0,1607452724,""
-"6	LINE	0
+|3,0,5,1,1,0,1607457663,""
+"6	CHAR	0
+	" Store temporary files in ~/vimfiles/tmp
+	set viminfo+=n~/vimfiles/tmp/viminfo
+	set backupdir=$HOME/vimfiles/tmp/backup
+	set dir=$HOME/vimfiles/tmp/swap
+	set viewdir=$HOME/vimfiles/tmp/view
+	if !isdirectory(&backupdir) | call mkdir(&backupdir, 'p', 0700) | endif
+	if !isdirectory(&dir)       | call mkdir(&dir, 'p', 0700)       | endif
+	if !isdirectory(&viewdir)   | call mkdir(&viewdir, 'p', 0700)   | endif
 	
-|3,0,6,1,1,0,1607450972,""
-"7	LINE	0
 	
-|3,0,7,1,1,0,1607450941,""
+|3,0,6,0,10,0,1607457647,"\" Store temporary files in ~/vimfiles/tmp","set viminfo+=n~/vimfiles/tmp/viminfo","set backupdir=$HOME/vimfiles/tmp/backup","set dir=$HOME/vimfiles/tmp/swap","set viewdir=$HOME/vimfiles/tmp/view","if !isdirectory(&backupdir) | call mkdir(&backupdir, 'p', 0700) | endif","if !isdirectory(&dir)       | call mkdir(&dir, 'p', 0700)       | endif","if !isdirectory(&viewdir)   | call mkdir(&viewdir, 'p', 0700)   | endif","",""
+"7	CHAR	0
+	Python integration
+	
+|3,0,7,0,2,0,1607457607,"Python integration",""
 "8	LINE	0
-	      \   'javascript': ['eslint'],
-|3,0,8,1,1,0,1607450720,"      \\   'javascript': ['eslint'],"
-"9	LINE	0
-	      \   'ruby': ['standardrb', 'rubocop'],
-|3,0,9,1,1,0,1607450719,"      \\   'ruby': ['standardrb', 'rubocop'],"
-""-	CHAR	0
-	print
-|3,1,36,0,1,0,1607453104,"print"
+	
+|3,0,8,1,1,0,1607457438,""
+"9	CHAR	0
+	"
+	"
+	"
+	"
+	"
+	"
+	"
+	"
+	"
+	"
+	"
+	"
+	"
+	"
+	"
+	"
+	
+	                                                      
+	                                                      
+	                                                     
+	 
+|3,0,9,0,21,0,1607457286,"\"","\"","\"","\"","\"","\"","\"","\"","\"","\"","\"","\"","\"","\"","\"","\"","","                                                      ","                                                      ","                                                     "," "
+"-	CHAR	0
+	Package settings 
+|3,0,36,0,1,0,1607457899,"Package settings "
 
 # File marks:
-'0  11  0  ~\vimfiles\prova.py
-|4,48,11,0,1607453109,"~\\vimfiles\\prova.py"
-'1  68  0  ~\vimfiles\vimrc
-|4,49,68,0,1607451791,"~\\vimfiles\\vimrc"
-'2  70  26  ~\vimfiles\vimrc
-|4,50,70,26,1607451563,"~\\vimfiles\\vimrc"
-'3  70  26  ~\vimfiles\vimrc
-|4,51,70,26,1607451563,"~\\vimfiles\\vimrc"
-'4  6  0  ~\vimfiles\NERD_tree_1
-|4,52,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
-'5  1  0  ~\vimfiles\NERD_tree_1
-|4,53,1,0,1607448039,"~\\vimfiles\\NERD_tree_1"
-'6  11  0  ~\vimfiles\NERD_tree_1
-|4,54,11,0,1607448039,"~\\vimfiles\\NERD_tree_1"
-'7  32  5  ~\vimfiles\vimrc
-|4,55,32,5,1607447716,"~\\vimfiles\\vimrc"
-'8  32  5  ~\vimfiles\vimrc
-|4,56,32,5,1607447716,"~\\vimfiles\\vimrc"
-'9  33  5  ~\vimfiles\vimrc
-|4,57,33,5,1607447716,"~\\vimfiles\\vimrc"
+'0  1  0  ~\vimfiles\vimrc
+|4,48,1,0,1607457954,"~\\vimfiles\\vimrc"
+'1  27  16  ~\vimfiles\vimrc
+|4,49,27,16,1607456203,"~\\vimfiles\\vimrc"
+'2  4  16  ~\vimfiles\vimrc
+|4,50,4,16,1607456203,"~\\vimfiles\\vimrc"
+'3  11  0  ~\vimfiles\prova.py
+|4,51,11,0,1607453109,"~\\vimfiles\\prova.py"
+'4  108  0  ~\vimfiles\vimrc
+|4,52,108,0,1607451791,"~\\vimfiles\\vimrc"
+'5  94  0  ~\vimfiles\vimrc
+|4,53,94,0,1607451791,"~\\vimfiles\\vimrc"
+'6  80  0  ~\vimfiles\vimrc
+|4,54,80,0,1607451791,"~\\vimfiles\\vimrc"
+'7  68  0  ~\vimfiles\vimrc
+|4,55,68,0,1607451791,"~\\vimfiles\\vimrc"
+'8  110  26  ~\vimfiles\vimrc
+|4,56,110,26,1607451563,"~\\vimfiles\\vimrc"
+'9  110  26  ~\vimfiles\vimrc
+|4,57,110,26,1607451563,"~\\vimfiles\\vimrc"
 
 # Jumplist (newest first):
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607457954,"~\\vimfiles\\vimrc"
+-'  91  0  ~\vimfiles\vimrc
+|4,39,91,0,1607457923,"~\\vimfiles\\vimrc"
+-'  66  0  ~\vimfiles\vimrc
+|4,39,66,0,1607457754,"~\\vimfiles\\vimrc"
+-'  102  0  ~\vimfiles\vimrc
+|4,39,102,0,1607457749,"~\\vimfiles\\vimrc"
+-'  69  61  ~\vimfiles\vimrc
+|4,39,69,61,1607457726,"~\\vimfiles\\vimrc"
+-'  24  0  ~\vimfiles\vimrc
+|4,39,24,0,1607457139,"~\\vimfiles\\vimrc"
+-'  27  16  ~\vimfiles\vimrc
+|4,39,27,16,1607456203,"~\\vimfiles\\vimrc"
+-'  4  16  ~\vimfiles\vimrc
+|4,39,4,16,1607456203,"~\\vimfiles\\vimrc"
+-'  37  0  ~\vimfiles\vimrc
+|4,39,37,0,1607455925,"~\\vimfiles\\vimrc"
+-'  14  0  ~\vimfiles\vimrc
+|4,39,14,0,1607455925,"~\\vimfiles\\vimrc"
+-'  36  0  ~\vimfiles\vimrc
+|4,39,36,0,1607455919,"~\\vimfiles\\vimrc"
+-'  13  0  ~\vimfiles\vimrc
+|4,39,13,0,1607455919,"~\\vimfiles\\vimrc"
+-'  11  0  ~\vimfiles\prova.py
+|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
+-'  11  0  ~\vimfiles\prova.py
+|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
+-'  11  0  ~\vimfiles\prova.py
+|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
 -'  11  0  ~\vimfiles\prova.py
 |4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
 -'  12  20  ~\vimfiles\prova.py
 |4,39,12,20,1607452543,"~\\vimfiles\\prova.py"
+-'  12  20  ~\vimfiles\prova.py
+|4,39,12,20,1607452543,"~\\vimfiles\\prova.py"
+-'  12  20  ~\vimfiles\prova.py
+|4,39,12,20,1607452543,"~\\vimfiles\\prova.py"
+-'  12  20  ~\vimfiles\prova.py
+|4,39,12,20,1607452543,"~\\vimfiles\\prova.py"
 -'  1  0  ~\vimfiles\prova.py
 |4,39,1,0,1607452540,"~\\vimfiles\\prova.py"
+-'  1  0  ~\vimfiles\prova.py
+|4,39,1,0,1607452540,"~\\vimfiles\\prova.py"
+-'  1  0  ~\vimfiles\prova.py
+|4,39,1,0,1607452540,"~\\vimfiles\\prova.py"
+-'  1  0  ~\vimfiles\prova.py
+|4,39,1,0,1607452540,"~\\vimfiles\\prova.py"
+-'  9  9  ~\vimfiles\prova.py
+|4,39,9,9,1607452538,"~\\vimfiles\\prova.py"
+-'  9  9  ~\vimfiles\prova.py
+|4,39,9,9,1607452538,"~\\vimfiles\\prova.py"
+-'  9  9  ~\vimfiles\prova.py
+|4,39,9,9,1607452538,"~\\vimfiles\\prova.py"
 -'  9  9  ~\vimfiles\prova.py
 |4,39,9,9,1607452538,"~\\vimfiles\\prova.py"
 -'  6  0  ~\vimfiles\prova.py
 |4,39,6,0,1607451909,"~\\vimfiles\\prova.py"
 -'  6  0  ~\vimfiles\prova.py
 |4,39,6,0,1607451909,"~\\vimfiles\\prova.py"
+-'  6  0  ~\vimfiles\prova.py
+|4,39,6,0,1607451909,"~\\vimfiles\\prova.py"
+-'  6  0  ~\vimfiles\prova.py
+|4,39,6,0,1607451909,"~\\vimfiles\\prova.py"
+-'  6  0  ~\vimfiles\prova.py
+|4,39,6,0,1607451909,"~\\vimfiles\\prova.py"
+-'  6  0  ~\vimfiles\prova.py
+|4,39,6,0,1607451909,"~\\vimfiles\\prova.py"
+-'  6  0  ~\vimfiles\prova.py
+|4,39,6,0,1607451909,"~\\vimfiles\\prova.py"
+-'  6  0  ~\vimfiles\prova.py
+|4,39,6,0,1607451909,"~\\vimfiles\\prova.py"
 -'  1  0  ~\vimfiles\prova.py
 |4,39,1,0,1607451797,"~\\vimfiles\\prova.py"
+-'  1  0  ~\vimfiles\prova.py
+|4,39,1,0,1607451797,"~\\vimfiles\\prova.py"
+-'  1  0  ~\vimfiles\prova.py
+|4,39,1,0,1607451797,"~\\vimfiles\\prova.py"
+-'  1  0  ~\vimfiles\prova.py
+|4,39,1,0,1607451797,"~\\vimfiles\\prova.py"
+-'  108  0  ~\vimfiles\vimrc
+|4,39,108,0,1607451791,"~\\vimfiles\\vimrc"
+-'  94  0  ~\vimfiles\vimrc
+|4,39,94,0,1607451791,"~\\vimfiles\\vimrc"
+-'  80  0  ~\vimfiles\vimrc
+|4,39,80,0,1607451791,"~\\vimfiles\\vimrc"
 -'  68  0  ~\vimfiles\vimrc
 |4,39,68,0,1607451791,"~\\vimfiles\\vimrc"
 -'  68  0  ~\vimfiles\vimrc
@@ -180,6 +285,12 @@
 |4,39,1,0,1607451564,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
 |4,39,1,0,1607451564,"~\\vimfiles\\vimrc"
+-'  110  26  ~\vimfiles\vimrc
+|4,39,110,26,1607451563,"~\\vimfiles\\vimrc"
+-'  96  26  ~\vimfiles\vimrc
+|4,39,96,26,1607451563,"~\\vimfiles\\vimrc"
+-'  82  26  ~\vimfiles\vimrc
+|4,39,82,26,1607451563,"~\\vimfiles\\vimrc"
 -'  70  26  ~\vimfiles\vimrc
 |4,39,70,26,1607451563,"~\\vimfiles\\vimrc"
 -'  70  26  ~\vimfiles\vimrc
@@ -196,6 +307,12 @@
 |4,39,70,26,1607451563,"~\\vimfiles\\vimrc"
 -'  70  26  ~\vimfiles\vimrc
 |4,39,70,26,1607451563,"~\\vimfiles\\vimrc"
+-'  107  24  ~\vimfiles\vimrc
+|4,39,107,24,1607450670,"~\\vimfiles\\vimrc"
+-'  93  24  ~\vimfiles\vimrc
+|4,39,93,24,1607450670,"~\\vimfiles\\vimrc"
+-'  79  24  ~\vimfiles\vimrc
+|4,39,79,24,1607450670,"~\\vimfiles\\vimrc"
 -'  67  24  ~\vimfiles\vimrc
 |4,39,67,24,1607450670,"~\\vimfiles\\vimrc"
 -'  67  24  ~\vimfiles\vimrc
@@ -266,92 +383,111 @@
 |4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
 -'  6  0  ~\vimfiles\NERD_tree_1
 |4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  6  0  ~\vimfiles\NERD_tree_1
-|4,39,6,0,1607448376,"~\\vimfiles\\NERD_tree_1"
--'  11  2  ~\vimfiles\NERD_tree_1
-|4,39,11,2,1607448374,"~\\vimfiles\\NERD_tree_1"
 
 # History of marks within files (newest to oldest):
+
+> ~\vimfiles\vimrc
+	*	1607457942	0
+	"	1	0
+	^	111	0
+	.	113	0
+	+	27	3
+	+	28	3
+	+	29	3
+	+	30	3
+	+	31	3
+	+	32	5
+	+	31	3
+	+	32	10
+	+	31	6
+	+	25	9
+	+	24	13
+	+	25	9
+	+	26	4
+	+	27	4
+	+	28	4
+	+	29	4
+	+	30	4
+	+	31	4
+	+	32	5
+	+	31	9
+	+	30	8
+	+	29	10
+	+	28	9
+	+	29	10
+	+	28	13
+	+	27	16
+	+	1	1
+	+	24	2
+	+	24	1
+	+	1	2
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	1
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	13	1
+	+	24	0
+	+	20	1
+	+	1	0
+	+	20	1
+	+	2	2
+	+	20	10
+	+	25	0
+	+	24	0
+	+	23	0
+	+	21	0
+	+	2	1
+	+	3	1
+	+	4	1
+	+	5	1
+	+	6	1
+	+	7	1
+	+	8	1
+	+	9	1
+	+	10	1
+	+	11	1
+	+	12	1
+	+	13	2
+	+	14	2
+	+	15	3
+	+	16	4
+	+	17	5
+	+	19	0
+	+	23	17
+	+	25	0
+	+	21	0
+	+	23	0
+	+	60	0
+	+	61	0
+	+	60	40
+	+	68	0
+	+	50	0
+	+	59	0
+	+	50	0
+	+	44	0
+	+	49	0
+	+	66	62
+	+	100	0
+	+	101	21
+	+	102	17
+	+	107	0
+	+	112	0
+	+	111	0
+	+	113	0
+	+	112	22
+	+	113	0
+	o	94	0
 
 > ~\vimfiles\prova.py
 	*	1607453107	0
@@ -369,113 +505,6 @@
 	+	13	0
 	+	10	0
 	+	11	0
-
-> ~\vimfiles\vimrc
-	*	1607451789	0
-	"	68	0
-	^	68	1
-	.	68	0
-	+	20	29
-	+	2	0
-	+	57	5
-	+	57	4
-	+	26	0
-	+	21	0
-	+	26	19
-	+	27	0
-	+	28	0
-	+	27	36
-	+	28	36
-	+	27	26
-	+	75	18
-	+	74	0
-	+	75	0
-	+	74	0
-	+	5	27
-	+	72	20
-	+	72	15
-	+	72	0
-	+	72	28
-	+	72	0
-	+	85	0
-	+	83	14
-	+	85	0
-	+	84	0
-	+	83	0
-	+	86	0
-	+	29	18
-	+	86	6
-	+	86	0
-	+	92	0
-	+	86	0
-	+	86	15
-	+	85	41
-	+	21	0
-	+	96	0
-	+	60	15
-	+	61	4
-	+	24	0
-	+	25	0
-	+	23	16
-	+	30	0
-	+	32	0
-	+	64	0
-	+	65	0
-	+	64	4
-	+	57	0
-	+	57	11
-	+	58	3
-	+	57	13
-	+	58	15
-	+	33	0
-	+	34	0
-	+	35	0
-	+	36	0
-	+	37	0
-	+	38	0
-	+	39	0
-	+	57	34
-	+	92	0
-	+	86	0
-	+	92	0
-	+	86	0
-	+	92	0
-	+	90	0
-	+	42	0
-	+	41	17
-	+	47	0
-	+	42	24
-	+	43	24
-	+	32	0
-	+	32	6
-	+	32	0
-	+	32	41
-	+	33	0
-	+	32	0
-	+	72	19
-	+	72	4
-	+	33	0
-	+	31	0
-	+	72	0
-	+	66	8
-	+	67	0
-	+	97	0
-	+	77	0
-	+	83	0
-	+	78	0
-	+	77	4
-	+	79	0
-	+	81	6
-	+	80	41
-	+	82	0
-	+	81	4
-	+	83	0
-	+	69	21
-	+	70	0
-	+	71	0
-	+	70	26
-	+	68	0
-	o	56	0
 
 > ~\ControlP
 	*	1607448599	0

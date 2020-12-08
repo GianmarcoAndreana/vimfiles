@@ -12,35 +12,47 @@
 ~h
 # Command Line History (newest to oldest):
 :q
-|2,0,1607442734,,"q"
+|2,0,1607446765,,"q"
+:PlugUpdate
+|2,0,1607446754,,"PlugUpdate"
+:PlugUpgrade
+|2,0,1607446739,,"PlugUpgrade"
+:PlugUp
+|2,0,1607446729,,"PlugUp"
+:PlugInstall
+|2,0,1607446722,,"PlugInstall"
 :w
-|2,0,1607442728,,"w"
+|2,0,1607446697,,"w"
+:q!
+|2,0,1607444393,,"q!"
+:! clean
+|2,0,1607444375,,"! clean"
+:! clearall
+|2,0,1607444364,,"! clearall"
+:! clear
+|2,0,1607444350,,"! clear"
+:! prova.py
+|2,0,1607444334,,"! prova.py"
+:w prova.py
+|2,0,1607444200,,"w prova.py"
+:split
+|2,0,1607444014,,"split"
+:vs
+|2,0,1607444010,,"vs"
+:s
+|2,0,1607443709,,"s"
+:hs
+|2,0,1607443705,,"hs"
 :Q
 |2,0,1607442651,,"Q"
-:PlugInstall
-|2,0,1607442641,,"PlugInstall"
 :NERDTree
 |2,0,1607442101,,"NERDTree"
-:q!
-|2,0,1607438795,,"q!"
-:vs
-|2,0,1607420945,,"vs"
-:split
-|2,0,1607420844,,"split"
-:s
-|2,0,1607420842,,"s"
-:PlugUpdate
-|2,0,1607420473,,"PlugUpdate"
 :PlugUpgarde
 |2,0,1607420467,,"PlugUpgarde"
 :vsplit
 |2,0,1607420322,,"vsplit"
 :version
 |2,0,1607419420,,"version"
-:! prova.py
-|2,0,1607380172,,"! prova.py"
-:w prova.py
-|2,0,1607380131,,"w prova.py"
 :prova.py
 |2,0,1607380124,,"prova.py"
 :W
@@ -64,309 +76,298 @@
 "0	LINE	0
 	map <C-J> <C-W>j<C-W>_
 |3,0,0,1,1,0,1607420876,"map <C-J> <C-W>j<C-W>_"
-""1	LINE	0
-	
-|3,1,1,1,1,0,1607442680,""
+"1	LINE	0
+	    print(i)
+|3,0,1,1,1,0,1607444386,"    print(i)"
 "2	LINE	0
-	"Plug 'vim-airline/vim-airline'
-|3,0,2,1,1,0,1607442679,"\"Plug 'vim-airline/vim-airline'"
+	for i in np.arange(1,20):
+|3,0,2,1,1,0,1607444386,"for i in np.arange(1,20):"
 "3	LINE	0
-	" Air-line
-|3,0,3,1,1,0,1607442678,"\" Air-line"
+	
+|3,0,3,1,1,0,1607444385,""
 "4	LINE	0
-	syntax on
-|3,0,4,1,1,0,1607439340,"syntax on"
-"5	LINE	0
+	import numpy as np
+|3,0,4,1,1,0,1607444385,"import numpy as np"
+"5	CHAR	0
+	map <C-J> <C-W>j<C-W>_
+	map <C-H> <C-W>h<C-W>_
+	map <C-K> <C-W>k<C-W>_
+	map <C-L> <C-W>L<C-W>_
 	
-|3,0,5,1,1,0,1607439331,""
+	
+|3,0,5,0,6,0,1607443949,"map <C-J> <C-W>j<C-W>_","map <C-H> <C-W>h<C-W>_","map <C-K> <C-W>k<C-W>_","map <C-L> <C-W>L<C-W>_","",""
 "6	LINE	0
-	set fileformat
-|3,0,6,1,1,0,1607439241,"set fileformat"
-"7	LINE	0
 	
-|3,0,7,1,1,0,1607438981,""
+|3,0,6,1,1,0,1607442680,""
+"7	LINE	0
+	"Plug 'vim-airline/vim-airline'
+|3,0,7,1,1,0,1607442679,"\"Plug 'vim-airline/vim-airline'"
 "8	LINE	0
-	tmap <C-l> <c-w>l
-|3,0,8,1,1,0,1607420708,"tmap <C-l> <c-w>l"
+	" Air-line
+|3,0,8,1,1,0,1607442678,"\" Air-line"
 "9	LINE	0
-	tmap <C-k> <c-w>k
-|3,0,9,1,1,0,1607420707,"tmap <C-k> <c-w>k"
-"-	CHAR	0
-	 
-|3,0,36,0,1,0,1607442667," "
+	syntax on
+|3,0,9,1,1,0,1607439340,"syntax on"
+""-	CHAR	0
+	.
+|3,1,36,0,1,0,1607446681,"."
 
 # File marks:
-'0  50  33  ~\vimfiles\vimrc
-|4,48,50,33,1607442734,"~\\vimfiles\\vimrc"
-'1  51  14  ~\vimfiles\vimrc
-|4,49,51,14,1607442607,"~\\vimfiles\\vimrc"
-'2  54  14  ~\vimfiles\vimrc
-|4,50,54,14,1607442607,"~\\vimfiles\\vimrc"
-'3  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,51,7,0,1607442120,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
-'4  6  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,52,6,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
-'5  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,53,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
-'6  5  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,54,5,0,1607441599,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
-'7  6  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,55,6,0,1607441599,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
-'8  6  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,56,6,0,1607441599,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
-'9  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,57,7,0,1607441599,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
+'0  1  0  ~\vimfiles\vimrc
+|4,48,1,0,1607446765,"~\\vimfiles\\vimrc"
+'1  43  24  ~\vimfiles\vimrc
+|4,49,43,24,1607446699,"~\\vimfiles\\vimrc"
+'2  43  24  ~\vimfiles\vimrc
+|4,50,43,24,1607446699,"~\\vimfiles\\vimrc"
+'4  47  0  ~\vimfiles\vimrc
+|4,52,47,0,1607446599,"~\\vimfiles\\vimrc"
+'5  47  0  ~\vimfiles\vimrc
+|4,53,47,0,1607446599,"~\\vimfiles\\vimrc"
+'6  47  0  ~\vimfiles\vimrc
+|4,54,47,0,1607446599,"~\\vimfiles\\vimrc"
+'7  47  0  ~\vimfiles\vimrc
+|4,55,47,0,1607446599,"~\\vimfiles\\vimrc"
+'8  1  0  ~\desktop\prova.py
+|4,56,1,0,1607444393,"~\\desktop\\prova.py"
+'9  1  0  ~\vimfiles\vimrc
+|4,57,1,0,1607444098,"~\\vimfiles\\vimrc"
 
 # Jumplist (newest first):
--'  50  33  ~\vimfiles\vimrc
-|4,39,50,33,1607442734,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607442632,"~\\vimfiles\\vimrc"
--'  51  14  ~\vimfiles\vimrc
-|4,39,51,14,1607442607,"~\\vimfiles\\vimrc"
--'  54  14  ~\vimfiles\vimrc
-|4,39,54,14,1607442607,"~\\vimfiles\\vimrc"
+|4,39,1,0,1607446765,"~\\vimfiles\\vimrc"
+-'  43  24  ~\vimfiles\vimrc
+|4,39,43,24,1607446699,"~\\vimfiles\\vimrc"
+-'  43  24  ~\vimfiles\vimrc
+|4,39,43,24,1607446699,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607442482,"~\\vimfiles\\vimrc"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607442120,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607442120,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607442120,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607442120,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607442120,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607442120,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607442120,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607442120,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607442120,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607442120,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607442120,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607442120,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607442120,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607442120,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607442120,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607442120,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  1  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,1,0,1607442101,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  1  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,1,0,1607442101,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  1  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,1,0,1607442101,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  1  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,1,0,1607442101,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  1  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,1,0,1607442101,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  1  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,1,0,1607442101,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  1  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,1,0,1607442101,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  1  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,1,0,1607442101,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  1  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,1,0,1607442101,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  1  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,1,0,1607442101,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  1  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,1,0,1607442101,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  1  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,1,0,1607442101,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  1  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,1,0,1607442101,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  1  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,1,0,1607442101,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  1  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,1,0,1607442101,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  1  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,1,0,1607442101,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
--'  7  0  ~\Documenti\WindowsPowerShell\NERD_tree_1
-|4,39,7,0,1607441730,"~\\Documenti\\WindowsPowerShell\\NERD_tree_1"
+|4,39,1,0,1607446651,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\[Plugins]
+|4,39,1,0,1607446616,"~\\vimfiles\\[Plugins]"
+-'  2  0  ~\vimfiles\[Plugins]
+|4,39,2,0,1607446603,"~\\vimfiles\\[Plugins]"
+-'  5  0  ~\vimfiles\[Plugins]
+|4,39,5,0,1607446603,"~\\vimfiles\\[Plugins]"
+-'  3  0  ~\vimfiles\[Plugins]
+|4,39,3,0,1607446602,"~\\vimfiles\\[Plugins]"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607446602,"~\\vimfiles\\vimrc"
+-'  47  0  ~\vimfiles\vimrc
+|4,39,47,0,1607446599,"~\\vimfiles\\vimrc"
+-'  47  0  ~\vimfiles\vimrc
+|4,39,47,0,1607446599,"~\\vimfiles\\vimrc"
+-'  47  0  ~\vimfiles\vimrc
+|4,39,47,0,1607446599,"~\\vimfiles\\vimrc"
+-'  47  0  ~\vimfiles\vimrc
+|4,39,47,0,1607446599,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607446555,"~\\vimfiles\\vimrc"
+-'  1  0  ~\desktop\prova.py
+|4,39,1,0,1607444393,"~\\desktop\\prova.py"
+-'  1  0  ~\desktop\prova.py
+|4,39,1,0,1607444393,"~\\desktop\\prova.py"
+-'  1  0  ~\desktop\prova.py
+|4,39,1,0,1607444393,"~\\desktop\\prova.py"
+-'  1  0  ~\desktop\prova.py
+|4,39,1,0,1607444393,"~\\desktop\\prova.py"
+-'  1  0  ~\desktop\prova.py
+|4,39,1,0,1607444393,"~\\desktop\\prova.py"
+-'  1  0  ~\desktop\prova.py
+|4,39,1,0,1607444393,"~\\desktop\\prova.py"
+-'  1  0  ~\desktop\prova.py
+|4,39,1,0,1607444393,"~\\desktop\\prova.py"
+-'  1  0  ~\desktop\prova.py
+|4,39,1,0,1607444393,"~\\desktop\\prova.py"
+-'  1  0  ~\desktop\prova.py
+|4,39,1,0,1607444393,"~\\desktop\\prova.py"
+-'  1  0  ~\desktop\prova.py
+|4,39,1,0,1607444393,"~\\desktop\\prova.py"
+-'  1  0  ~\desktop\prova.py
+|4,39,1,0,1607444393,"~\\desktop\\prova.py"
+-'  1  0  ~\desktop\prova.py
+|4,39,1,0,1607444393,"~\\desktop\\prova.py"
+-'  1  0  ~\desktop\prova.py
+|4,39,1,0,1607444393,"~\\desktop\\prova.py"
+-'  1  0  ~\desktop\prova.py
+|4,39,1,0,1607444393,"~\\desktop\\prova.py"
+-'  1  0  ~\desktop\prova.py
+|4,39,1,0,1607444393,"~\\desktop\\prova.py"
+-'  1  0  ~\desktop\prova.py
+|4,39,1,0,1607444393,"~\\desktop\\prova.py"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607444098,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607444098,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607444098,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607444098,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607444054,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607444054,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607444054,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607444054,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607444054,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607444054,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607444054,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607444054,"~\\vimfiles\\vimrc"
+-'  79  0  ~\vimfiles\vimrc
+|4,39,79,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  79  0  ~\vimfiles\vimrc
+|4,39,79,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  79  0  ~\vimfiles\vimrc
+|4,39,79,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  79  0  ~\vimfiles\vimrc
+|4,39,79,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  72  0  ~\vimfiles\vimrc
+|4,39,72,0,1607444002,"~\\vimfiles\\vimrc"
+-'  75  0  ~\vimfiles\vimrc
+|4,39,75,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  75  0  ~\vimfiles\vimrc
+|4,39,75,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  75  0  ~\vimfiles\vimrc
+|4,39,75,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  75  0  ~\vimfiles\vimrc
+|4,39,75,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  68  0  ~\vimfiles\vimrc
+|4,39,68,0,1607443970,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607443938,"~\\vimfiles\\vimrc"
 
 # History of marks within files (newest to oldest):
 
 > ~\vimfiles\vimrc
-	*	1607442728	0
-	"	50	33
-	^	50	34
-	.	50	34
-	+	41	47
-	+	42	16
-	+	41	15
-	+	42	17
-	+	41	9
-	+	41	90
-	+	41	84
-	+	41	82
-	+	41	0
-	+	42	0
-	+	41	17
-	+	41	0
-	+	42	34
-	+	45	15
-	+	41	41
-	+	41	5
-	+	41	24
-	+	41	87
-	+	41	138
-	+	41	10
-	+	41	0
-	+	41	90
-	+	41	0
-	+	41	90
-	+	41	11
-	+	41	8
-	+	42	0
-	+	47	1
-	+	44	1
+	*	1607446764	0
+	"	1	0
+	^	43	25
+	.	43	24
 	+	48	0
-	+	59	0
-	+	48	21
-	+	59	13
-	+	60	0
-	+	61	72
-	+	63	16
+	+	49	0
+	+	48	17
+	+	48	0
+	+	49	34
+	+	52	15
+	+	48	41
+	+	48	5
+	+	48	24
+	+	48	87
+	+	48	138
+	+	48	10
+	+	48	0
+	+	48	90
+	+	48	0
+	+	48	90
+	+	48	11
+	+	48	8
+	+	49	0
+	+	54	1
+	+	51	1
+	+	55	0
+	+	66	0
+	+	55	21
+	+	66	13
+	+	67	0
+	+	68	72
+	+	70	16
 	+	21	0
 	+	20	29
 	+	2	0
-	+	50	5
-	+	50	4
+	+	57	5
+	+	57	4
 	+	26	0
 	+	21	0
 	+	26	19
@@ -375,48 +376,46 @@
 	+	27	36
 	+	28	36
 	+	27	26
-	+	62	18
-	+	61	0
-	+	62	0
-	+	61	0
+	+	69	18
+	+	68	0
+	+	69	0
+	+	68	0
 	+	5	27
-	+	59	20
-	+	59	15
-	+	59	0
-	+	59	28
-	+	59	0
-	+	67	0
-	+	65	14
-	+	67	0
+	+	66	20
+	+	66	15
 	+	66	0
-	+	64	0
-	+	68	0
-	+	72	0
-	+	29	18
-	+	68	6
-	+	68	0
+	+	66	28
+	+	66	0
 	+	74	0
-	+	72	0
-	+	69	15
-	+	71	15
-	+	67	41
+	+	72	14
+	+	74	0
+	+	73	0
+	+	71	0
+	+	75	0
+	+	29	18
+	+	75	6
+	+	75	0
+	+	81	0
+	+	75	0
+	+	75	15
+	+	74	41
 	+	21	0
-	+	78	0
-	+	53	15
-	+	54	4
+	+	85	0
+	+	60	15
+	+	61	4
 	+	24	0
 	+	25	0
 	+	23	16
 	+	30	0
 	+	31	0
+	+	64	0
+	+	65	0
+	+	64	4
 	+	57	0
-	+	58	0
-	+	57	4
-	+	50	0
-	+	50	11
-	+	51	3
-	+	50	13
-	+	51	15
+	+	57	11
+	+	58	3
+	+	57	13
+	+	58	15
 	+	33	0
 	+	34	0
 	+	35	0
@@ -424,8 +423,19 @@
 	+	37	0
 	+	38	0
 	+	39	0
-	+	50	34
-	o	49	0
+	+	57	34
+	+	81	0
+	+	75	0
+	+	81	0
+	+	75	0
+	+	81	0
+	+	79	0
+	+	42	0
+	+	41	17
+	+	47	0
+	+	42	24
+	+	43	24
+	o	56	0
 
 > ~\Documenti\WindowsPowerShell\NERD_tree_1
 	*	1607442118	0

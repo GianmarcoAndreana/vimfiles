@@ -38,6 +38,13 @@ if !isdirectory(&backupdir) | call mkdir(&backupdir, 'p', 0700) | endif
 if !isdirectory(&dir)       | call mkdir(&dir, 'p', 0700)       | endif
 if !isdirectory(&viewdir)   | call mkdir(&viewdir, 'p', 0700)   | endif
 
+" Install Vim-Plug
+if empty(glob('~/vimfiles/autoload/plug.vim'))
+  silent !curl -fLo ~/vimfiles/autoload/plug.vim --create-dirs
+    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
+endif
+
 " Vim-Plug plugins
 call plug#begin('~/vimfiles/plugged')
 
@@ -65,10 +72,10 @@ set termguicolors
 " Key-bindings
 
 " Easy switching between splits using ctrl 
-map <C-J> <C-W>j<C-W>_
-map <C-H> <C-W>h<C-W>_
-map <C-K> <C-W>k<C-W>_
-map <C-L> <C-W>L<C-W>_
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 
 " Easier resizing
 nnoremap <leader>- :resize -10<CR>

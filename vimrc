@@ -76,22 +76,16 @@ call plug#begin('~/vimfiles/plugged')
 
 " NERDtree file browser
 Plug 'scrooloose/nerdtree'
-
 " Gruvbox colorscheme
 Plug 'morhetz/gruvbox'
-
 " Powerline (need to install fonts)
 Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
-
 " Folding plugin
 Plug 'tmhedberg/SimpylFold'
-
 " Search for files
 Plug 'kien/ctrlp.vim'
-
 " Linting
 Plug 'dense-analysis/ale'
-
 " Add closing brackets
 Plug 'jiangmiao/auto-pairs'
 

@@ -63,11 +63,22 @@ Plug 'tmhedberg/SimpylFold'
 " Search for files
 Plug 'kien/ctrlp.vim'
 
+" Linting
+Plug 'dense-analysis/ale'
+
+" Add closing brackets
+Plug 'jiangmiao/auto-pairs'
+
 call plug#end()
 
 autocmd vimenter * ++nested colorscheme gruvbox " Set Gruvbox colorscheme
 set termguicolors
 
+" ALE settings
+
+let g:ale_linters = {
+      \   'python': ['flake8', 'pylint'],
+	  \}
 
 " Key-bindings
 

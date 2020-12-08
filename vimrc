@@ -103,7 +103,7 @@ let g:ale_linters = {
 	  \}
 
 
-"******************** Package settings *******************************
+"******************** Remapped key-bindings *******************************
 " Easy switching between splits using ctrl 
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>

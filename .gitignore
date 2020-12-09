@@ -1,0 +1,6 @@
+#################################### VIM #######################################
+
+# vim-plug script directory
+/autoload
+# vim-plug plugin directory
+/plugged

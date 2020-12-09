@@ -57,13 +57,13 @@ if !isdirectory(&dir)       | call mkdir(&dir, 'p', 0700)       | endif
 if !isdirectory(&viewdir)   | call mkdir(&viewdir, 'p', 0700)   | endif
 
 
-"******************** Python integration *********************
+"******************** Python integration *******************************
 set pythonthreedll=python39.dll      " Specify which python dll
 let g:UltiSnipsUsePythonVersion = 3  " Tell ultisnips to use py3
 set encoding=utf-8
 let python_highlight_all=1
 
-"******************** Vim-Plug *******************************
+"******************** Vim-Plug *****************************************
 " Install Vim-Plug
 if empty(glob('~/vimfiles/autoload/plug.vim'))
   silent !curl -fLo ~/vimfiles/autoload/plug.vim --create-dirs
@@ -94,7 +94,7 @@ Plug 'jiangmiao/auto-pairs'
 call plug#end()
 
 
-"******************** Package settings *******************************
+"******************** Package settings ************************************
 " Gruvbox settings
 autocmd vimenter * ++nested colorscheme gruvbox " Set Gruvbox colorscheme
 set termguicolors

@@ -10,17 +10,32 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~Msle0~/\<powerline\>
+
 # Command Line History (newest to oldest):
-:q
-|2,0,1607458601,,"q"
+:q!
+|2,0,1607505969,,"q!"
 :w
-|2,0,1607458599,,"w"
+|2,0,1607505962,,"w"
+:! prova.py
+|2,0,1607505949,,"! prova.py"
+:w prova.py
+|2,0,1607505844,,"w prova.py"
+:q
+|2,0,1607505827,,"q"
+:help airline
+|2,0,1607505713,,"help airline"
 :PlugUpdate
-|2,0,1607458299,,"PlugUpdate"
+|2,0,1607505439,,"PlugUpdate"
+:PlugUp
+|2,0,1607505432,,"PlugUp"
+:PlugInstall
+|2,0,1607505425,,"PlugInstall"
+:82
+|2,0,1607505211,,"82"
 :wjkk
 |2,0,1607457854,,"wjkk"
-:q!
-|2,0,1607456203,,"q!"
 ::q
 |2,0,1607452121,,":q"
 :ALEFix yapf
@@ -35,8 +50,6 @@
 |2,0,1607451850,,"ALEComplete"
 :ALEToggle
 |2,0,1607451835,,"ALEToggle"
-:PlugInstall
-|2,0,1607451569,,"PlugInstall"
 :s
 |2,0,1607450994,,"s"
 :! py
@@ -47,16 +60,10 @@
 |2,0,1607448467,,"cd ~"
 :NERDTree
 |2,0,1607448200,,"NERDTree"
-:w prova.py
-|2,0,1607447750,,"w prova.py"
 :!
 |2,0,1607447091,,"!"
-:! prova.py
-|2,0,1607447025,,"! prova.py"
 :PlugUpgrade
 |2,0,1607446739,,"PlugUpgrade"
-:PlugUp
-|2,0,1607446729,,"PlugUp"
 :! clean
 |2,0,1607444375,,"! clean"
 :! clearall
@@ -87,6 +94,12 @@
 |2,0,1607376379,,"! iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`"
 
 # Search String History (newest to oldest):
+? \<powerline\>
+|2,1,1607505587,,"\\<powerline\\>"
+?/f
+|2,1,1607505576,47,"f"
+?/power
+|2,1,1607505566,47,"power"
 
 # Expression History (newest to oldest):
 
@@ -100,274 +113,267 @@
 |3,0,0,1,1,0,1607457866,"\"******************** Package settings *******************************"
 "1	LINE	0
 	
-|3,0,1,1,1,0,1607458280,""
+|3,0,1,1,1,0,1607505796,""
 "2	LINE	0
 	
-|3,0,2,1,1,0,1607458279,""
+|3,0,2,1,1,0,1607458280,""
 "3	LINE	0
 	
-|3,0,3,1,1,0,1607458278,""
+|3,0,3,1,1,0,1607458279,""
 "4	LINE	0
 	
-|3,0,4,1,1,0,1607458277,""
+|3,0,4,1,1,0,1607458278,""
 "5	LINE	0
 	
-|3,0,5,1,1,0,1607458276,""
+|3,0,5,1,1,0,1607458277,""
 "6	LINE	0
 	
-|3,0,6,1,1,0,1607458275,""
+|3,0,6,1,1,0,1607458276,""
 "7	LINE	0
 	
-|3,0,7,1,1,0,1607457909,""
-"8	CHAR	0
+|3,0,7,1,1,0,1607458275,""
+"8	LINE	0
+	
+|3,0,8,1,1,0,1607457909,""
+"9	CHAR	0
 	Key-bindings
 	
-|3,0,8,0,2,0,1607457888,"Key-bindings",""
-"9	LINE	0
-	
-|3,0,9,1,1,0,1607457860,""
+|3,0,9,0,2,0,1607457888,"Key-bindings",""
 ""-	CHAR	0
-	s
-|3,1,36,0,1,0,1607458495,"s"
+	p
+|3,1,36,0,1,0,1607505941,"p"
 
 # File marks:
-'0  106  24  ~\vimfiles\vimrc
-|4,48,106,24,1607458601,"~\\vimfiles\\vimrc"
-'1  96  0  ~\vimfiles\vimrc
-|4,49,96,0,1607458285,"~\\vimfiles\\vimrc"
-'2  96  0  ~\vimfiles\vimrc
-|4,50,96,0,1607458285,"~\\vimfiles\\vimrc"
-'3  1  0  ~\vimfiles\vimrc
-|4,51,1,0,1607457954,"~\\vimfiles\\vimrc"
-'4  1  0  ~\vimfiles\vimrc
-|4,52,1,0,1607457954,"~\\vimfiles\\vimrc"
-'5  1  0  ~\vimfiles\vimrc
-|4,53,1,0,1607457954,"~\\vimfiles\\vimrc"
-'6  1  0  ~\vimfiles\vimrc
-|4,54,1,0,1607457954,"~\\vimfiles\\vimrc"
-'7  27  16  ~\vimfiles\vimrc
-|4,55,27,16,1607456203,"~\\vimfiles\\vimrc"
-'8  4  16  ~\vimfiles\vimrc
-|4,56,4,16,1607456203,"~\\vimfiles\\vimrc"
-'9  27  16  ~\vimfiles\vimrc
-|4,57,27,16,1607456203,"~\\vimfiles\\vimrc"
+'0  4  8  ~\vimfiles\prova.py
+|4,48,4,8,1607505969,"~\\vimfiles\\prova.py"
+'1  1  0  ~\vimfiles\vimrc
+|4,49,1,0,1607505827,"~\\vimfiles\\vimrc"
+'2  101  0  ~\vimfiles\vimrc
+|4,50,101,0,1607505801,"~\\vimfiles\\vimrc"
+'3  101  0  ~\vimfiles\vimrc
+|4,51,101,0,1607505801,"~\\vimfiles\\vimrc"
+'4  1  0  ~\vimrc
+|4,52,1,0,1607505549,"~\\vimrc"
+'5  90  0  ~\vimfiles\vimrc
+|4,53,90,0,1607505381,"~\\vimfiles\\vimrc"
+'6  90  0  ~\vimfiles\vimrc
+|4,54,90,0,1607505381,"~\\vimfiles\\vimrc"
+'7  90  0  ~\vimfiles\vimrc
+|4,55,90,0,1607505381,"~\\vimfiles\\vimrc"
+'8  90  0  ~\vimfiles\vimrc
+|4,56,90,0,1607505381,"~\\vimfiles\\vimrc"
+'9  1  0  ~\vimfiles\vimrc
+|4,57,1,0,1607505325,"~\\vimfiles\\vimrc"
 
 # Jumplist (newest first):
--'  106  24  ~\vimfiles\vimrc
-|4,39,106,24,1607458601,"~\\vimfiles\\vimrc"
+-'  4  8  ~\vimfiles\prova.py
+|4,39,4,8,1607505969,"~\\vimfiles\\prova.py"
+-'  1  0  ~\vimfiles\prova.py
+|4,39,1,0,1607505833,"~\\vimfiles\\prova.py"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607458484,"~\\vimfiles\\vimrc"
--'  96  0  ~\vimfiles\vimrc
-|4,39,96,0,1607458285,"~\\vimfiles\\vimrc"
--'  96  0  ~\vimfiles\vimrc
-|4,39,96,0,1607458285,"~\\vimfiles\\vimrc"
--'  96  0  ~\vimfiles\vimrc
-|4,39,96,0,1607458285,"~\\vimfiles\\vimrc"
+|4,39,1,0,1607505827,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607458264,"~\\vimfiles\\vimrc"
+|4,39,1,0,1607505827,"~\\vimfiles\\vimrc"
+-'  101  0  ~\vimfiles\vimrc
+|4,39,101,0,1607505801,"~\\vimfiles\\vimrc"
+-'  101  0  ~\vimfiles\vimrc
+|4,39,101,0,1607505801,"~\\vimfiles\\vimrc"
+-'  101  0  ~\vimfiles\vimrc
+|4,39,101,0,1607505801,"~\\vimfiles\\vimrc"
+-'  101  0  ~\vimfiles\vimrc
+|4,39,101,0,1607505801,"~\\vimfiles\\vimrc"
+-'  84  9  ~\vimfiles\vimrc
+|4,39,84,9,1607505587,"~\\vimfiles\\vimrc"
+-'  84  9  ~\vimfiles\vimrc
+|4,39,84,9,1607505587,"~\\vimfiles\\vimrc"
+-'  84  9  ~\vimfiles\vimrc
+|4,39,84,9,1607505587,"~\\vimfiles\\vimrc"
+-'  84  9  ~\vimfiles\vimrc
+|4,39,84,9,1607505587,"~\\vimfiles\\vimrc"
+-'  92  0  ~\vimfiles\vimrc
+|4,39,92,0,1607505566,"~\\vimfiles\\vimrc"
+-'  92  0  ~\vimfiles\vimrc
+|4,39,92,0,1607505566,"~\\vimfiles\\vimrc"
+-'  92  0  ~\vimfiles\vimrc
+|4,39,92,0,1607505566,"~\\vimfiles\\vimrc"
+-'  92  0  ~\vimfiles\vimrc
+|4,39,92,0,1607505566,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607458264,"~\\vimfiles\\vimrc"
+|4,39,1,0,1607505555,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607457954,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607457954,"~\\vimfiles\\vimrc"
--'  87  0  ~\vimfiles\vimrc
-|4,39,87,0,1607457923,"~\\vimfiles\\vimrc"
--'  91  0  ~\vimfiles\vimrc
-|4,39,91,0,1607457923,"~\\vimfiles\\vimrc"
--'  87  0  ~\vimfiles\vimrc
-|4,39,87,0,1607457923,"~\\vimfiles\\vimrc"
--'  91  0  ~\vimfiles\vimrc
-|4,39,91,0,1607457923,"~\\vimfiles\\vimrc"
--'  87  0  ~\vimfiles\vimrc
-|4,39,87,0,1607457923,"~\\vimfiles\\vimrc"
--'  91  0  ~\vimfiles\vimrc
-|4,39,91,0,1607457923,"~\\vimfiles\\vimrc"
--'  66  0  ~\vimfiles\vimrc
-|4,39,66,0,1607457754,"~\\vimfiles\\vimrc"
--'  66  0  ~\vimfiles\vimrc
-|4,39,66,0,1607457754,"~\\vimfiles\\vimrc"
--'  66  0  ~\vimfiles\vimrc
-|4,39,66,0,1607457754,"~\\vimfiles\\vimrc"
--'  66  0  ~\vimfiles\vimrc
-|4,39,66,0,1607457754,"~\\vimfiles\\vimrc"
--'  66  0  ~\vimfiles\vimrc
-|4,39,66,0,1607457754,"~\\vimfiles\\vimrc"
--'  102  0  ~\vimfiles\vimrc
-|4,39,102,0,1607457749,"~\\vimfiles\\vimrc"
--'  102  0  ~\vimfiles\vimrc
-|4,39,102,0,1607457749,"~\\vimfiles\\vimrc"
--'  102  0  ~\vimfiles\vimrc
-|4,39,102,0,1607457749,"~\\vimfiles\\vimrc"
--'  69  61  ~\vimfiles\vimrc
-|4,39,69,61,1607457726,"~\\vimfiles\\vimrc"
--'  69  61  ~\vimfiles\vimrc
-|4,39,69,61,1607457726,"~\\vimfiles\\vimrc"
--'  69  61  ~\vimfiles\vimrc
-|4,39,69,61,1607457726,"~\\vimfiles\\vimrc"
--'  69  61  ~\vimfiles\vimrc
-|4,39,69,61,1607457726,"~\\vimfiles\\vimrc"
--'  69  61  ~\vimfiles\vimrc
-|4,39,69,61,1607457726,"~\\vimfiles\\vimrc"
--'  24  0  ~\vimfiles\vimrc
-|4,39,24,0,1607457139,"~\\vimfiles\\vimrc"
--'  24  0  ~\vimfiles\vimrc
-|4,39,24,0,1607457139,"~\\vimfiles\\vimrc"
--'  24  0  ~\vimfiles\vimrc
-|4,39,24,0,1607457139,"~\\vimfiles\\vimrc"
--'  24  0  ~\vimfiles\vimrc
-|4,39,24,0,1607457139,"~\\vimfiles\\vimrc"
--'  24  0  ~\vimfiles\vimrc
-|4,39,24,0,1607457139,"~\\vimfiles\\vimrc"
--'  27  16  ~\vimfiles\vimrc
-|4,39,27,16,1607456203,"~\\vimfiles\\vimrc"
--'  4  16  ~\vimfiles\vimrc
-|4,39,4,16,1607456203,"~\\vimfiles\\vimrc"
--'  27  16  ~\vimfiles\vimrc
-|4,39,27,16,1607456203,"~\\vimfiles\\vimrc"
--'  4  16  ~\vimfiles\vimrc
-|4,39,4,16,1607456203,"~\\vimfiles\\vimrc"
--'  27  16  ~\vimfiles\vimrc
-|4,39,27,16,1607456203,"~\\vimfiles\\vimrc"
--'  4  16  ~\vimfiles\vimrc
-|4,39,4,16,1607456203,"~\\vimfiles\\vimrc"
--'  27  16  ~\vimfiles\vimrc
-|4,39,27,16,1607456203,"~\\vimfiles\\vimrc"
--'  4  16  ~\vimfiles\vimrc
-|4,39,4,16,1607456203,"~\\vimfiles\\vimrc"
--'  27  16  ~\vimfiles\vimrc
-|4,39,27,16,1607456203,"~\\vimfiles\\vimrc"
--'  4  16  ~\vimfiles\vimrc
-|4,39,4,16,1607456203,"~\\vimfiles\\vimrc"
--'  37  0  ~\vimfiles\vimrc
-|4,39,37,0,1607455925,"~\\vimfiles\\vimrc"
--'  14  0  ~\vimfiles\vimrc
-|4,39,14,0,1607455925,"~\\vimfiles\\vimrc"
--'  37  0  ~\vimfiles\vimrc
-|4,39,37,0,1607455925,"~\\vimfiles\\vimrc"
--'  14  0  ~\vimfiles\vimrc
-|4,39,14,0,1607455925,"~\\vimfiles\\vimrc"
--'  37  0  ~\vimfiles\vimrc
-|4,39,37,0,1607455925,"~\\vimfiles\\vimrc"
--'  14  0  ~\vimfiles\vimrc
-|4,39,14,0,1607455925,"~\\vimfiles\\vimrc"
--'  37  0  ~\vimfiles\vimrc
-|4,39,37,0,1607455925,"~\\vimfiles\\vimrc"
--'  14  0  ~\vimfiles\vimrc
-|4,39,14,0,1607455925,"~\\vimfiles\\vimrc"
--'  37  0  ~\vimfiles\vimrc
-|4,39,37,0,1607455925,"~\\vimfiles\\vimrc"
--'  14  0  ~\vimfiles\vimrc
-|4,39,14,0,1607455925,"~\\vimfiles\\vimrc"
--'  36  0  ~\vimfiles\vimrc
-|4,39,36,0,1607455919,"~\\vimfiles\\vimrc"
--'  13  0  ~\vimfiles\vimrc
-|4,39,13,0,1607455919,"~\\vimfiles\\vimrc"
--'  36  0  ~\vimfiles\vimrc
-|4,39,36,0,1607455919,"~\\vimfiles\\vimrc"
--'  13  0  ~\vimfiles\vimrc
-|4,39,13,0,1607455919,"~\\vimfiles\\vimrc"
--'  36  0  ~\vimfiles\vimrc
-|4,39,36,0,1607455919,"~\\vimfiles\\vimrc"
--'  13  0  ~\vimfiles\vimrc
-|4,39,13,0,1607455919,"~\\vimfiles\\vimrc"
--'  36  0  ~\vimfiles\vimrc
-|4,39,36,0,1607455919,"~\\vimfiles\\vimrc"
--'  13  0  ~\vimfiles\vimrc
-|4,39,13,0,1607455919,"~\\vimfiles\\vimrc"
--'  36  0  ~\vimfiles\vimrc
-|4,39,36,0,1607455919,"~\\vimfiles\\vimrc"
--'  13  0  ~\vimfiles\vimrc
-|4,39,13,0,1607455919,"~\\vimfiles\\vimrc"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  11  0  ~\vimfiles\prova.py
-|4,39,11,0,1607453109,"~\\vimfiles\\prova.py"
--'  12  20  ~\vimfiles\prova.py
-|4,39,12,20,1607452543,"~\\vimfiles\\prova.py"
--'  12  20  ~\vimfiles\prova.py
-|4,39,12,20,1607452543,"~\\vimfiles\\prova.py"
--'  12  20  ~\vimfiles\prova.py
-|4,39,12,20,1607452543,"~\\vimfiles\\prova.py"
--'  12  20  ~\vimfiles\prova.py
-|4,39,12,20,1607452543,"~\\vimfiles\\prova.py"
--'  12  20  ~\vimfiles\prova.py
-|4,39,12,20,1607452543,"~\\vimfiles\\prova.py"
+|4,39,1,0,1607505555,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1607505549,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1607505549,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1607505549,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1607505549,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1607505549,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1607505549,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1607505549,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1607505549,"~\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  90  0  ~\vimfiles\vimrc
+|4,39,90,0,1607505381,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  84  37  ~\vimfiles\vimrc
+|4,39,84,37,1607505364,"~\\vimfiles\\vimrc"
+-'  53  0  ~\vimfiles\vimrc
+|4,39,53,0,1607505350,"~\\vimfiles\\vimrc"
+-'  53  0  ~\vimfiles\vimrc
+|4,39,53,0,1607505350,"~\\vimfiles\\vimrc"
+-'  53  0  ~\vimfiles\vimrc
+|4,39,53,0,1607505350,"~\\vimfiles\\vimrc"
+-'  53  0  ~\vimfiles\vimrc
+|4,39,53,0,1607505350,"~\\vimfiles\\vimrc"
+-'  53  0  ~\vimfiles\vimrc
+|4,39,53,0,1607505350,"~\\vimfiles\\vimrc"
+-'  53  0  ~\vimfiles\vimrc
+|4,39,53,0,1607505350,"~\\vimfiles\\vimrc"
 
 # History of marks within files (newest to oldest):
 
 > ~\vimfiles\vimrc
-	*	1607458599	0
-	"	106	24
-	^	106	25
-	.	106	24
-	+	30	3
-	+	31	3
-	+	32	5
-	+	31	3
-	+	32	10
-	+	31	6
-	+	25	9
+	*	1607505807	0
+	"	1	0
+	^	107	0
+	.	101	0
 	+	24	13
 	+	25	9
 	+	26	4
@@ -445,22 +451,37 @@
 	+	44	0
 	+	49	0
 	+	66	62
-	+	94	0
-	+	95	21
-	+	96	17
-	+	101	0
+	+	96	0
+	+	97	21
+	+	98	17
+	+	102	0
+	+	108	0
 	+	106	0
-	+	105	0
-	+	107	0
-	+	106	22
-	+	107	0
+	+	109	0
+	+	108	22
+	+	109	0
 	+	79	0
-	+	81	0
-	+	83	0
+	+	82	1
 	+	85	0
 	+	87	0
 	+	89	0
-	+	106	24
+	+	91	0
+	+	108	24
+	+	84	1
+	+	83	1
+	+	82	6
+	+	105	12
+	+	106	0
+	+	107	0
+	+	101	0
+
+> ~\vimfiles\plugged\vim-airline\doc\airline.txt
+	*	1607505725	0
+	"	23	0
+
+> ~\vimrc
+	*	1607505545	0
+	"	1	0
 
 > ~\vimfiles\prova.py
 	*	1607453107	0
@@ -512,7 +533,3 @@
 	+	3	0
 	+	1	0
 	+	3	0
-
-> ~\vimrc
-	*	1607440886	0
-	"	1	0

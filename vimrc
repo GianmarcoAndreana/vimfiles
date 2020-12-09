@@ -78,8 +78,10 @@ call plug#begin('~/vimfiles/plugged')
 Plug 'scrooloose/nerdtree'
 " Gruvbox colorscheme
 Plug 'morhetz/gruvbox'
+" Airline
+Plug 'vim-airline/vim-airline'
 " Powerline (need to install fonts)
-Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
+"Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 " Folding plugin
 Plug 'tmhedberg/SimpylFold'
 " Search for files
@@ -96,12 +98,12 @@ call plug#end()
 " Gruvbox settings
 autocmd vimenter * ++nested colorscheme gruvbox " Set Gruvbox colorscheme
 set termguicolors
-
 " ALE settings
 let g:ale_linters = {
       \   'python': ['flake8', 'pylint'],
 	  \}
-
+"Airline uses Powerline fonts
+let g:airline_powerline_fonts = 1
 
 "******************** Remapped key-bindings *******************************
 " Easy switching between splits using ctrl 

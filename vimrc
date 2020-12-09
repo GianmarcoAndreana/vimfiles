@@ -109,7 +109,7 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-" Easy switching between splits using ctrl 
+" Easy switching between splits using ctrl in terminal 
 tmap <C-J> <C-W><C-J>
 tmap <C-K> <C-W><C-K>
 tmap <C-L> <C-W><C-L>

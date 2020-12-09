@@ -80,8 +80,6 @@ Plug 'scrooloose/nerdtree'
 Plug 'morhetz/gruvbox'
 " Airline
 Plug 'vim-airline/vim-airline'
-" Powerline (need to install fonts)
-"Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
 " Folding plugin
 Plug 'tmhedberg/SimpylFold'
 " Search for files
@@ -111,10 +109,13 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
-
+" Easy switching between splits using ctrl 
+tmap <C-J> <C-W><C-J>
+tmap <C-K> <C-W><C-K>
+tmap <C-L> <C-W><C-L>
+tmap <C-H> <C-W><C-H>
 " Easier resizing
 nnoremap <leader>- :resize -10<CR>
 nnoremap <leader>+ :resize +10<CR>
-
 " Folding with spacebar
 nnoremap <space> za

@@ -88,6 +88,8 @@ Plug 'kien/ctrlp.vim'
 Plug 'dense-analysis/ale'
 " Add closing brackets
 Plug 'jiangmiao/auto-pairs'
+" Git support
+Plug  'tpope/vim-fugitive'
 
 call plug#end()
 
@@ -104,7 +106,7 @@ let g:ale_linters = {
 let g:airline_powerline_fonts = 1
 
 "******************** Remapped key-bindings *******************************
-" Easy switching between splits using ctrl 
+" Easy switching between splits using ctrl in normal mode
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
@@ -119,3 +121,7 @@ nnoremap <leader>- :resize -10<CR>
 nnoremap <leader>+ :resize +10<CR>
 " Folding with spacebar
 nnoremap <space> za
+" Fugitive remap
+nmap <leader>gh :diffget //3<CR>
+nmap <leader>gu :diffget //2<CR>
+nmap <leader>gs :G<CR>

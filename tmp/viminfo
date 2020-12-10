@@ -11,17 +11,99 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/\<powerline\>
+~MSle0~/split
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1607592155,,"q"
+|2,0,1607637278,,"q"
+:w
+|2,0,1607637276,,"w"
+:80
+|2,0,1607636875,,"80"
+:jjjjjjjjjjj
+|2,0,1607636629,,"jjjjjjjjjjj"
+:new vs
+|2,0,1607636224,,"new vs"
+:new
+|2,0,1607636206,,"new"
+:q!
+|2,0,1607636128,,"q!"
+:gd
+|2,0,1607635945,,"gd"
+:vs
+|2,0,1607635848,,"vs"
+:NERDTree
+|2,0,1607635702,,"NERDTree"
+:Files
+|2,0,1607635671,,"Files"
+:Files prova.py
+|2,0,1607634761,,"Files prova.py"
+:CocInstall coc-pyright
+|2,0,1607634684,,"CocInstall coc-pyright"
+:CocUninstall coc-jedi
+|2,0,1607634635,,"CocUninstall coc-jedi"
+:CocUpdate
+|2,0,1607634484,,"CocUpdate"
+:CocInstall coc-jedi
+|2,0,1607634465,,"CocInstall coc-jedi"
+:PlugInstall
+|2,0,1607634427,,"PlugInstall"
+:CocEnable
+|2,0,1607634212,,"CocEnable"
+:CocConfig
+|2,0,1607634068,,"CocConfig"
+:CocConfig!
+|2,0,1607633772,,"CocConfig!"
+:W
+|2,0,1607633763,,"W"
+:CocList extensions
+|2,0,1607633590,,"CocList extensions"
+:68
+|2,0,1607633504,,"68"
+:CocUninstall coc-python
+|2,0,1607633422,,"CocUninstall coc-python"
+:w prova.py
+|2,0,1607633005,,"w prova.py"
+:CocInstall coc-lsp-wl 
+|2,0,1607632824,,"CocInstall coc-lsp-wl "
+:CocInstall coc-json
+|2,0,1607632733,,"CocInstall coc-json"
+:CocInstall coc-texlab coc-r-lsp
+|2,0,1607632665,,"CocInstall coc-texlab coc-r-lsp"
 :G push
-|2,0,1607592141,,"G push"
+|2,0,1607631967,,"G push"
+:G commit -n "add CoC"
+|2,0,1607631962,,"G commit -n \"add CoC\""
+:! prova.py
+|2,0,1607616618,,"! prova.py"
+:CocInstall coc-python:q
+|2,0,1607616464,,"CocInstall coc-python:q"
+:CocInstall coc-python
+|2,0,1607616421,,"CocInstall coc-python"
+:CocInstall python
+|2,0,1607616409,,"CocInstall python"
+:CocInfo
+|2,0,1607616354,,"CocInfo"
+:h g:coc_node_path
+|2,0,1607616320,,"h g:coc_node_path"
+:check
+|2,0,1607616235,,"check"
+:CocDiagnostics
+|2,0,1607615772,,"CocDiagnostics"
+:CocDi
+|2,0,1607615766,,"CocDi"
+:CocInstall
+|2,0,1607615733,,"CocInstall"
+:checkhealth
+|2,0,1607615667,,"checkhealth"
+:Find
+|2,0,1607596002,,"Find"
+:G commit -m "Remove ctrlP"
+|2,0,1607592328,,"G commit -m \"Remove ctrlP\""
+:67
+|2,0,1607592268,,"67"
 :G commit -m "add fzf for fuzzy search"
 |2,0,1607592135,,"G commit -m \"add fzf for fuzzy search\""
-:w
-|2,0,1607592085,,"w"
 :Gpush
 |2,0,1607588977,,"Gpush"
 :w!
@@ -32,90 +114,18 @@
 |2,0,1607588680,,"G"
 :git
 |2,0,1607588669,,"git"
-:gs
-|2,0,1607588505,,"gs"
-:+
-|2,0,1607588435,,"+"
-:PlugUpdate
-|2,0,1607588389,,"PlugUpdate"
-:Plugupd
-|2,0,1607588380,,"Plugupd"
-:PlugUp
-|2,0,1607588368,,"PlugUp"
-:PlugInstall
-|2,0,1607588356,,"PlugInstall"
-:g
-|2,0,1607550600,,"g"
-:term
-|2,0,1607550585,,"term"
-:q!
-|2,0,1607550015,,"q!"
-:terminal
-|2,0,1607549102,,"terminal"
-:w .gitignore
-|2,0,1607541150,,"w .gitignore"
-:s
-|2,0,1607522814,,"s"
-:97
-|2,0,1607522732,,"97"
-:! prova.py
-|2,0,1607505949,,"! prova.py"
-:w prova.py
-|2,0,1607505844,,"w prova.py"
-:help airline
-|2,0,1607505713,,"help airline"
-:82
-|2,0,1607505211,,"82"
-:wjkk
-|2,0,1607457854,,"wjkk"
-::q
-|2,0,1607452121,,":q"
-:ALEFix yapf
-|2,0,1607451982,,"ALEFix yapf"
-:yapf
-|2,0,1607451962,,"yapf"
-:ALEFixSuggest
-|2,0,1607451909,,"ALEFixSuggest"
-:ALEFix
-|2,0,1607451877,,"ALEFix"
-:ALEComplete
-|2,0,1607451850,,"ALEComplete"
-:ALEToggle
-|2,0,1607451835,,"ALEToggle"
-:! py
-|2,0,1607449603,,"! py"
-:vs
-|2,0,1607449589,,"vs"
-:cd ~
-|2,0,1607448467,,"cd ~"
-:NERDTree
-|2,0,1607448200,,"NERDTree"
-:!
-|2,0,1607447091,,"!"
-:PlugUpgrade
-|2,0,1607446739,,"PlugUpgrade"
-:! clean
-|2,0,1607444375,,"! clean"
-:! clearall
-|2,0,1607444364,,"! clearall"
-:! clear
-|2,0,1607444350,,"! clear"
-:split
-|2,0,1607444014,,"split"
-:hs
-|2,0,1607443705,,"hs"
-:Q
-|2,0,1607442651,,"Q"
-:PlugUpgarde
-|2,0,1607420467,,"PlugUpgarde"
-:vsplit
-|2,0,1607420322,,"vsplit"
-:version
-|2,0,1607419420,,"version"
-:prova.py
-|2,0,1607380124,,"prova.py"
 
 # Search String History (newest to oldest):
+?/split
+|2,1,1607636501,47,"split"
+?/"2015-12-01"
+|2,1,1607600311,47,"\"2015-12-01\""
+?/Virginia
+|2,1,1607596547,47,"Virginia"
+?/Virgin
+|2,1,1607596521,47,"Virgin"
+?/2015-12-01
+|2,1,1607596100,47,"2015-12-01"
 ? \<powerline\>
 |2,1,1607505587,,"\\<powerline\\>"
 ?/f
@@ -130,300 +140,271 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	nmap <leader>gh :diffget //3<CR>
-|3,0,0,1,1,0,1607588284,"nmap <leader>gh :diffget //3<CR>"
-"1	LINE	0
-	" Powerline (need to install fonts)
-|3,0,1,1,1,0,1607550694,"\" Powerline (need to install fonts)"
+"0	CHAR	0
+	" Open the new split below
+|3,0,0,0,1,0,1607636588,"\" Open the new split below"
+""1	LINE	0
+	GGGGGGGGGGGGG
+|3,1,1,1,1,0,1607637253,"GGGGGGGGGGGGG"
 "2	LINE	0
-	"Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}
-|3,0,2,1,1,0,1607550689,"\"Plug 'powerline/powerline', {'rtp': 'powerline/bindings/vim/'}"
-"3	CHAR	0
-	tmap <C-J> <C-W><C-J>
-	tmap <C-K> <C-W><C-K>
-	tmap <C-L> <C-W><C-L>
-	tmap <C-H> <C-W><C-H>
-	"
-|3,0,3,0,5,0,1607550557,"tmap <C-J> <C-W><C-J>","tmap <C-K> <C-W><C-K>","tmap <C-L> <C-W><C-L>","tmap <C-H> <C-W><C-H>","\""
+	autocmd VimEnter * if argc() == 0 && !exists(“s:std_in”) | NERDTree | endif
+|3,0,2,1,1,0,1607636901,"autocmd VimEnter * if argc() == 0 && !exists(“s:std_in”) | NERDTree | endif"
+"3	LINE	0
+	autocmd StdinReadPre * let s:std_in=1
+|3,0,3,1,1,0,1607636900,"autocmd StdinReadPre * let s:std_in=1"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1607550317,""
+	" Coc remap
+|3,0,4,1,1,0,1607636117,"\" Coc remap"
 "5	LINE	0
-	"map 
-|3,0,5,1,1,0,1607550312,"\"map "
+	nmap <silent> gd <Plug>(coc-definition)
+|3,0,5,1,1,0,1607636117,"nmap <silent> gd <Plug>(coc-definition)"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1607550140,""
+	print
+|3,0,6,1,1,0,1607636109,"print"
 "7	LINE	0
-	" 
-|3,0,7,1,1,0,1607550137,"\" "
+	import
+|3,0,7,1,1,0,1607636096,"import"
 "8	LINE	0
-	# netrw directory history
-	/vim/.vim/.netrwhist
-	# vim spelling data
-	/vim/.vim/spell
-|3,0,8,1,4,0,1607541259,"# netrw directory history","/vim/.vim/.netrwhist","# vim spelling data","/vim/.vim/spell"
+	fgfgf:q
+|3,0,8,1,1,0,1607635882,"fgfgf:q"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1607505796,""
-""-	CHAR	0
-	s
-|3,1,36,0,1,0,1607588715,"s"
+	print 
+|3,0,9,1,1,0,1607635855,"print "
+"-	CHAR	0
+	p
+|3,0,36,0,1,0,1607636039,"p"
 
 # File marks:
-'0  96  0  ~\vimfiles\vimrc
-|4,48,96,0,1607592155,"~\\vimfiles\\vimrc"
-'1  2  0  ~\vimfiles\.git\index
-|4,49,2,0,1607589686,"~\\vimfiles\\.git\\index"
-'2  1  0  ~\vimfiles\.git\index
-|4,50,1,0,1607589686,"~\\vimfiles\\.git\\index"
-'3  2  0  ~\vimfiles\.git\index
-|4,51,2,0,1607588739,"~\\vimfiles\\.git\\index"
-'4  2  0  ~\vimfiles\.git\index
-|4,52,2,0,1607588739,"~\\vimfiles\\.git\\index"
-'5  2  0  ~\vimfiles\.git\index
-|4,53,2,0,1607588739,"~\\vimfiles\\.git\\index"
-'6  1  0  ~\vimfiles\.git\index
-|4,54,1,0,1607588739,"~\\vimfiles\\.git\\index"
-'7  130  0  ~\vimfiles\vimrc
-|4,55,130,0,1607588660,"~\\vimfiles\\vimrc"
-'8  130  0  ~\vimfiles\vimrc
-|4,56,130,0,1607588660,"~\\vimfiles\\vimrc"
-'9  130  0  ~\vimfiles\vimrc
-|4,57,130,0,1607588660,"~\\vimfiles\\vimrc"
+'0  136  4  ~\vimfiles\vimrc
+|4,48,136,4,1607637278,"~\\vimfiles\\vimrc"
+'1  136  28  ~\vimfiles\vimrc
+|4,49,136,28,1607637192,"~\\vimfiles\\vimrc"
+'2  114  0  ~\vimfiles\vimrc
+|4,50,114,0,1607636990,"~\\vimfiles\\vimrc"
+'3  114  0  ~\vimfiles\vimrc
+|4,51,114,0,1607636990,"~\\vimfiles\\vimrc"
+'4  114  0  ~\vimfiles\vimrc
+|4,52,114,0,1607636990,"~\\vimfiles\\vimrc"
+'5  114  0  ~\vimfiles\vimrc
+|4,53,114,0,1607636990,"~\\vimfiles\\vimrc"
+'6  35  0  ~\vimfiles\NERD_tree_1
+|4,54,35,0,1607636841,"~\\vimfiles\\NERD_tree_1"
+'7  36  0  ~\vimfiles\NERD_tree_1
+|4,55,36,0,1607636841,"~\\vimfiles\\NERD_tree_1"
+'8  48  0  ~\vimfiles\NERD_tree_1
+|4,56,48,0,1607636841,"~\\vimfiles\\NERD_tree_1"
+'9  49  0  ~\vimfiles\NERD_tree_1
+|4,57,49,0,1607636841,"~\\vimfiles\\NERD_tree_1"
 
 # Jumplist (newest first):
--'  96  0  ~\vimfiles\vimrc
-|4,39,96,0,1607592155,"~\\vimfiles\\vimrc"
--'  130  0  ~\vimfiles\vimrc
-|4,39,130,0,1607591944,"~\\vimfiles\\vimrc"
+-'  136  4  ~\vimfiles\vimrc
+|4,39,136,4,1607637278,"~\\vimfiles\\vimrc"
+-'  29  6  ~\vimfiles\vimrc
+|4,39,29,6,1607637232,"~\\vimfiles\\vimrc"
+-'  1  12  ~\vimfiles\vimrc
+|4,39,1,12,1607637211,"~\\vimfiles\\vimrc"
+-'  136  28  ~\vimfiles\vimrc
+|4,39,136,28,1607637192,"~\\vimfiles\\vimrc"
+-'  135  43  ~\vimfiles\vimrc
+|4,39,135,43,1607637145,"~\\vimfiles\\vimrc"
+-'  135  43  ~\vimfiles\vimrc
+|4,39,135,43,1607637145,"~\\vimfiles\\vimrc"
+-'  134  29  ~\vimfiles\vimrc
+|4,39,134,29,1607637118,"~\\vimfiles\\vimrc"
+-'  134  29  ~\vimfiles\vimrc
+|4,39,134,29,1607637118,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607591934,"~\\vimfiles\\vimrc"
--'  2  0  ~\vimfiles\.git\index
-|4,39,2,0,1607589686,"~\\vimfiles\\.git\\index"
--'  1  0  ~\vimfiles\.git\index
-|4,39,1,0,1607589686,"~\\vimfiles\\.git\\index"
+|4,39,1,0,1607637113,"~\\vimfiles\\vimrc"
+-'  114  0  ~\vimfiles\vimrc
+|4,39,114,0,1607636990,"~\\vimfiles\\vimrc"
+-'  114  0  ~\vimfiles\vimrc
+|4,39,114,0,1607636990,"~\\vimfiles\\vimrc"
+-'  114  0  ~\vimfiles\vimrc
+|4,39,114,0,1607636990,"~\\vimfiles\\vimrc"
+-'  114  0  ~\vimfiles\vimrc
+|4,39,114,0,1607636990,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607588752,"~\\vimfiles\\vimrc"
--'  2  0  ~\vimfiles\.git\index
-|4,39,2,0,1607588739,"~\\vimfiles\\.git\\index"
--'  1  0  ~\vimfiles\.git\index
-|4,39,1,0,1607588739,"~\\vimfiles\\.git\\index"
+|4,39,1,0,1607636861,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607588680,"~\\vimfiles\\vimrc"
--'  127  0  ~\vimfiles\vimrc
-|4,39,127,0,1607588660,"~\\vimfiles\\vimrc"
--'  127  0  ~\vimfiles\vimrc
-|4,39,127,0,1607588660,"~\\vimfiles\\vimrc"
--'  127  0  ~\vimfiles\vimrc
-|4,39,127,0,1607588660,"~\\vimfiles\\vimrc"
--'  2  0  ~\vimfiles\vimrc
-|4,39,2,0,1607588598,"~\\vimfiles\\vimrc"
--'  2  0  ~\vimfiles\vimrc
-|4,39,2,0,1607588598,"~\\vimfiles\\vimrc"
--'  2  0  ~\vimfiles\vimrc
-|4,39,2,0,1607588598,"~\\vimfiles\\vimrc"
--'  2  0  ~\vimfiles\vimrc
-|4,39,2,0,1607588598,"~\\vimfiles\\vimrc"
+|4,39,1,0,1607636861,"~\\vimfiles\\vimrc"
+-'  35  0  ~\vimfiles\NERD_tree_1
+|4,39,35,0,1607636841,"~\\vimfiles\\NERD_tree_1"
+-'  36  0  ~\vimfiles\NERD_tree_1
+|4,39,36,0,1607636841,"~\\vimfiles\\NERD_tree_1"
+-'  48  0  ~\vimfiles\NERD_tree_1
+|4,39,48,0,1607636841,"~\\vimfiles\\NERD_tree_1"
+-'  49  0  ~\vimfiles\NERD_tree_1
+|4,39,49,0,1607636841,"~\\vimfiles\\NERD_tree_1"
+-'  49  0  ~\vimfiles\NERD_tree_1
+|4,39,49,0,1607636841,"~\\vimfiles\\NERD_tree_1"
+-'  49  0  ~\vimfiles\NERD_tree_1
+|4,39,49,0,1607636841,"~\\vimfiles\\NERD_tree_1"
+-'  49  0  ~\vimfiles\NERD_tree_1
+|4,39,49,0,1607636841,"~\\vimfiles\\NERD_tree_1"
+-'  48  0  ~\vimfiles\NERD_tree_1
+|4,39,48,0,1607636841,"~\\vimfiles\\NERD_tree_1"
+-'  49  0  ~\vimfiles\NERD_tree_1
+|4,39,49,0,1607636841,"~\\vimfiles\\NERD_tree_1"
+-'  49  0  ~\vimfiles\NERD_tree_1
+|4,39,49,0,1607636841,"~\\vimfiles\\NERD_tree_1"
+-'  49  0  ~\vimfiles\NERD_tree_1
+|4,39,49,0,1607636841,"~\\vimfiles\\NERD_tree_1"
+-'  49  0  ~\vimfiles\NERD_tree_1
+|4,39,49,0,1607636841,"~\\vimfiles\\NERD_tree_1"
+-'  42  2  ~\vimfiles\NERD_tree_1
+|4,39,42,2,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  1  0  ~\vimfiles\NERD_tree_1
+|4,39,1,0,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  43  2  ~\vimfiles\NERD_tree_1
+|4,39,43,2,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  55  2  ~\vimfiles\NERD_tree_1
+|4,39,55,2,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  1  0  ~\vimfiles\NERD_tree_1
+|4,39,1,0,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  56  2  ~\vimfiles\NERD_tree_1
+|4,39,56,2,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  1  0  ~\vimfiles\NERD_tree_1
+|4,39,1,0,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  56  2  ~\vimfiles\NERD_tree_1
+|4,39,56,2,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  1  0  ~\vimfiles\NERD_tree_1
+|4,39,1,0,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  56  2  ~\vimfiles\NERD_tree_1
+|4,39,56,2,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  1  0  ~\vimfiles\NERD_tree_1
+|4,39,1,0,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  56  2  ~\vimfiles\NERD_tree_1
+|4,39,56,2,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  1  0  ~\vimfiles\NERD_tree_1
+|4,39,1,0,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  55  2  ~\vimfiles\NERD_tree_1
+|4,39,55,2,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  1  0  ~\vimfiles\NERD_tree_1
+|4,39,1,0,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  56  2  ~\vimfiles\NERD_tree_1
+|4,39,56,2,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  1  0  ~\vimfiles\NERD_tree_1
+|4,39,1,0,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  56  2  ~\vimfiles\NERD_tree_1
+|4,39,56,2,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  1  0  ~\vimfiles\NERD_tree_1
+|4,39,1,0,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  56  2  ~\vimfiles\NERD_tree_1
+|4,39,56,2,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  1  0  ~\vimfiles\NERD_tree_1
+|4,39,1,0,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  56  2  ~\vimfiles\NERD_tree_1
+|4,39,56,2,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  1  0  ~\vimfiles\NERD_tree_1
+|4,39,1,0,1607635894,"~\\vimfiles\\NERD_tree_1"
+-'  132  38  ~\vimfiles\vimrc
+|4,39,132,38,1607635618,"~\\vimfiles\\vimrc"
+-'  132  38  ~\vimfiles\vimrc
+|4,39,132,38,1607635618,"~\\vimfiles\\vimrc"
+-'  132  38  ~\vimfiles\vimrc
+|4,39,132,38,1607635618,"~\\vimfiles\\vimrc"
+-'  132  38  ~\vimfiles\vimrc
+|4,39,132,38,1607635618,"~\\vimfiles\\vimrc"
+-'  132  38  ~\vimfiles\vimrc
+|4,39,132,38,1607635618,"~\\vimfiles\\vimrc"
+-'  132  38  ~\vimfiles\vimrc
+|4,39,132,38,1607635618,"~\\vimfiles\\vimrc"
+-'  132  38  ~\vimfiles\vimrc
+|4,39,132,38,1607635618,"~\\vimfiles\\vimrc"
+-'  132  38  ~\vimfiles\vimrc
+|4,39,132,38,1607635618,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607588474,"~\\vimfiles\\vimrc"
--'  127  0  ~\vimfiles\vimrc
-|4,39,127,0,1607588441,"~\\vimfiles\\vimrc"
--'  127  0  ~\vimfiles\vimrc
-|4,39,127,0,1607588441,"~\\vimfiles\\vimrc"
+|4,39,1,0,1607634981,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607588419,"~\\vimfiles\\vimrc"
+|4,39,1,0,1607634981,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607588419,"~\\vimfiles\\vimrc"
+|4,39,1,0,1607634981,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607588411,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607588411,"~\\vimfiles\\vimrc"
--'  127  18  ~\vimfiles\vimrc
-|4,39,127,18,1607588343,"~\\vimfiles\\vimrc"
--'  127  18  ~\vimfiles\vimrc
-|4,39,127,18,1607588343,"~\\vimfiles\\vimrc"
--'  127  18  ~\vimfiles\vimrc
-|4,39,127,18,1607588343,"~\\vimfiles\\vimrc"
--'  127  18  ~\vimfiles\vimrc
-|4,39,127,18,1607588343,"~\\vimfiles\\vimrc"
--'  112  56  ~\vimfiles\vimrc
-|4,39,112,56,1607588226,"~\\vimfiles\\vimrc"
--'  109  56  ~\vimfiles\vimrc
-|4,39,109,56,1607588226,"~\\vimfiles\\vimrc"
--'  109  56  ~\vimfiles\vimrc
-|4,39,109,56,1607588226,"~\\vimfiles\\vimrc"
--'  109  56  ~\vimfiles\vimrc
-|4,39,109,56,1607588226,"~\\vimfiles\\vimrc"
--'  109  56  ~\vimfiles\vimrc
-|4,39,109,56,1607588226,"~\\vimfiles\\vimrc"
--'  109  56  ~\vimfiles\vimrc
-|4,39,109,56,1607588226,"~\\vimfiles\\vimrc"
--'  109  56  ~\vimfiles\vimrc
-|4,39,109,56,1607588226,"~\\vimfiles\\vimrc"
--'  109  56  ~\vimfiles\vimrc
-|4,39,109,56,1607588226,"~\\vimfiles\\vimrc"
--'  109  56  ~\vimfiles\vimrc
-|4,39,109,56,1607588226,"~\\vimfiles\\vimrc"
--'  109  56  ~\vimfiles\vimrc
-|4,39,109,56,1607588226,"~\\vimfiles\\vimrc"
--'  127  15  ~\vimfiles\vimrc
-|4,39,127,15,1607588163,"~\\vimfiles\\vimrc"
--'  124  15  ~\vimfiles\vimrc
-|4,39,124,15,1607588163,"~\\vimfiles\\vimrc"
--'  124  15  ~\vimfiles\vimrc
-|4,39,124,15,1607588163,"~\\vimfiles\\vimrc"
--'  124  15  ~\vimfiles\vimrc
-|4,39,124,15,1607588163,"~\\vimfiles\\vimrc"
--'  124  15  ~\vimfiles\vimrc
-|4,39,124,15,1607588163,"~\\vimfiles\\vimrc"
--'  124  15  ~\vimfiles\vimrc
-|4,39,124,15,1607588163,"~\\vimfiles\\vimrc"
--'  124  15  ~\vimfiles\vimrc
-|4,39,124,15,1607588163,"~\\vimfiles\\vimrc"
--'  124  15  ~\vimfiles\vimrc
-|4,39,124,15,1607588163,"~\\vimfiles\\vimrc"
--'  124  15  ~\vimfiles\vimrc
-|4,39,124,15,1607588163,"~\\vimfiles\\vimrc"
--'  124  15  ~\vimfiles\vimrc
-|4,39,124,15,1607588163,"~\\vimfiles\\vimrc"
--'  94  0  ~\vimfiles\vimrc
-|4,39,94,0,1607588139,"~\\vimfiles\\vimrc"
--'  93  0  ~\vimfiles\vimrc
-|4,39,93,0,1607588139,"~\\vimfiles\\vimrc"
--'  93  0  ~\vimfiles\vimrc
-|4,39,93,0,1607588139,"~\\vimfiles\\vimrc"
--'  93  0  ~\vimfiles\vimrc
-|4,39,93,0,1607588139,"~\\vimfiles\\vimrc"
--'  93  0  ~\vimfiles\vimrc
-|4,39,93,0,1607588139,"~\\vimfiles\\vimrc"
--'  93  0  ~\vimfiles\vimrc
-|4,39,93,0,1607588139,"~\\vimfiles\\vimrc"
--'  93  0  ~\vimfiles\vimrc
-|4,39,93,0,1607588139,"~\\vimfiles\\vimrc"
--'  93  0  ~\vimfiles\vimrc
-|4,39,93,0,1607588139,"~\\vimfiles\\vimrc"
--'  93  0  ~\vimfiles\vimrc
-|4,39,93,0,1607588139,"~\\vimfiles\\vimrc"
--'  93  0  ~\vimfiles\vimrc
-|4,39,93,0,1607588139,"~\\vimfiles\\vimrc"
--'  126  0  ~\vimfiles\vimrc
-|4,39,126,0,1607587978,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1607587978,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1607587978,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1607587978,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1607587978,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1607587978,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1607587978,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1607587978,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1607587978,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1607587978,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607587973,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607587973,"~\\vimfiles\\vimrc"
--'  117  53  ~\vimfiles\vimrc
-|4,39,117,53,1607551490,"~\\vimfiles\\vimrc"
--'  115  53  ~\vimfiles\vimrc
-|4,39,115,53,1607551490,"~\\vimfiles\\vimrc"
--'  114  53  ~\vimfiles\vimrc
-|4,39,114,53,1607551490,"~\\vimfiles\\vimrc"
--'  112  53  ~\vimfiles\vimrc
-|4,39,112,53,1607551490,"~\\vimfiles\\vimrc"
--'  114  53  ~\vimfiles\vimrc
-|4,39,114,53,1607551490,"~\\vimfiles\\vimrc"
--'  112  53  ~\vimfiles\vimrc
-|4,39,112,53,1607551490,"~\\vimfiles\\vimrc"
--'  114  53  ~\vimfiles\vimrc
-|4,39,114,53,1607551490,"~\\vimfiles\\vimrc"
--'  112  53  ~\vimfiles\vimrc
-|4,39,112,53,1607551490,"~\\vimfiles\\vimrc"
--'  114  53  ~\vimfiles\vimrc
-|4,39,114,53,1607551490,"~\\vimfiles\\vimrc"
--'  112  53  ~\vimfiles\vimrc
-|4,39,112,53,1607551490,"~\\vimfiles\\vimrc"
--'  114  53  ~\vimfiles\vimrc
-|4,39,114,53,1607551490,"~\\vimfiles\\vimrc"
--'  112  53  ~\vimfiles\vimrc
-|4,39,112,53,1607551490,"~\\vimfiles\\vimrc"
--'  114  53  ~\vimfiles\vimrc
-|4,39,114,53,1607551490,"~\\vimfiles\\vimrc"
--'  112  53  ~\vimfiles\vimrc
-|4,39,112,53,1607551490,"~\\vimfiles\\vimrc"
--'  114  53  ~\vimfiles\vimrc
-|4,39,114,53,1607551490,"~\\vimfiles\\vimrc"
--'  112  53  ~\vimfiles\vimrc
-|4,39,112,53,1607551490,"~\\vimfiles\\vimrc"
--'  114  53  ~\vimfiles\vimrc
-|4,39,114,53,1607551490,"~\\vimfiles\\vimrc"
--'  112  53  ~\vimfiles\vimrc
-|4,39,112,53,1607551490,"~\\vimfiles\\vimrc"
--'  114  53  ~\vimfiles\vimrc
-|4,39,114,53,1607551490,"~\\vimfiles\\vimrc"
--'  112  53  ~\vimfiles\vimrc
-|4,39,112,53,1607551490,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607550603,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607550603,"~\\vimfiles\\vimrc"
--'  118  4  ~\vimfiles\vimrc
-|4,39,118,4,1607550264,"~\\vimfiles\\vimrc"
--'  120  4  ~\vimfiles\vimrc
-|4,39,120,4,1607550264,"~\\vimfiles\\vimrc"
--'  116  4  ~\vimfiles\vimrc
-|4,39,116,4,1607550264,"~\\vimfiles\\vimrc"
--'  115  4  ~\vimfiles\vimrc
-|4,39,115,4,1607550264,"~\\vimfiles\\vimrc"
--'  117  4  ~\vimfiles\vimrc
-|4,39,117,4,1607550264,"~\\vimfiles\\vimrc"
--'  113  4  ~\vimfiles\vimrc
-|4,39,113,4,1607550264,"~\\vimfiles\\vimrc"
--'  115  4  ~\vimfiles\vimrc
-|4,39,115,4,1607550264,"~\\vimfiles\\vimrc"
--'  117  4  ~\vimfiles\vimrc
-|4,39,117,4,1607550264,"~\\vimfiles\\vimrc"
--'  113  4  ~\vimfiles\vimrc
-|4,39,113,4,1607550264,"~\\vimfiles\\vimrc"
+|4,39,1,0,1607634981,"~\\vimfiles\\vimrc"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
+-'  3  5  ~\Desktop\prova.py
+|4,39,3,5,1607634833,"~\\Desktop\\prova.py"
 
 # History of marks within files (newest to oldest):
 
 > ~\vimfiles\vimrc
-	*	1607592151	0
-	"	96	0
-	^	96	0
-	.	96	0
-	+	8	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	12	0
-	+	13	1
-	+	14	0
-	+	15	0
-	+	16	0
-	+	17	0
-	+	13	1
-	+	24	0
-	+	20	1
-	+	1	0
-	+	20	1
-	+	2	2
-	+	20	10
-	+	25	0
-	+	24	0
-	+	23	0
-	+	21	0
-	+	2	1
+	*	1607637276	0
+	"	136	4
+	^	136	5
+	.	136	5
 	+	3	1
 	+	4	1
 	+	5	1
@@ -444,64 +425,160 @@
 	+	25	0
 	+	21	0
 	+	23	0
-	+	60	0
 	+	61	0
-	+	60	40
-	+	68	0
-	+	50	0
-	+	59	0
-	+	50	0
+	+	62	0
+	+	61	40
+	+	69	0
+	+	51	0
+	+	60	0
+	+	51	0
 	+	44	0
-	+	49	0
-	+	66	62
-	+	99	0
-	+	100	21
-	+	101	17
-	+	105	0
-	+	111	0
-	+	109	0
-	+	112	0
-	+	111	22
-	+	112	0
-	+	79	0
-	+	82	1
-	+	83	0
-	+	85	0
-	+	87	0
-	+	89	0
-	+	111	24
-	+	83	1
-	+	82	6
-	+	108	12
-	+	109	0
+	+	50	0
+	+	67	62
+	+	100	0
+	+	101	21
+	+	102	17
+	+	106	0
+	+	112	1
 	+	110	0
-	+	104	0
-	+	100	74
-	+	66	71
-	+	60	71
-	+	117	1
-	+	117	0
-	+	118	1
-	+	118	0
-	+	125	0
-	+	123	0
-	+	118	0
-	+	83	0
-	+	117	53
-	+	92	1
-	+	92	12
-	+	92	26
-	+	94	0
-	+	127	15
-	+	112	56
-	+	128	32
+	+	116	0
+	+	112	23
+	+	116	0
+	+	80	0
+	+	83	1
+	+	84	0
+	+	86	0
+	+	88	0
+	+	112	25
+	+	84	1
+	+	83	6
+	+	109	12
+	+	110	0
+	+	112	2
+	+	105	0
+	+	101	74
+	+	67	71
+	+	61	71
+	+	121	1
+	+	121	0
+	+	122	1
+	+	122	0
 	+	129	0
-	+	130	0
-	+	129	27
-	+	130	17
-	+	94	0
-	+	93	17
+	+	127	0
+	+	122	0
+	+	84	0
+	+	121	53
+	+	91	1
+	+	91	12
+	+	91	26
+	+	93	0
+	+	131	15
+	+	116	56
+	+	132	32
+	+	133	0
+	+	134	0
+	+	133	27
+	+	134	17
+	+	93	0
+	+	92	17
+	+	95	0
+	+	86	0
+	+	97	0
+	+	95	0
+	+	97	0
 	+	96	0
+	+	95	33
+	+	97	0
+	+	135	0
+	+	44	46
+	+	45	19
+	+	111	1
+	+	109	1
+	+	111	18
+	+	111	0
+	+	112	0
+	+	114	0
+	+	135	0
+	+	135	15
+	+	136	0
+	+	1	0
+	+	29	0
+	+	136	2
+	+	136	5
+
+> ~\vimfiles\NERD_tree_1
+	*	1607637216	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~\vimfiles\vs
+	*	1607636229	0
+	"	1	0
+
+> ~\Desktop\prova.py
+	*	1607636126	0
+	"	1	0
+	.	1	0
+	+	1	18
+	+	1	6
+	+	1	5
+	+	1	0
+
+> ~\NERD_tree_1
+	*	1607634509	0
+	"	18	0
+	.	1	0
+	+	1	0
+
+> ~\vimfiles\coc-settings.json
+	*	1607634159	0
+	"	15	0
+	.	16	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	16	0
+
+> ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Data\Movements\schedule.csv
+	*	1607629342	0
+	"	1	0
+
+> ~\vimfiles\plugged\coc.nvim\doc\coc.txt
+	*	1607616334	0
+	"	1409	0
+
+> ~\Downloads\NERD_tree_1
+	*	1607600339	0
+	"	12	0
+	.	1	0
+	+	1	0
+
+> ~\Downloads\A.csv
+	*	1607600336	0
+	"	774637	331
+
+> ~\Downloads\A
+	*	1607600262	0
+	"	1	0
+
+> ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Data\Movements\Original\A.csv
+	*	1607596593	0
+	"	151199	89
+
+> ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Data\Movements\Original\NERD_tree_1
+	*	1607596591	0
+	"	9	2
+	.	1	0
+	+	1	0
+
+> ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Data\Movements\Original\a
+	*	1607596009	0
+	"	1	0
+
+> ~\Desktop\Uni\PhD\Teaching\2020-2021\HEP\Tutorials\Tutorial 3\Data_infant\Linked Birth Infant Death Records, 2007-2018.txt
+	*	1607592684	0
+	"	1	0
 
 > ~\vimfiles\plugged\vim-airline\doc\airline.txt
 	*	1607505725	0
@@ -540,12 +617,6 @@
 	.	2	0
 	+	1	0
 	+	2	0
-
-> ~\vimfiles\NERD_tree_1
-	*	1607448374	0
-	"	6	0
-	.	1	0
-	+	1	0
 
 > ~\Documenti\WindowsPowerShell\NERD_tree_1
 	*	1607442118	0

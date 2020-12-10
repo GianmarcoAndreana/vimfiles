@@ -41,7 +41,8 @@ set tabstop=4              " Size of a Tab character.
 set shiftwidth=0           " Use same value as 'tabstop'.
 set softtabstop=-1         " Use same value as 'shiftwidth'.
 set clipboard=unnamed      " Use system clipboard
-
+set splitbelow			   " Open the new split below
+set splitright			   " Open the new split below
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
@@ -91,6 +92,8 @@ Plug  'tpope/vim-fugitive'
 " Add fuzzy search
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+" Intellisense ConquerOfCompletion
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 
@@ -103,8 +106,11 @@ set termguicolors
 let g:ale_linters = {
       \   'python': ['flake8', 'pylint'],
 	  \}
-"Airline uses Powerline fonts
+" Airline uses Powerline fonts
 let g:airline_powerline_fonts = 1
+" Nerdtree settings
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 "******************** Remapped key-bindings *******************************
 " Easy switching between splits using ctrl in normal mode
@@ -126,3 +132,5 @@ nnoremap <space> za
 nmap <leader>gh :diffget //3<CR>
 nmap <leader>gu :diffget //2<CR>
 nmap <leader>gs :G<CR>
+" NERDTree remap
+nnoremap <C-n> :NERDTreeToggle<CR>

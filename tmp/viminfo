@@ -15,7 +15,13 @@
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1607588738,,"q"
+|2,0,1607589686,,"q"
+:Gpush
+|2,0,1607588977,,"Gpush"
+:w!
+|2,0,1607588910,,"w!"
+:Gcommit
+|2,0,1607588867,,"Gcommit"
 :w
 |2,0,1607588732,,"w"
 :G
@@ -108,10 +114,6 @@
 |2,0,1607379733,,"W"
 :$MYVIMRC
 |2,0,1607377000,,"$MYVIMRC"
-: $MYVIMRC
-|2,0,1607376988,," $MYVIMRC"
-:! iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
-|2,0,1607376379,,"! iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`"
 
 # Search String History (newest to oldest):
 ? \<powerline\>
@@ -171,27 +173,33 @@
 
 # File marks:
 '0  1  0  ~\vimfiles\.git\index
-|4,48,1,0,1607588739,"~\\vimfiles\\.git\\index"
-'1  127  0  ~\vimfiles\vimrc
-|4,49,127,0,1607588660,"~\\vimfiles\\vimrc"
-'2  127  0  ~\vimfiles\vimrc
-|4,50,127,0,1607588660,"~\\vimfiles\\vimrc"
+|4,48,1,0,1607589686,"~\\vimfiles\\.git\\index"
+'1  2  0  ~\vimfiles\.git\index
+|4,49,2,0,1607588739,"~\\vimfiles\\.git\\index"
+'2  1  0  ~\vimfiles\.git\index
+|4,50,1,0,1607588739,"~\\vimfiles\\.git\\index"
 '3  127  0  ~\vimfiles\vimrc
-|4,51,127,0,1607588441,"~\\vimfiles\\vimrc"
+|4,51,127,0,1607588660,"~\\vimfiles\\vimrc"
 '4  127  0  ~\vimfiles\vimrc
-|4,52,127,0,1607588441,"~\\vimfiles\\vimrc"
-'5  1  0  ~\vimfiles\vimrc
-|4,53,1,0,1607588411,"~\\vimfiles\\vimrc"
-'6  1  0  ~\vimfiles\vimrc
-|4,54,1,0,1607588411,"~\\vimfiles\\vimrc"
-'7  1  0  ~\vimfiles\vimrc
-|4,55,1,0,1607588411,"~\\vimfiles\\vimrc"
-'8  1  0  ~\vimfiles\vimrc
-|4,56,1,0,1607588411,"~\\vimfiles\\vimrc"
-'9  1  0  ~\vimfiles\vimrc
-|4,57,1,0,1607588411,"~\\vimfiles\\vimrc"
+|4,52,127,0,1607588660,"~\\vimfiles\\vimrc"
+'5  127  0  ~\vimfiles\vimrc
+|4,53,127,0,1607588660,"~\\vimfiles\\vimrc"
+'6  127  0  ~\vimfiles\vimrc
+|4,54,127,0,1607588660,"~\\vimfiles\\vimrc"
+'7  127  0  ~\vimfiles\vimrc
+|4,55,127,0,1607588441,"~\\vimfiles\\vimrc"
+'8  127  0  ~\vimfiles\vimrc
+|4,56,127,0,1607588441,"~\\vimfiles\\vimrc"
+'9  127  0  ~\vimfiles\vimrc
+|4,57,127,0,1607588441,"~\\vimfiles\\vimrc"
 
 # Jumplist (newest first):
+-'  1  0  ~\vimfiles\.git\index
+|4,39,1,0,1607589686,"~\\vimfiles\\.git\\index"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1607588752,"~\\vimfiles\\vimrc"
+-'  2  0  ~\vimfiles\.git\index
+|4,39,2,0,1607588739,"~\\vimfiles\\.git\\index"
 -'  1  0  ~\vimfiles\.git\index
 |4,39,1,0,1607588739,"~\\vimfiles\\.git\\index"
 -'  1  0  ~\vimfiles\vimrc
@@ -200,6 +208,10 @@
 |4,39,127,0,1607588660,"~\\vimfiles\\vimrc"
 -'  127  0  ~\vimfiles\vimrc
 |4,39,127,0,1607588660,"~\\vimfiles\\vimrc"
+-'  127  0  ~\vimfiles\vimrc
+|4,39,127,0,1607588660,"~\\vimfiles\\vimrc"
+-'  2  0  ~\vimfiles\vimrc
+|4,39,2,0,1607588598,"~\\vimfiles\\vimrc"
 -'  2  0  ~\vimfiles\vimrc
 |4,39,2,0,1607588598,"~\\vimfiles\\vimrc"
 -'  2  0  ~\vimfiles\vimrc
@@ -242,6 +254,10 @@
 |4,39,109,56,1607588226,"~\\vimfiles\\vimrc"
 -'  109  56  ~\vimfiles\vimrc
 |4,39,109,56,1607588226,"~\\vimfiles\\vimrc"
+-'  109  56  ~\vimfiles\vimrc
+|4,39,109,56,1607588226,"~\\vimfiles\\vimrc"
+-'  124  15  ~\vimfiles\vimrc
+|4,39,124,15,1607588163,"~\\vimfiles\\vimrc"
 -'  124  15  ~\vimfiles\vimrc
 |4,39,124,15,1607588163,"~\\vimfiles\\vimrc"
 -'  124  15  ~\vimfiles\vimrc
@@ -274,6 +290,10 @@
 |4,39,93,0,1607588139,"~\\vimfiles\\vimrc"
 -'  93  0  ~\vimfiles\vimrc
 |4,39,93,0,1607588139,"~\\vimfiles\\vimrc"
+-'  93  0  ~\vimfiles\vimrc
+|4,39,93,0,1607588139,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1607587978,"~\\vimfiles\\vimrc"
 -'  123  0  ~\vimfiles\vimrc
 |4,39,123,0,1607587978,"~\\vimfiles\\vimrc"
 -'  123  0  ~\vimfiles\vimrc
@@ -294,6 +314,10 @@
 |4,39,1,0,1607587973,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
 |4,39,1,0,1607587973,"~\\vimfiles\\vimrc"
+-'  114  53  ~\vimfiles\vimrc
+|4,39,114,53,1607551490,"~\\vimfiles\\vimrc"
+-'  112  53  ~\vimfiles\vimrc
+|4,39,112,53,1607551490,"~\\vimfiles\\vimrc"
 -'  114  53  ~\vimfiles\vimrc
 |4,39,114,53,1607551490,"~\\vimfiles\\vimrc"
 -'  112  53  ~\vimfiles\vimrc
@@ -362,42 +386,20 @@
 |4,39,113,4,1607550264,"~\\vimfiles\\vimrc"
 -'  115  4  ~\vimfiles\vimrc
 |4,39,115,4,1607550264,"~\\vimfiles\\vimrc"
--'  115  4  ~\vimfiles\vimrc
-|4,39,115,4,1607550264,"~\\vimfiles\\vimrc"
 -'  117  4  ~\vimfiles\vimrc
 |4,39,117,4,1607550264,"~\\vimfiles\\vimrc"
 -'  113  4  ~\vimfiles\vimrc
 |4,39,113,4,1607550264,"~\\vimfiles\\vimrc"
 -'  115  4  ~\vimfiles\vimrc
 |4,39,115,4,1607550264,"~\\vimfiles\\vimrc"
--'  117  4  ~\vimfiles\vimrc
-|4,39,117,4,1607550264,"~\\vimfiles\\vimrc"
--'  113  4  ~\vimfiles\vimrc
-|4,39,113,4,1607550264,"~\\vimfiles\\vimrc"
 -'  115  4  ~\vimfiles\vimrc
 |4,39,115,4,1607550264,"~\\vimfiles\\vimrc"
--'  117  4  ~\vimfiles\vimrc
-|4,39,117,4,1607550264,"~\\vimfiles\\vimrc"
--'  113  4  ~\vimfiles\vimrc
-|4,39,113,4,1607550264,"~\\vimfiles\\vimrc"
--'  115  4  ~\vimfiles\vimrc
-|4,39,115,4,1607550264,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607550080,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1607550080,"~\\vimfiles\\vimrc"
--'  6  0  ~\vimfiles\.gitignore
-|4,39,6,0,1607541346,"~\\vimfiles\\.gitignore"
--'  6  0  ~\vimfiles\.gitignore
-|4,39,6,0,1607541346,"~\\vimfiles\\.gitignore"
--'  6  0  ~\vimfiles\.gitignore
-|4,39,6,0,1607541346,"~\\vimfiles\\.gitignore"
 
 # History of marks within files (newest to oldest):
 
 > ~\vimfiles\vimrc
-	*	1607588732	0
-	"	126	17
+	*	1607589682	0
+	"	1	0
 	^	127	18
 	.	127	17
 	+	5	0

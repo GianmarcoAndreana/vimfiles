@@ -90,6 +90,9 @@ Plug 'dense-analysis/ale'
 Plug 'jiangmiao/auto-pairs'
 " Git support
 Plug  'tpope/vim-fugitive'
+" Add fuzzy search
+Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
 call plug#end()
 

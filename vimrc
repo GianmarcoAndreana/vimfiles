@@ -82,8 +82,6 @@ Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 " Folding plugin
 Plug 'tmhedberg/SimpylFold'
-" Search for files
-Plug 'kien/ctrlp.vim'
 " Linting
 Plug 'dense-analysis/ale'
 " Add closing brackets

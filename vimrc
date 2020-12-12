@@ -92,8 +92,8 @@ Plug  'tpope/vim-fugitive'
 " Add fuzzy search
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-" Intellisense ConquerOfCompletion
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Intellisense YCM
+Plug 'ycm-core/YouCompleteMe'
 
 call plug#end()
 
@@ -134,5 +134,9 @@ nmap <leader>gu :diffget //2<CR>
 nmap <leader>gs :G<CR>
 " NERDTree remap
 nnoremap <C-n> :NERDTreeToggle<CR>
-" Coc go to definition
-nmap <silent> gd <Plug>(coc-definition)
+" YCM
+fun! GoYCM()
+	nnoremap <buffer> <silent> <leader>gd :YcmCompleter GoTo<CR>
+	nnoremap <buffer> <silent> <leader>gr :YcmCompleter GoToReferences<CR>
+	nnoremap <buffer> <silent> <leader>rr :YcmCompleter RefactorRename<space>
+endfun

@@ -134,3 +134,5 @@ nmap <leader>gu :diffget //2<CR>
 nmap <leader>gs :G<CR>
 " NERDTree remap
 nnoremap <C-n> :NERDTreeToggle<CR>
+" Coc go to definition
+nmap <silent> gd <Plug>(coc-definition)

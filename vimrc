@@ -59,7 +59,7 @@ if !isdirectory(&viewdir)   | call mkdir(&viewdir, 'p', 0700)   | endif
 
 
 "******************** Python integration *******************************
-set pythonthreedll=python39.dll      " Specify which python dll
+set pythonthreedll=python39.dll      " Specify python dll
 let g:UltiSnipsUsePythonVersion = 3  " Tell ultisnips to use py3
 set encoding=utf-8
 let python_highlight_all=1
@@ -94,6 +94,8 @@ Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 " Intellisense YCM
 Plug 'ycm-core/YouCompleteMe'
+" LaTex support
+Plug 'lervag/vimtex'
 
 call plug#end()
 

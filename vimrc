@@ -60,7 +60,6 @@ if !isdirectory(&viewdir)   | call mkdir(&viewdir, 'p', 0700)   | endif
 
 "******************** Python integration *******************************
 set pythonthreedll=python39.dll      " Specify python dll
-let g:UltiSnipsUsePythonVersion = 3  " Tell ultisnips to use py3
 set encoding=utf-8
 let python_highlight_all=1
 

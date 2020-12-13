@@ -108,9 +108,7 @@ let g:ale_linters = {
 	  \}
 " Airline uses Powerline fonts
 let g:airline_powerline_fonts = 1
-" Nerdtree settings
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+set noshowmode
 
 "******************** Remapped key-bindings *******************************
 " Easy switching between splits using ctrl in normal mode

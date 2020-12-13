@@ -134,8 +134,6 @@ nmap <leader>gs :G<CR>
 " NERDTree remap
 nnoremap <C-n> :NERDTreeToggle<CR>
 " YCM
-fun! GoYCM()
-	nnoremap <buffer> <silent> <leader>gd :YcmCompleter GoTo<CR>
-	nnoremap <buffer> <silent> <leader>gr :YcmCompleter GoToReferences<CR>
-	nnoremap <buffer> <silent> <leader>rr :YcmCompleter RefactorRename<space>
-endfun
+nnoremap <silent> <leader>gd :YcmCompleter GoTo<CR>
+nnoremap <silent> <leader>gr :YcmCompleter GoToReferences<CR>
+nnoremap <silent> <leader>rr :YcmCompleter RefactorRename<space>

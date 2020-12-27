@@ -43,6 +43,18 @@ set softtabstop=-1         " Use same value as 'shiftwidth'.
 set clipboard=unnamed      " Use system clipboard
 set splitbelow			   " Open the new split below
 set splitright			   " Open the new split below
+set nobackup			   " Don't use backup
+set nowritebackup		   " Don't write backup
+set hidden				   " Avoid issues with TextEdit
+set cmdheight=2			   " Give more space for displaying messages
+set updatetime=300         " Longer updatetime (default is 4000 ms) leads to delays
+set shortmess+=c           " Don't pass messages to ins-completion-menu
+
+" Always show the signcolumn, otherwise it would shift the text each time
+" diagnostics appear/become resolved.
+" Recently vim can merge signcolumn and number column into one
+set signcolumn=number
+
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
@@ -50,10 +62,10 @@ let g:SimpylFold_docstring_preview=1
 
 " Store temporary files in ~/vimfiles/tmp
 set viminfo+=n~/vimfiles/tmp/viminfo
-set backupdir=$HOME/vimfiles/tmp/backup
+" set backupdir=$HOME/vimfiles/tmp/backup
 set dir=$HOME/vimfiles/tmp/swap
 set viewdir=$HOME/vimfiles/tmp/view
-if !isdirectory(&backupdir) | call mkdir(&backupdir, 'p', 0700) | endif
+" if !isdirectory(&backupdir) | call mkdir(&backupdir, 'p', 0700) | endif
 if !isdirectory(&dir)       | call mkdir(&dir, 'p', 0700)       | endif
 if !isdirectory(&viewdir)   | call mkdir(&viewdir, 'p', 0700)   | endif
 
@@ -91,9 +103,9 @@ Plug  'tpope/vim-fugitive'
 " Add fuzzy search
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-" Intellisense YCM
-Plug 'ycm-core/YouCompleteMe'
-" LaTex support
+" Intellisense ConquerOfCompletion
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"LaTex support
 Plug 'lervag/vimtex'
 " Vim Wiki
 Plug 'vimwiki/vimwiki'
@@ -109,7 +121,7 @@ set termguicolors
 let g:ale_linters = {
       \   'python': ['flake8', 'pylint'],
 	  \}
-" Airline uses Powerline fonts
+" Airline uses Powerline 
 let g:airline_powerline_fonts = 1
 set noshowmode
 
@@ -135,7 +147,41 @@ nmap <leader>gu :diffget //2<CR>
 nmap <leader>gs :G<CR>
 " NERDTree remap
 nnoremap <C-n> :NERDTreeToggle<CR>
-" YCM
-nnoremap <silent> <leader>gd :YcmCompleter GoTo<CR>
-nnoremap <silent> <leader>gr :YcmCompleter GoToReferences<CR>
-nnoremap <silent> <leader>rr :YcmCompleter RefactorRename<space>
+" Coc remap
+" Use tab for trigger completion with characters ahead and navigate
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? "\<C-n>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#refresh()
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+" Use <c-space> to trigger completion
+inoremap <silent><expr> <c-@> coc#refresh()
+" GoTo code navigation.
+nmap <silent> gd <Plug>(coc-definition)
+nmap <silent> gy <Plug>(coc-type-definition)
+nmap <silent> gi <Plug>(coc-implementation)
+nmap <silent> gr <Plug>(coc-references)
+" Use K to show documentation in preview window.
+nnoremap <silent> K :call <SID>show_documentation()<CR>
+
+function! s:show_documentation()
+  if (index(['vim','help'], &filetype) >= 0)
+    execute 'h '.expand('<cword>')
+  elseif (coc#rpc#ready())
+    call CocActionAsync('doHover')
+  else
+    execute '!' . &keywordprg . " " . expand('<cword>')
+  endif
+endfunction
+" Remap <C-f> and <C-b> for scroll float windows/popups.
+  nnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\<C-f>"
+  nnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\<C-b>"
+  inoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(1)\<cr>" : "\<Right>"
+  inoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? "\<c-r>=coc#float#scroll(0)\<cr>" : "\<Left>"
+  vnoremap <silent><nowait><expr> <C-f> coc#float#has_scroll() ? coc#float#scroll(1) : "\<C-f>"
+  vnoremap <silent><nowait><expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\<C-b>"

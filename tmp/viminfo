@@ -18,13 +18,35 @@ $
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1608230782,,"q"
-:term
-|2,0,1608230760,,"term"
-:vnew
-|2,0,1608230755,,"vnew"
+|2,0,1609060874,,"q"
 :w
-|2,0,1608217115,,"w"
+|2,0,1609060823,,"w"
+:q!
+|2,0,1609060702,,"q!"
+:PlugUpdate
+|2,0,1609060636,,"PlugUpdate"
+:PlugInstall
+|2,0,1609060581,,"PlugInstall"
+:Files
+|2,0,1608831712,,"Files"
+:term
+|2,0,1608757537,,"term"
+:vterm
+|2,0,1608757533,,"vterm"
+:vnew
+|2,0,1608757445,,"vnew"
+:Q
+|2,0,1608755456,,"Q"
+:! prova.cpp
+|2,0,1608750026,,"! prova.cpp"
+:YcmCompleter
+|2,0,1608749765,,"YcmCompleter"
+:w prova.cpp
+|2,0,1608749719,,"w prova.cpp"
+:YcmShowDetailedDiagnostic
+|2,0,1608468973,,"YcmShowDetailedDiagnostic"
+:help iccf
+|2,0,1608396233,,"help iccf"
 :NERDTreeToggle 
 |2,0,1608207633,,"NERDTreeToggle "
 :Command
@@ -43,16 +65,8 @@ $
 |2,0,1608139234,,"!"
 :w desktop/prova.py
 |2,0,1608139041,,"w desktop/prova.py"
-:vterm
-|2,0,1607981582,,"vterm"
-:q!
-|2,0,1607979727,,"q!"
-:Q
-|2,0,1607978405,,"Q"
 :nterm
 |2,0,1607950048,,"nterm"
-:Files
-|2,0,1607950024,,"Files"
 :ALEComplete
 |2,0,1607890400,,"ALEComplete"
 :ALEToggle
@@ -81,16 +95,12 @@ $
 |2,0,1607812616,,"G commit -m \"Replaced Coc with Ycm\""
 :YcmCompleter GoToReferences
 |2,0,1607812271,,"YcmCompleter GoToReferences"
-:YcmCompleter
-|2,0,1607812020,,"YcmCompleter"
 :whhhhì
 |2,0,1607811845,,"whhhhì"
 :GoTo
 |2,0,1607810830,,"GoTo"
 :GO
 |2,0,1607810824,,"GO"
-:PlugInstall
-|2,0,1607806982,,"PlugInstall"
 :88
 |2,0,1607806953,,"88"
 :CocEnable
@@ -107,16 +117,6 @@ $
 |2,0,1607675405,,"new"
 :n
 |2,0,1607675400,,"n"
-:PlugUpdate
-|2,0,1607675388,,"PlugUpdate"
-:Gpush
-|2,0,1607637399,,"Gpush"
-:G commit -m "added coc, remap NERDTree"
-|2,0,1607637380,,"G commit -m \"added coc, remap NERDTree\""
-:jjjjjjjjjjj
-|2,0,1607636629,,"jjjjjjjjjjj"
-:new vs
-|2,0,1607636224,,"new vs"
 
 # Search String History (newest to oldest):
 ? \<fontFace\>
@@ -159,342 +159,353 @@ $
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
+@y
+|2,3,1609060684,,"y"
 
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	Network_1
-|3,0,0,1,1,0,1608217084,"Network_1"
+"0	CHAR	0
+	filledBox
+|3,0,0,0,1,0,1608816595,"filledBox"
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1608217107,""
+	Plug 'vimwiki/vimwiki'
+|3,1,1,1,1,0,1609060575,"Plug 'vimwiki/vimwiki'"
 "2	LINE	0
-	
-|3,0,2,1,1,0,1608217101,""
+					"icon" : "d",
+|3,0,2,1,1,0,1608755520,"				\"icon\" : \"d\","
 "3	LINE	0
 	
-|3,0,3,1,1,0,1608217098,""
+|3,0,3,1,1,0,1608755225,""
 "4	LINE	0
-	
-|3,0,4,1,1,0,1608139100,""
+					"acrylicOpacity" : 0.75,
+|3,0,4,1,1,0,1608754947,"				\"acrylicOpacity\" : 0.75,"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1608139099,""
+					"closeOnExit" : true,
+|3,0,5,1,1,0,1608754945,"				\"closeOnExit\" : true,"
 "6	LINE	0
-					"fontFace": "Cascadia Code PL"
-|3,0,6,1,1,0,1607979321,"				\"fontFace\": \"Cascadia Code PL\""
+					"colorScheme" : "Campbell",
+|3,0,6,1,1,0,1608754944,"				\"colorScheme\" : \"Campbell\","
 "7	LINE	0
-					"fontFace": "Cascadia Code Pl"
-|3,0,7,1,1,0,1607979235,"				\"fontFace\": \"Cascadia Code Pl\""
-"8	LINE	0
+					"cursorColor" : "#FFFFFF",
+|3,0,7,1,1,0,1608754887,"				\"cursorColor\" : \"#FFFFFF\","
+"8	CHAR	0
+	"fontFace" : "Consolas",
+	"fontSize" : 10,
+	"guid" : "{1850e97f-16dc-4281-9ea9-0100c4e852c5}",
+	"historySize" : 9001,
+	"icon" : "C:/Users/YourUserName/AppData/Local/Programs/Python/Python37/Lib/test/imghdrdata/python.png",
+	"name" : "Python",
+	"padding" : "0, 0, 0, 0",
+	"snapOnInput" : true,
+	"startingDirectory" : "%USERPROFILE%",
+	"useAcrylic" : true
+	},
 	
-	{
-	    // Make changes here to the powershell.exe profile.
-	    "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-	    "name": "Windows PowerShell",
-	    "commandline": "powershell.exe",
-	    "fontFace": "Cascadia Code PL",
-	    "hidden": false
-	}
-|3,0,8,1,9,0,1607978428,"","{","    // Make changes here to the powershell.exe profile.","    \"guid\": \"{61c54bbd-c2c6-5271-96e7-009a87ff44bf}\",","    \"name\": \"Windows PowerShell\",","    \"commandline\": \"powershell.exe\",","    \"fontFace\": \"Cascadia Code PL\",","    \"hidden\": false","}"
+|3,0,8,0,12,0,1608754754,"\"fontFace\" : \"Consolas\",","\"fontSize\" : 10,","\"guid\" : \"{1850e97f-16dc-4281-9ea9-0100c4e852c5}\",","\"historySize\" : 9001,","\"icon\" : \"C:/Users/YourUserName/AppData/Local/Programs/Python/Python37/Lib/test/imghdrdata/python.png\",","\"name\" : \"Python\",","\"padding\" : \"0, 0, 0, 0\",","\"snapOnInput\" : true,","\"startingDirectory\" : \"%USERPROFILE%\",","\"useAcrylic\" : true","},",""
 "9	LINE	0
-	sei un gay
-	sei un gay
-	sei un gay
-	sei un gay
-	sei un gay
-	sei un gay
-	sei un gay
-	sei un gay
-	sei un gay
-	sei un gay
-	sei un gay
-	sei un gay
-	sei un gay
-	sei un gay
-	sei un gay
-	sei un gay
-	sei un gay
-	sei un gay
-	sei un gay
-	sei un gay
-|3,0,9,1,20,0,1607950093,"sei un gay","sei un gay","sei un gay","sei un gay","sei un gay","sei un gay","sei un gay","sei un gay","sei un gay","sei un gay","sei un gay","sei un gay","sei un gay","sei un gay","sei un gay","sei un gay","sei un gay","sei un gay","sei un gay","sei un gay"
+	                "hidden": false,
+|3,0,9,1,1,0,1608753576,"                \"hidden\": false,"
 "-	CHAR	0
-	Network_1
-|3,0,36,0,1,0,1608217096,"Network_1"
+	bar
+|3,0,36,0,1,0,1608816719,"bar"
 
 # File marks:
-'0  62  0  ~\vimfiles\vimrc
-|4,48,62,0,1608230664,"~\\vimfiles\\vimrc"
-'1  4  12  ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Mathematica\.gitignore
-|4,49,4,12,1608217119,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Airlines Aid\\Airline-Aid\\Mathematica\\.gitignore"
-'2  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,50,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
-'3  41  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,51,41,18,1608139645,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
-'4  1  15  ~\desktop\prova.py
-|4,52,1,15,1608139361,"~\\desktop\\prova.py"
-'5  1  41  ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Data\Movements\Original\Airport_2015_ARR_JobId1696667.csv
-|4,53,1,41,1608046786,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Airlines Aid\\Airline-Aid\\Data\\Movements\\Original\\Airport_2015_ARR_JobId1696667.csv"
-'6  1  16  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,54,1,16,1607979727,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
-'7  1  16  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,55,1,16,1607979727,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
-'8  40  31  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,56,40,31,1607979630,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
-'9  40  31  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,57,40,31,1607979630,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+'0  1  0  ~\vimwiki\Python.wiki
+|4,48,1,0,1609060874,"~\\vimwiki\\Python.wiki"
+'1  1  11  ~\vimwiki\Python.wiki
+|4,49,1,11,1609060825,"~\\vimwiki\\Python.wiki"
+'2  100  0  ~\vimfiles\vimrc
+|4,50,100,0,1609060563,"~\\vimfiles\\vimrc"
+'3  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,51,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+'4  32  14  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,52,32,14,1608816665,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+'5  32  14  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,53,32,14,1608816665,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+'6  100  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,54,100,18,1608815182,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+'7  99  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,55,99,18,1608815182,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+'8  100  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,56,100,18,1608815182,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+'9  99  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,57,99,18,1608815182,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
 
 # Jumplist (newest first):
--'  62  0  ~\vimfiles\vimrc
-|4,39,62,0,1608230664,"~\\vimfiles\\vimrc"
--'  62  0  ~\vimfiles\vimrc
-|4,39,62,0,1608230664,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimwiki\Python.wiki
+|4,39,1,0,1609060874,"~\\vimwiki\\Python.wiki"
+-'  2  4  ~\vimwiki\index.wiki
+|4,39,2,4,1609060871,"~\\vimwiki\\index.wiki"
+-'  1  0  ~\vimwiki\Coding.wiki
+|4,39,1,0,1609060860,"~\\vimwiki\\Coding.wiki"
+-'  1  3  ~\vimwiki\index.wiki
+|4,39,1,3,1609060838,"~\\vimwiki\\index.wiki"
+-'  1  11  ~\vimwiki\Python.wiki
+|4,39,1,11,1609060825,"~\\vimwiki\\Python.wiki"
+-'  2  6  ~\vimwiki\index.wiki
+|4,39,2,6,1609060805,"~\\vimwiki\\index.wiki"
+-'  1  0  ~\vimwiki\index.wiki
+|4,39,1,0,1609060711,"~\\vimwiki\\index.wiki"
+-'  100  0  ~\vimfiles\vimrc
+|4,39,100,0,1609060563,"~\\vimfiles\\vimrc"
+-'  100  0  ~\vimfiles\vimrc
+|4,39,100,0,1609060563,"~\\vimfiles\\vimrc"
+-'  100  0  ~\vimfiles\vimrc
+|4,39,100,0,1609060563,"~\\vimfiles\\vimrc"
+-'  100  0  ~\vimfiles\vimrc
+|4,39,100,0,1609060563,"~\\vimfiles\\vimrc"
+-'  100  0  ~\vimfiles\vimrc
+|4,39,100,0,1609060563,"~\\vimfiles\\vimrc"
+-'  100  0  ~\vimfiles\vimrc
+|4,39,100,0,1609060563,"~\\vimfiles\\vimrc"
+-'  100  0  ~\vimfiles\vimrc
+|4,39,100,0,1609060563,"~\\vimfiles\\vimrc"
+-'  100  0  ~\vimfiles\vimrc
+|4,39,100,0,1609060563,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1608226595,"~\\vimfiles\\vimrc"
+|4,39,1,0,1609060477,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1608226595,"~\\vimfiles\\vimrc"
--'  4  12  ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Mathematica\.gitignore
-|4,39,4,12,1608217119,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Airlines Aid\\Airline-Aid\\Mathematica\\.gitignore"
--'  4  12  ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Mathematica\.gitignore
-|4,39,4,12,1608217119,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Airlines Aid\\Airline-Aid\\Mathematica\\.gitignore"
--'  4  12  ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Mathematica\.gitignore
-|4,39,4,12,1608217119,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Airlines Aid\\Airline-Aid\\Mathematica\\.gitignore"
--'  4  12  ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Mathematica\.gitignore
-|4,39,4,12,1608217119,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Airlines Aid\\Airline-Aid\\Mathematica\\.gitignore"
--'  5  0  ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Mathematica\.gitignore
-|4,39,5,0,1608217103,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Airlines Aid\\Airline-Aid\\Mathematica\\.gitignore"
--'  5  0  ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Mathematica\.gitignore
-|4,39,5,0,1608217103,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Airlines Aid\\Airline-Aid\\Mathematica\\.gitignore"
--'  5  0  ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Mathematica\.gitignore
-|4,39,5,0,1608217103,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Airlines Aid\\Airline-Aid\\Mathematica\\.gitignore"
--'  5  0  ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Mathematica\.gitignore
-|4,39,5,0,1608217103,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Airlines Aid\\Airline-Aid\\Mathematica\\.gitignore"
--'  1  0  ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Mathematica\.gitignore
-|4,39,1,0,1608217052,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Airlines Aid\\Airline-Aid\\Mathematica\\.gitignore"
--'  1  0  ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Mathematica\.gitignore
-|4,39,1,0,1608217052,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Airlines Aid\\Airline-Aid\\Mathematica\\.gitignore"
--'  1  0  ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Mathematica\.gitignore
-|4,39,1,0,1608217052,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Airlines Aid\\Airline-Aid\\Mathematica\\.gitignore"
--'  1  0  ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Mathematica\.gitignore
-|4,39,1,0,1608217052,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Airlines Aid\\Airline-Aid\\Mathematica\\.gitignore"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  198  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,198,0,1608139718,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  1  0  C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-|4,39,1,0,1608139691,"C:\\Program Files\\WindowsApps\\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\\defaults.json"
--'  41  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,41,18,1608139645,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  41  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,41,18,1608139645,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  41  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,41,18,1608139645,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  41  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,41,18,1608139645,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  41  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,41,18,1608139645,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  41  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,41,18,1608139645,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  41  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,41,18,1608139645,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  41  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,41,18,1608139645,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  41  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,41,18,1608139645,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  41  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,41,18,1608139645,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  41  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,41,18,1608139645,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  41  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,41,18,1608139645,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  41  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,41,18,1608139645,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  41  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,41,18,1608139645,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  41  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,41,18,1608139645,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  41  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,41,18,1608139645,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  41  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,41,18,1608139645,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  41  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,41,18,1608139645,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
--'  41  18  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-|4,39,41,18,1608139645,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+|4,39,1,0,1609060477,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1609060477,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1609060477,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1609060477,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1609060477,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1609060477,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1609060477,"~\\vimfiles\\vimrc"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  106  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,106,0,1608816757,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
 
 # History of marks within files (newest to oldest):
 
+> ~\vimwiki\Python.wiki
+	*	1609060872	0
+	"	1	0
+	^	1	12
+	.	1	12
+	+	1	16
+	+	1	12
+
+> ~\vimwiki\index.wiki
+	*	1609060871	0
+	"	2	4
+	^	2	9
+	.	1	0
+	+	1	10
+	+	2	0
+	+	1	0
+
+> ~\vimfiles\NERD_tree_1
+	*	1609060859	0
+	"	35	6
+	.	1	0
+	+	1	0
+
+> ~\vimwiki\Coding.wiki
+	*	1609060843	0
+	"	1	0
+
 > ~\vimfiles\vimrc
-	*	1608230662	0
-	"	62	0
-	^	137	0
-	.	137	9
-	+	102	17
-	+	106	0
-	+	111	1
-	+	110	0
-	+	114	0
-	+	111	23
-	+	114	0
+	*	1609060560	0
+	"	100	0
+	^	100	0
+	.	100	0
+	+	116	0
+	+	113	23
+	+	116	0
 	+	78	0
 	+	81	1
 	+	82	0
 	+	84	0
 	+	86	0
-	+	111	25
+	+	113	25
 	+	82	1
 	+	81	6
-	+	109	12
-	+	110	0
-	+	111	2
-	+	105	0
-	+	101	74
+	+	111	12
+	+	112	0
+	+	113	2
+	+	107	0
+	+	103	74
 	+	65	71
 	+	61	71
-	+	119	1
-	+	119	0
-	+	120	1
-	+	120	0
+	+	121	1
+	+	121	0
+	+	122	1
+	+	122	0
+	+	129	0
 	+	127	0
-	+	125	0
-	+	120	0
+	+	122	0
 	+	82	0
-	+	119	53
+	+	121	53
 	+	89	1
 	+	89	12
 	+	89	26
 	+	91	0
-	+	129	15
-	+	114	56
-	+	130	32
-	+	131	0
-	+	132	0
-	+	131	27
-	+	132	17
+	+	131	15
+	+	116	56
+	+	132	32
+	+	133	0
+	+	134	0
+	+	133	27
+	+	134	17
 	+	91	0
 	+	90	17
 	+	93	0
@@ -504,55 +515,166 @@ $
 	+	94	0
 	+	93	33
 	+	94	0
-	+	133	0
+	+	135	0
 	+	44	46
 	+	45	19
+	+	113	1
 	+	111	1
-	+	109	1
-	+	111	18
-	+	111	0
-	+	133	0
-	+	133	15
-	+	134	1
+	+	113	18
+	+	113	0
+	+	135	0
+	+	135	15
+	+	136	1
 	+	1	0
 	+	29	0
-	+	134	3
-	+	134	6
-	+	134	1
-	+	134	0
-	+	135	0
+	+	136	3
+	+	136	6
+	+	136	1
+	+	136	0
+	+	137	0
 	+	93	17
 	+	94	0
 	+	96	1
 	+	94	14
 	+	96	1
-	+	135	0
+	+	137	0
 	+	94	28
-	+	136	12
-	+	137	26
-	+	138	0
-	+	139	0
-	+	137	66
-	+	138	73
-	+	138	0
-	+	139	5
-	+	111	0
-	+	112	0
+	+	138	12
+	+	139	26
+	+	140	0
+	+	141	0
+	+	139	66
+	+	140	73
+	+	140	0
+	+	141	5
+	+	113	0
+	+	114	0
 	+	95	4
 	+	96	0
 	+	97	0
 	+	63	0
 	+	62	0
 	+	63	0
-	+	137	0
-	+	140	0
 	+	139	0
-	+	138	0
-	+	137	9
-	+	138	9
+	+	142	0
+	+	141	0
+	+	140	0
 	+	139	9
-	+	138	9
-	+	137	9
+	+	140	9
+	+	141	9
+	+	140	9
+	+	139	9
+	+	101	1
+	+	102	0
+	+	99	0
+	+	100	0
+
+> ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+	*	1608816755	0
+	"	106	0
+	^	76	30
+	.	76	29
+	+	43	32
+	+	41	31
+	+	43	0
+	+	59	0
+	+	55	48
+	+	59	0
+	+	43	0
+	+	39	34
+	+	41	31
+	+	56	34
+	+	41	36
+	+	41	0
+	+	41	35
+	+	41	36
+	+	41	17
+	+	41	31
+	+	41	17
+	+	56	34
+	+	57	0
+	+	41	19
+	+	42	19
+	+	41	18
+	+	99	0
+	+	98	59
+	+	99	6
+	+	103	0
+	+	40	0
+	+	101	0
+	+	11	24
+	+	59	14
+	+	88	1
+	+	75	6
+	+	76	4
+	+	76	5
+	+	89	0
+	+	76	26
+	+	78	0
+	+	76	26
+	+	78	6
+	+	79	6
+	+	80	6
+	+	81	6
+	+	82	6
+	+	83	4
+	+	84	6
+	+	85	4
+	+	86	6
+	+	87	5
+	+	88	0
+	+	76	0
+	+	81	73
+	+	77	33
+	+	75	0
+	+	78	18
+	+	81	26
+	+	74	3
+	+	59	14
+	+	74	0
+	+	61	23
+	+	68	16
+	+	68	14
+	+	65	50
+	+	68	0
+	+	61	27
+	+	65	50
+	+	61	47
+	+	67	56
+	+	68	0
+	+	67	52
+	+	100	18
+	+	58	0
+	+	57	18
+	+	76	21
+	+	62	29
+	+	76	29
+
+> ~\NERD_tree_1
+	*	1608757433	0
+	"	4	0
+	.	1	0
+	+	1	0
+
+> ~\Desktop\prova.cpp
+	*	1608750031	0
+	"	6	0
+	.	5	10
+	+	1	19
+	+	3	12
+	+	4	29
+	+	6	0
+	+	5	10
+
+> ~\desktop\NERD_tree_1
+	*	1608749985	0
+	"	12	0
+	.	1	0
+	+	1	0
+
+> C:\Program Files\Vim\vim82\doc\uganda.txt
+	*	1608396266	0
+	"	15	1
 
 > ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Mathematica\.gitignore
 	*	1608217115	0
@@ -569,43 +691,9 @@ $
 	.	1	0
 	+	1	0
 
-> ~\NERD_tree_1
-	*	1608207634	0
-	"	4	0
-	.	1	0
-	+	1	0
-
 > C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
 	*	1608139716	0
 	"	198	0
-
-> ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-	*	1608139642	0
-	"	41	18
-	^	41	19
-	.	41	18
-	+	43	32
-	+	40	31
-	+	43	0
-	+	58	0
-	+	55	48
-	+	58	0
-	+	43	0
-	+	39	34
-	+	40	31
-	+	56	34
-	+	40	36
-	+	40	0
-	+	40	35
-	+	40	36
-	+	41	17
-	+	40	31
-	+	41	17
-	+	56	34
-	+	57	0
-	+	41	19
-	+	42	19
-	+	41	18
 
 > ~\desktop\prova.py
 	*	1608139360	0
@@ -661,18 +749,6 @@ $
 	+	9	0
 	+	6	11
 	+	7	0
-
-> ~\desktop\NERD_tree_1
-	*	1607890309	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~\vimfiles\NERD_tree_1
-	*	1607880634	0
-	"	4	0
-	.	1	0
-	+	1	0
 
 > ~\AppData\Local\Programs\Python\Python39\Lib\site-packages\numpy\__init__.py
 	*	1607880148	0

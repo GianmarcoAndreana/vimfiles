@@ -95,6 +95,8 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'ycm-core/YouCompleteMe'
 " LaTex support
 Plug 'lervag/vimtex'
+" Vim Wiki
+Plug 'vimwiki/vimwiki'
 
 call plug#end()
 

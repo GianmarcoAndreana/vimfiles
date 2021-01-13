@@ -11,114 +11,133 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/status
+~MSle0/Haskell
+
+# Last Substitute Search Pattern:
+~MSle0~&#7DAEA3
 
 # Last Substitute String:
-$
+$#458588
 
 # Command Line History (newest to oldest):
 :q
-|2,0,1609099573,,"q"
-:CocDiagnostics
-|2,0,1609099564,,"CocDiagnostics"
-:CocInfo
-|2,0,1609099500,,"CocInfo"
-:CocEnable
-|2,0,1609099489,,"CocEnable"
-:CocInstall coc-python
-|2,0,1609099454,,"CocInstall coc-python"
+|2,0,1610568959,,"q"
 :w
-|2,0,1609099317,,"w"
-:h coc-status
-|2,0,1609098514,,"h coc-status"
-:verbose imap <tab>
-|2,0,1609098015,,"verbose imap <tab>"
+|2,0,1610568796,,"w"
+:colorscheme nord
+|2,0,1610568680,,"colorscheme nord"
 :PlugInstall
-|2,0,1609097244,,"PlugInstall"
-:G push
-|2,0,1609060985,,"G push"
-:G commit -m "add vim wiki"
-|2,0,1609060972,,"G commit -m \"add vim wiki\""
-:q!
-|2,0,1609060702,,"q!"
+|2,0,1610568659,,"PlugInstall"
+:30
+|2,0,1610568467,,"30"
 :PlugUpdate
-|2,0,1609060636,,"PlugUpdate"
-:Files
-|2,0,1608831712,,"Files"
+|2,0,1610563795,,"PlugUpdate"
+:so %
+|2,0,1610563779,,"so %"
+:os %
+|2,0,1610563772,,"os %"
+:echo $VIMRUNTIME
+|2,0,1610563225,,"echo $VIMRUNTIME"
+:PlugUppdat
+|2,0,1610486582,,"PlugUppdat"
+:q!
+|2,0,1610358790,,"q!"
+:e .ghci
+|2,0,1609529816,,"e .ghci"
+:w ~/desktop/settings.json
+|2,0,1609439303,,"w ~/desktop/settings.json"
+:%s/#7DAEA3/#458588/g
+|2,0,1609439231,,"%s/#7DAEA3/#458588/g"
+:s/#7DAEA3/#458588/g
+|2,0,1609439215,,"s/#7DAEA3/#458588/g"
+:$s/#7DAEA3/#458588/g
+|2,0,1609439201,,"$s/#7DAEA3/#458588/g"
+:$s/#7DAEA3/#458588
+|2,0,1609439134,,"$s/#7DAEA3/#458588"
+:s/#7DAEA3/#458588
+|2,0,1609439093,,"s/#7DAEA3/#458588"
+:CocList diagnostics
+|2,0,1609414889,,"CocList diagnostics"
+:CocEnable
+|2,0,1609414838,,"CocEnable"
+:CocStart
+|2,0,1609414828,,"CocStart"
+:w ~/desktop/p.py
+|2,0,1609414784,,"w ~/desktop/p.py"
+:CocConfig
+|2,0,1609414518,,"CocConfig"
+:CocDiagnostics
+|2,0,1609414256,,"CocDiagnostics"
+:CocInstall coc-dos
+|2,0,1609414083,,"CocInstall coc-dos"
+:/haskell
+|2,0,1609360024,,"/haskell"
+:w .ghci
+|2,0,1609359420,,"w .ghci"
+:84m77
+|2,0,1609359063,,"84m77"
 :term
-|2,0,1608757537,,"term"
-:vterm
-|2,0,1608757533,,"vterm"
+|2,0,1609338734,,"term"
+:cd desktop
+|2,0,1609338671,,"cd desktop"
+:t
+|2,0,1609337411,,"t"
 :vnew
-|2,0,1608757445,,"vnew"
-:Q
-|2,0,1608755456,,"Q"
-:! prova.cpp
-|2,0,1608750026,,"! prova.cpp"
-:YcmCompleter
-|2,0,1608749765,,"YcmCompleter"
-:w prova.cpp
-|2,0,1608749719,,"w prova.cpp"
-:YcmShowDetailedDiagnostic
-|2,0,1608468973,,"YcmShowDetailedDiagnostic"
-:help iccf
-|2,0,1608396233,,"help iccf"
-:NERDTreeToggle 
-|2,0,1608207633,,"NERDTreeToggle "
-:Command
-|2,0,1608207580,,"Command"
-:! prova.py
-|2,0,1608139384,,"! prova.py"
-:!prova.py
-|2,0,1608139354,,"!prova.py"
-:! cd desktop
-|2,0,1608139317,,"! cd desktop"
-:! py
-|2,0,1608139293,,"! py"
-:! desktop/prova.py
-|2,0,1608139266,,"! desktop/prova.py"
-:!
-|2,0,1608139234,,"!"
-:w desktop/prova.py
-|2,0,1608139041,,"w desktop/prova.py"
-:nterm
-|2,0,1607950048,,"nterm"
-:ALEComplete
-|2,0,1607890400,,"ALEComplete"
-:ALEToggle
-|2,0,1607890346,,"ALEToggle"
-:Texplore
-|2,0,1607890308,,"Texplore"
-:w prova.tex
-|2,0,1607889991,,"w prova.tex"
-:G commit -m "fixed remap for YCM"
-|2,0,1607880597,,"G commit -m \"fixed remap for YCM\""
-:YcmCompleter RefactorRename lhhhhhhhhhhhhhhlllljk
-|2,0,1607879877,,"YcmCompleter RefactorRename lhhhhhhhhhhhhhhlllljk"
-:YcmCompleter RefactorRename 
-|2,0,1607879864,,"YcmCompleter RefactorRename "
-:G commit -m "small fix"
-|2,0,1607878570,,"G commit -m \"small fix\""
-:G commit -m "remove useless stuff in vimrc"
-|2,0,1607878498,,"G commit -m \"remove useless stuff in vimrc\""
-:80
-|2,0,1607856816,,"80"
-:G commit -m "remove NERDTree auto loading and remove mode display (already shown by airline)"
-|2,0,1607856661,,"G commit -m \"remove NERDTree auto loading and remove mode display (already shown by airline)\""
-:G commit -m "Replaced Coc with Ycm"
-|2,0,1607812616,,"G commit -m \"Replaced Coc with Ycm\""
-:YcmCompleter GoToReferences
-|2,0,1607812271,,"YcmCompleter GoToReferences"
-:whhhhì
-|2,0,1607811845,,"whhhhì"
-:GoTo
-|2,0,1607810830,,"GoTo"
-:GO
-|2,0,1607810824,,"GO"
-:88
-|2,0,1607806953,,"88"
+|2,0,1609337408,,"vnew"
+:! ghci
+|2,0,1609337379,,"! ghci"
+:w prova.hs
+|2,0,1609337191,,"w prova.hs"
+:prova.hs
+|2,0,1609337183,,"prova.hs"
+:PlugUpdate+
+|2,0,1609250634,,"PlugUpdate+"
+:e prova.py
+|2,0,1609142397,,"e prova.py"
+:echo prova.py
+|2,0,1609142386,,"echo prova.py"
+:CocInfo
+|2,0,1609142240,,"CocInfo"
+:w prova.py
+|2,0,1609142169,,"w prova.py"
+:G push
+|2,0,1609100059,,"G push"
+:G commit -m "changed YCM with COC"
+|2,0,1609100053,,"G commit -m \"changed YCM with COC\""
+:G
+|2,0,1609100025,,"G"
+:G commit "changed ycm with coc"
+|2,0,1609100008,,"G commit \"changed ycm with coc\""
+:G commit "Changed YCM with COC"
+|2,0,1609099983,,"G commit \"Changed YCM with COC\""
+:CocInstall coc-julia coc-lsp-wl coc-powershell coc-r-lsp coc-texlab coc-vimlsp
+|2,0,1609099872,,"CocInstall coc-julia coc-lsp-wl coc-powershell coc-r-lsp coc-texlab coc-vimlsp"
+:CocInstall coc-clangd 
+|2,0,1609099746,,"CocInstall coc-clangd "
+:CocList
+|2,0,1609099705,,"CocList"
+:CocInstall coc-json
+|2,0,1609099657,,"CocInstall coc-json"
+:CocInstall coc-python
+|2,0,1609099620,,"CocInstall coc-python"
 
 # Search String History (newest to oldest):
+? #7DAEA3
+|2,1,1609439231,,"#7DAEA3"
+?/Haskell
+|2,1,1609360045,47,"Haskell"
+? haskell
+|2,1,1609360024,,"haskell"
+?/"haskell"
+|2,1,1609360017,47,"\"haskell\""
+?/haskell
+|2,1,1609360006,47,"haskell"
+?/gh
+|2,1,1609359568,47,"gh"
+?/powershell
+|2,1,1609318972,47,"powershell"
+?/core
+|2,1,1609318962,47,"core"
 ?/status
 |2,1,1609098619,47,"status"
 ?/sign
@@ -182,318 +201,322 @@ $
 
 # Registers:
 "0	LINE	0
-		set statusline^=%{coc#status()}
-|3,0,0,1,1,0,1609098594,"	set statusline^=%{coc#status()}"
+	h
+|3,0,0,1,1,0,1610358778,"h"
 "1	LINE	0
-	if has("patch-8.1.1564")
-|3,0,1,1,1,0,1609099306,"if has(\"patch-8.1.1564\")"
+	"Plug 'morhetz/gruvbox'
+|3,0,1,1,1,0,1610568735,"\"Plug 'morhetz/gruvbox'"
 "2	LINE	0
-	endif
-|3,0,2,1,1,0,1609099304,"endif"
+	" Gruvbox colorscheme
+|3,0,2,1,1,0,1610568735,"\" Gruvbox colorscheme"
 "3	LINE	0
-	  set signcolumn=yes
-|3,0,3,1,1,0,1609099304,"  set signcolumn=yes"
-"4	LINE	0
-	else
-|3,0,4,1,1,0,1609099303,"else"
+	:set prompt2 "\x03BB> "
+|3,0,3,1,1,0,1609529820,":set prompt2 \"\\x03BB> \""
+"4	CHAR	0
+	"languageserver":
+	{
+	  "haskell": {
+	    "command": "hie-wrapper",
+	    "args": ["--lsp"],
+	    "rootPatterns": [
+	      "*.cabal",
+	      "stack.yaml",
+	      "cabal.project",
+	      "package.yaml"
+	    ],
+	    "filetypes": [
+	      "hs",
+	      "lhs",
+	      "haskell"
+	    ],
+	    "initializationOptions": {
+	      "haskell": {
+	      }
+	    }
+	  }
+	}
+|3,0,4,0,22,0,1609414589,"\"languageserver\":","{","  \"haskell\": {","    \"command\": \"hie-wrapper\",","    \"args\": [\"--lsp\"],","    \"rootPatterns\": [","      \"*.cabal\",","      \"stack.yaml\",","      \"cabal.project\",","      \"package.yaml\"","    ],","    \"filetypes\": [","      \"hs\",","      \"lhs\",","      \"haskell\"","    ],","    \"initializationOptions\": {","      \"haskell\": {","      }","    }","  }","}"
 "5	LINE	0
-	set statusline^=%{coc#status()}
-|3,0,5,1,1,0,1609098942,"set statusline^=%{coc#status()}"
+	
+|3,0,5,1,1,0,1609414083,""
 "6	LINE	0
-	endif
-|3,0,6,1,1,0,1609098857,"endif"
+					"commandline" : "",
+|3,0,6,1,1,0,1609358195,"				\"commandline\" : \"\","
 "7	LINE	0
-	if has('patch-8.2.0750')
-|3,0,7,1,1,0,1609098851,"if has('patch-8.2.0750')"
+							 then x
+|3,0,7,1,1,0,1609339708,"						 then x"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1609098656,""
+							 else x * 2
+|3,0,8,1,1,0,1609339707,"						 else x * 2"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1609098231,""
+		
+|3,0,9,1,1,0,1609339706,"	"
 ""-	CHAR	0
-	 
-|3,1,36,0,1,0,1609099316," "
+	x
+|3,1,36,0,1,0,1610568760,"x"
 
 # File marks:
-'0  56  0  ~\vimfiles\vimrc
-|4,48,56,0,1609099319,"~\\vimfiles\\vimrc"
-'1  68  1  ~\vimfiles\vimrc
-|4,49,68,1,1609099128,"~\\vimfiles\\vimrc"
-'2  72  1  ~\vimfiles\vimrc
-|4,50,72,1,1609099128,"~\\vimfiles\\vimrc"
-'3  127  0  ~\vimfiles\vimrc
-|4,51,127,0,1609098945,"~\\vimfiles\\vimrc"
-'4  127  0  ~\vimfiles\vimrc
-|4,52,127,0,1609098945,"~\\vimfiles\\vimrc"
-'5  131  0  ~\vimfiles\vimrc
-|4,53,131,0,1609098945,"~\\vimfiles\\vimrc"
-'6  131  0  ~\vimfiles\vimrc
-|4,54,131,0,1609098945,"~\\vimfiles\\vimrc"
-'7  7  0  ~\vimfiles\NERD_tree_1
-|4,55,7,0,1609098867,"~\\vimfiles\\NERD_tree_1"
-'8  8  0  ~\vimfiles\NERD_tree_1
-|4,56,8,0,1609098867,"~\\vimfiles\\NERD_tree_1"
-'9  8  0  ~\vimfiles\NERD_tree_1
-|4,57,8,0,1609098867,"~\\vimfiles\\NERD_tree_1"
+'0  177  0  ~\vimfiles\vimrc
+|4,48,177,0,1610568959,"~\\vimfiles\\vimrc"
+'1  120  54  ~\vimfiles\vimrc
+|4,49,120,54,1610568798,"~\\vimfiles\\vimrc"
+'2  120  54  ~\vimfiles\vimrc
+|4,50,120,54,1610568798,"~\\vimfiles\\vimrc"
+'3  1  0  ~\vimfiles\vimrc
+|4,51,1,0,1610568668,"~\\vimfiles\\vimrc"
+'4  1  0  ~\vimfiles\vimrc
+|4,52,1,0,1610568668,"~\\vimfiles\\vimrc"
+'5  1  0  ~\vimfiles\vimrc
+|4,53,1,0,1610568668,"~\\vimfiles\\vimrc"
+'6  1  0  ~\vimfiles\vimrc
+|4,54,1,0,1610568668,"~\\vimfiles\\vimrc"
+'7  97  0  ~\vimfiles\vimrc
+|4,55,97,0,1610568642,"~\\vimfiles\\vimrc"
+'8  97  0  ~\vimfiles\vimrc
+|4,56,97,0,1610568642,"~\\vimfiles\\vimrc"
+'9  99  0  ~\vimfiles\vimrc
+|4,57,99,0,1610568642,"~\\vimfiles\\vimrc"
 
 # Jumplist (newest first):
--'  56  0  ~\vimfiles\vimrc
-|4,39,56,0,1609099319,"~\\vimfiles\\vimrc"
--'  56  0  ~\vimfiles\vimrc
-|4,39,56,0,1609099319,"~\\vimfiles\\vimrc"
--'  56  0  ~\vimfiles\vimrc
-|4,39,56,0,1609099319,"~\\vimfiles\\vimrc"
--'  56  0  ~\vimfiles\vimrc
-|4,39,56,0,1609099319,"~\\vimfiles\\vimrc"
+-'  177  0  ~\vimfiles\vimrc
+|4,39,177,0,1610568959,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1609099140,"~\\vimfiles\\vimrc"
+|4,39,1,0,1610568801,"~\\vimfiles\\vimrc"
+-'  120  54  ~\vimfiles\vimrc
+|4,39,120,54,1610568798,"~\\vimfiles\\vimrc"
+-'  120  54  ~\vimfiles\vimrc
+|4,39,120,54,1610568798,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1609099140,"~\\vimfiles\\vimrc"
+|4,39,1,0,1610568671,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1609099140,"~\\vimfiles\\vimrc"
+|4,39,1,0,1610568668,"~\\vimfiles\\vimrc"
+-'  97  0  ~\vimfiles\vimrc
+|4,39,97,0,1610568642,"~\\vimfiles\\vimrc"
+-'  99  0  ~\vimfiles\vimrc
+|4,39,99,0,1610568642,"~\\vimfiles\\vimrc"
+-'  97  0  ~\vimfiles\vimrc
+|4,39,97,0,1610568642,"~\\vimfiles\\vimrc"
+-'  99  0  ~\vimfiles\vimrc
+|4,39,99,0,1610568642,"~\\vimfiles\\vimrc"
+-'  99  0  ~\vimfiles\vimrc
+|4,39,99,0,1610568642,"~\\vimfiles\\vimrc"
+-'  122  1  ~\vimfiles\vimrc
+|4,39,122,1,1610568578,"~\\vimfiles\\vimrc"
+-'  122  1  ~\vimfiles\vimrc
+|4,39,122,1,1610568578,"~\\vimfiles\\vimrc"
+-'  122  1  ~\vimfiles\vimrc
+|4,39,122,1,1610568578,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1609099140,"~\\vimfiles\\vimrc"
--'  68  1  ~\vimfiles\vimrc
-|4,39,68,1,1609099128,"~\\vimfiles\\vimrc"
--'  72  1  ~\vimfiles\vimrc
-|4,39,72,1,1609099128,"~\\vimfiles\\vimrc"
--'  68  1  ~\vimfiles\vimrc
-|4,39,68,1,1609099128,"~\\vimfiles\\vimrc"
--'  72  1  ~\vimfiles\vimrc
-|4,39,72,1,1609099128,"~\\vimfiles\\vimrc"
--'  68  1  ~\vimfiles\vimrc
-|4,39,68,1,1609099128,"~\\vimfiles\\vimrc"
--'  72  1  ~\vimfiles\vimrc
-|4,39,72,1,1609099128,"~\\vimfiles\\vimrc"
--'  68  1  ~\vimfiles\vimrc
-|4,39,68,1,1609099128,"~\\vimfiles\\vimrc"
--'  72  1  ~\vimfiles\vimrc
-|4,39,72,1,1609099128,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1609098955,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1609098955,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1609098955,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1609098955,"~\\vimfiles\\vimrc"
--'  127  0  ~\vimfiles\vimrc
-|4,39,127,0,1609098945,"~\\vimfiles\\vimrc"
--'  131  0  ~\vimfiles\vimrc
-|4,39,131,0,1609098945,"~\\vimfiles\\vimrc"
--'  131  0  ~\vimfiles\vimrc
-|4,39,131,0,1609098945,"~\\vimfiles\\vimrc"
--'  127  0  ~\vimfiles\vimrc
-|4,39,127,0,1609098945,"~\\vimfiles\\vimrc"
--'  131  0  ~\vimfiles\vimrc
-|4,39,131,0,1609098945,"~\\vimfiles\\vimrc"
--'  131  0  ~\vimfiles\vimrc
-|4,39,131,0,1609098945,"~\\vimfiles\\vimrc"
--'  127  0  ~\vimfiles\vimrc
-|4,39,127,0,1609098945,"~\\vimfiles\\vimrc"
--'  131  0  ~\vimfiles\vimrc
-|4,39,131,0,1609098945,"~\\vimfiles\\vimrc"
--'  131  0  ~\vimfiles\vimrc
-|4,39,131,0,1609098945,"~\\vimfiles\\vimrc"
--'  127  0  ~\vimfiles\vimrc
-|4,39,127,0,1609098945,"~\\vimfiles\\vimrc"
--'  131  0  ~\vimfiles\vimrc
-|4,39,131,0,1609098945,"~\\vimfiles\\vimrc"
--'  131  0  ~\vimfiles\vimrc
-|4,39,131,0,1609098945,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1609098900,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1609098900,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1609098900,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1609098900,"~\\vimfiles\\vimrc"
--'  7  0  ~\vimfiles\NERD_tree_1
-|4,39,7,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  8  0  ~\vimfiles\NERD_tree_1
-|4,39,8,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  9  0  ~\vimfiles\NERD_tree_1
-|4,39,9,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  8  0  ~\vimfiles\NERD_tree_1
-|4,39,8,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  9  0  ~\vimfiles\NERD_tree_1
-|4,39,9,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  9  0  ~\vimfiles\NERD_tree_1
-|4,39,9,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  10  0  ~\vimfiles\NERD_tree_1
-|4,39,10,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  7  0  ~\vimfiles\NERD_tree_1
-|4,39,7,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  8  0  ~\vimfiles\NERD_tree_1
-|4,39,8,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  9  0  ~\vimfiles\NERD_tree_1
-|4,39,9,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  8  0  ~\vimfiles\NERD_tree_1
-|4,39,8,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  9  0  ~\vimfiles\NERD_tree_1
-|4,39,9,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  9  0  ~\vimfiles\NERD_tree_1
-|4,39,9,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  10  0  ~\vimfiles\NERD_tree_1
-|4,39,10,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  7  0  ~\vimfiles\NERD_tree_1
-|4,39,7,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  8  0  ~\vimfiles\NERD_tree_1
-|4,39,8,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  9  0  ~\vimfiles\NERD_tree_1
-|4,39,9,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  8  0  ~\vimfiles\NERD_tree_1
-|4,39,8,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  9  0  ~\vimfiles\NERD_tree_1
-|4,39,9,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  9  0  ~\vimfiles\NERD_tree_1
-|4,39,9,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  10  0  ~\vimfiles\NERD_tree_1
-|4,39,10,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  7  0  ~\vimfiles\NERD_tree_1
-|4,39,7,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  8  0  ~\vimfiles\NERD_tree_1
-|4,39,8,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  9  0  ~\vimfiles\NERD_tree_1
-|4,39,9,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  8  0  ~\vimfiles\NERD_tree_1
-|4,39,8,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  9  0  ~\vimfiles\NERD_tree_1
-|4,39,9,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  9  0  ~\vimfiles\NERD_tree_1
-|4,39,9,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  10  0  ~\vimfiles\NERD_tree_1
-|4,39,10,0,1609098867,"~\\vimfiles\\NERD_tree_1"
--'  1  0  ~\vimfiles\NERD_tree_1
-|4,39,1,0,1609098726,"~\\vimfiles\\NERD_tree_1"
--'  1  0  ~\vimfiles\NERD_tree_1
-|4,39,1,0,1609098726,"~\\vimfiles\\NERD_tree_1"
--'  1  0  ~\vimfiles\NERD_tree_1
-|4,39,1,0,1609098726,"~\\vimfiles\\NERD_tree_1"
--'  1  0  ~\vimfiles\NERD_tree_1
-|4,39,1,0,1609098726,"~\\vimfiles\\NERD_tree_1"
--'  1  0  ~\vimfiles\NERD_tree_1
-|4,39,1,0,1609098726,"~\\vimfiles\\NERD_tree_1"
--'  1  0  ~\vimfiles\NERD_tree_1
-|4,39,1,0,1609098726,"~\\vimfiles\\NERD_tree_1"
--'  1  0  ~\vimfiles\NERD_tree_1
-|4,39,1,0,1609098726,"~\\vimfiles\\NERD_tree_1"
--'  1  0  ~\vimfiles\NERD_tree_1
-|4,39,1,0,1609098726,"~\\vimfiles\\NERD_tree_1"
--'  1  0  ~\vimfiles\NERD_tree_1
-|4,39,1,0,1609098726,"~\\vimfiles\\NERD_tree_1"
--'  1  0  ~\vimfiles\NERD_tree_1
-|4,39,1,0,1609098726,"~\\vimfiles\\NERD_tree_1"
--'  1  0  ~\vimfiles\NERD_tree_1
-|4,39,1,0,1609098726,"~\\vimfiles\\NERD_tree_1"
--'  1  0  ~\vimfiles\NERD_tree_1
-|4,39,1,0,1609098726,"~\\vimfiles\\NERD_tree_1"
--'  1  0  ~\vimfiles\NERD_tree_1
-|4,39,1,0,1609098726,"~\\vimfiles\\NERD_tree_1"
--'  1  0  ~\vimfiles\NERD_tree_1
-|4,39,1,0,1609098726,"~\\vimfiles\\NERD_tree_1"
--'  1  0  ~\vimfiles\NERD_tree_1
-|4,39,1,0,1609098726,"~\\vimfiles\\NERD_tree_1"
--'  1  0  ~\vimfiles\NERD_tree_1
-|4,39,1,0,1609098726,"~\\vimfiles\\NERD_tree_1"
--'  10  0  ~\vimfiles\NERD_tree_1
-|4,39,10,0,1609098716,"~\\vimfiles\\NERD_tree_1"
--'  10  0  ~\vimfiles\NERD_tree_1
-|4,39,10,0,1609098716,"~\\vimfiles\\NERD_tree_1"
--'  10  0  ~\vimfiles\NERD_tree_1
-|4,39,10,0,1609098716,"~\\vimfiles\\NERD_tree_1"
--'  10  0  ~\vimfiles\NERD_tree_1
-|4,39,10,0,1609098716,"~\\vimfiles\\NERD_tree_1"
--'  1  0  ~\vimfiles\NERD_tree_1
-|4,39,1,0,1609098694,"~\\vimfiles\\NERD_tree_1"
--'  1  0  ~\vimfiles\NERD_tree_1
-|4,39,1,0,1609098694,"~\\vimfiles\\NERD_tree_1"
--'  1  0  ~\vimfiles\NERD_tree_1
-|4,39,1,0,1609098694,"~\\vimfiles\\NERD_tree_1"
--'  1  0  ~\vimfiles\NERD_tree_1
-|4,39,1,0,1609098694,"~\\vimfiles\\NERD_tree_1"
--'  124  24  ~\vimfiles\vimrc
-|4,39,124,24,1609098685,"~\\vimfiles\\vimrc"
--'  128  24  ~\vimfiles\vimrc
-|4,39,128,24,1609098685,"~\\vimfiles\\vimrc"
--'  128  24  ~\vimfiles\vimrc
-|4,39,128,24,1609098685,"~\\vimfiles\\vimrc"
--'  128  24  ~\vimfiles\vimrc
-|4,39,128,24,1609098685,"~\\vimfiles\\vimrc"
--'  124  24  ~\vimfiles\vimrc
-|4,39,124,24,1609098685,"~\\vimfiles\\vimrc"
--'  128  24  ~\vimfiles\vimrc
-|4,39,128,24,1609098685,"~\\vimfiles\\vimrc"
--'  128  24  ~\vimfiles\vimrc
-|4,39,128,24,1609098685,"~\\vimfiles\\vimrc"
--'  128  24  ~\vimfiles\vimrc
-|4,39,128,24,1609098685,"~\\vimfiles\\vimrc"
--'  124  24  ~\vimfiles\vimrc
-|4,39,124,24,1609098685,"~\\vimfiles\\vimrc"
--'  128  24  ~\vimfiles\vimrc
-|4,39,128,24,1609098685,"~\\vimfiles\\vimrc"
--'  128  24  ~\vimfiles\vimrc
-|4,39,128,24,1609098685,"~\\vimfiles\\vimrc"
+|4,39,1,0,1610568458,"~\\vimfiles\\vimrc"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610564792,"~\\[Plugins]"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610564792,"~\\[Plugins]"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610564792,"~\\[Plugins]"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610564792,"~\\[Plugins]"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610564792,"~\\[Plugins]"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610564792,"~\\[Plugins]"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610564792,"~\\[Plugins]"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610564792,"~\\[Plugins]"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610564792,"~\\[Plugins]"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610564792,"~\\[Plugins]"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610564792,"~\\[Plugins]"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610564792,"~\\[Plugins]"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610564792,"~\\[Plugins]"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610564792,"~\\[Plugins]"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610564792,"~\\[Plugins]"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610564792,"~\\[Plugins]"
+-'  5  0  ~\[Plugins]
+|4,39,5,0,1610563813,"~\\[Plugins]"
+-'  5  0  ~\[Plugins]
+|4,39,5,0,1610563813,"~\\[Plugins]"
+-'  5  0  ~\[Plugins]
+|4,39,5,0,1610563813,"~\\[Plugins]"
+-'  5  0  ~\[Plugins]
+|4,39,5,0,1610563813,"~\\[Plugins]"
+-'  5  0  ~\[Plugins]
+|4,39,5,0,1610563813,"~\\[Plugins]"
+-'  5  0  ~\[Plugins]
+|4,39,5,0,1610563813,"~\\[Plugins]"
+-'  5  0  ~\[Plugins]
+|4,39,5,0,1610563813,"~\\[Plugins]"
+-'  5  0  ~\[Plugins]
+|4,39,5,0,1610563813,"~\\[Plugins]"
+-'  5  0  ~\[Plugins]
+|4,39,5,0,1610563813,"~\\[Plugins]"
+-'  5  0  ~\[Plugins]
+|4,39,5,0,1610563813,"~\\[Plugins]"
+-'  5  0  ~\[Plugins]
+|4,39,5,0,1610563813,"~\\[Plugins]"
+-'  5  0  ~\[Plugins]
+|4,39,5,0,1610563813,"~\\[Plugins]"
+-'  5  0  ~\[Plugins]
+|4,39,5,0,1610563813,"~\\[Plugins]"
+-'  5  0  ~\[Plugins]
+|4,39,5,0,1610563813,"~\\[Plugins]"
+-'  5  0  ~\[Plugins]
+|4,39,5,0,1610563813,"~\\[Plugins]"
+-'  5  0  ~\[Plugins]
+|4,39,5,0,1610563813,"~\\[Plugins]"
+-'  6  0  ~\[Plugins]
+|4,39,6,0,1610563805,"~\\[Plugins]"
+-'  6  0  ~\[Plugins]
+|4,39,6,0,1610563805,"~\\[Plugins]"
+-'  6  0  ~\[Plugins]
+|4,39,6,0,1610563805,"~\\[Plugins]"
+-'  6  0  ~\[Plugins]
+|4,39,6,0,1610563805,"~\\[Plugins]"
+-'  6  0  ~\[Plugins]
+|4,39,6,0,1610563805,"~\\[Plugins]"
+-'  6  0  ~\[Plugins]
+|4,39,6,0,1610563805,"~\\[Plugins]"
+-'  6  0  ~\[Plugins]
+|4,39,6,0,1610563805,"~\\[Plugins]"
+-'  6  0  ~\[Plugins]
+|4,39,6,0,1610563805,"~\\[Plugins]"
+-'  6  0  ~\[Plugins]
+|4,39,6,0,1610563805,"~\\[Plugins]"
+-'  6  0  ~\[Plugins]
+|4,39,6,0,1610563805,"~\\[Plugins]"
+-'  6  0  ~\[Plugins]
+|4,39,6,0,1610563805,"~\\[Plugins]"
+-'  6  0  ~\[Plugins]
+|4,39,6,0,1610563805,"~\\[Plugins]"
+-'  6  0  ~\[Plugins]
+|4,39,6,0,1610563805,"~\\[Plugins]"
+-'  6  0  ~\[Plugins]
+|4,39,6,0,1610563805,"~\\[Plugins]"
+-'  6  0  ~\[Plugins]
+|4,39,6,0,1610563805,"~\\[Plugins]"
+-'  6  0  ~\[Plugins]
+|4,39,6,0,1610563805,"~\\[Plugins]"
+-'  2  0  ~\[Plugins]
+|4,39,2,0,1610563801,"~\\[Plugins]"
+-'  2  0  ~\[Plugins]
+|4,39,2,0,1610563801,"~\\[Plugins]"
+-'  2  0  ~\[Plugins]
+|4,39,2,0,1610563801,"~\\[Plugins]"
+-'  2  0  ~\[Plugins]
+|4,39,2,0,1610563801,"~\\[Plugins]"
+-'  2  0  ~\[Plugins]
+|4,39,2,0,1610563801,"~\\[Plugins]"
+-'  2  0  ~\[Plugins]
+|4,39,2,0,1610563801,"~\\[Plugins]"
+-'  2  0  ~\[Plugins]
+|4,39,2,0,1610563801,"~\\[Plugins]"
+-'  2  0  ~\[Plugins]
+|4,39,2,0,1610563801,"~\\[Plugins]"
+-'  2  0  ~\[Plugins]
+|4,39,2,0,1610563801,"~\\[Plugins]"
+-'  2  0  ~\[Plugins]
+|4,39,2,0,1610563801,"~\\[Plugins]"
+-'  2  0  ~\[Plugins]
+|4,39,2,0,1610563801,"~\\[Plugins]"
+-'  2  0  ~\[Plugins]
+|4,39,2,0,1610563801,"~\\[Plugins]"
+-'  2  0  ~\[Plugins]
+|4,39,2,0,1610563801,"~\\[Plugins]"
+-'  2  0  ~\[Plugins]
+|4,39,2,0,1610563801,"~\\[Plugins]"
+-'  2  0  ~\[Plugins]
+|4,39,2,0,1610563801,"~\\[Plugins]"
+-'  2  0  ~\[Plugins]
+|4,39,2,0,1610563801,"~\\[Plugins]"
+-'  3  0  ~\[Plugins]
+|4,39,3,0,1610563795,"~\\[Plugins]"
+-'  3  0  ~\[Plugins]
+|4,39,3,0,1610563795,"~\\[Plugins]"
+-'  3  0  ~\[Plugins]
+|4,39,3,0,1610563795,"~\\[Plugins]"
+-'  3  0  ~\[Plugins]
+|4,39,3,0,1610563795,"~\\[Plugins]"
+-'  3  0  ~\[Plugins]
+|4,39,3,0,1610563795,"~\\[Plugins]"
+-'  3  0  ~\[Plugins]
+|4,39,3,0,1610563795,"~\\[Plugins]"
+-'  3  0  ~\[Plugins]
+|4,39,3,0,1610563795,"~\\[Plugins]"
+-'  3  0  ~\[Plugins]
+|4,39,3,0,1610563795,"~\\[Plugins]"
+-'  3  0  ~\[Plugins]
+|4,39,3,0,1610563795,"~\\[Plugins]"
+-'  3  0  ~\[Plugins]
+|4,39,3,0,1610563795,"~\\[Plugins]"
+-'  3  0  ~\[Plugins]
+|4,39,3,0,1610563795,"~\\[Plugins]"
+-'  3  0  ~\[Plugins]
+|4,39,3,0,1610563795,"~\\[Plugins]"
+-'  3  0  ~\[Plugins]
+|4,39,3,0,1610563795,"~\\[Plugins]"
+-'  3  0  ~\[Plugins]
+|4,39,3,0,1610563795,"~\\[Plugins]"
+-'  3  0  ~\[Plugins]
+|4,39,3,0,1610563795,"~\\[Plugins]"
+-'  3  0  ~\[Plugins]
+|4,39,3,0,1610563795,"~\\[Plugins]"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610312611,"~\\[Plugins]"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610312611,"~\\[Plugins]"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610312611,"~\\[Plugins]"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610312611,"~\\[Plugins]"
+-'  1  0  ~\[Plugins]
+|4,39,1,0,1610312611,"~\\[Plugins]"
 
 # History of marks within files (newest to oldest):
 
 > ~\vimfiles\vimrc
-	*	1609099318	0
-	"	56	0
-	^	68	2
-	.	56	0
-	+	105	0
-	+	96	0
-	+	106	0
-	+	105	0
-	+	106	0
-	+	105	33
-	+	106	0
-	+	147	0
-	+	44	46
-	+	45	19
-	+	125	1
-	+	123	1
-	+	125	18
-	+	125	0
-	+	147	0
-	+	147	15
-	+	148	1
-	+	1	0
-	+	29	0
-	+	148	3
-	+	148	6
-	+	148	1
-	+	148	0
-	+	150	0
+	*	1610568823	0
+	"	177	0
+	^	120	55
+	.	120	54
+	+	166	3
+	+	166	6
+	+	166	1
+	+	166	0
+	+	168	0
 	+	105	17
 	+	106	0
 	+	106	2
 	+	106	14
 	+	106	2
-	+	150	0
+	+	168	0
 	+	106	28
-	+	150	12
-	+	150	26
-	+	150	0
-	+	150	66
-	+	150	73
-	+	150	0
-	+	150	5
-	+	125	0
-	+	126	0
+	+	168	12
+	+	168	26
+	+	168	0
+	+	168	66
+	+	168	73
+	+	168	0
+	+	168	5
+	+	127	0
+	+	128	0
 	+	106	5
 	+	106	1
 	+	109	0
 	+	75	0
 	+	74	0
 	+	75	0
-	+	150	0
-	+	150	9
-	+	113	1
-	+	114	0
+	+	168	0
+	+	168	9
+	+	113	2
+	+	116	0
 	+	111	0
 	+	112	0
 	+	106	1
@@ -503,9 +526,9 @@ $
 	+	107	0
 	+	109	0
 	+	107	47
-	+	150	0
-	+	149	0
-	+	150	0
+	+	168	0
+	+	167	0
+	+	168	0
 	+	65	1
 	+	62	0
 	+	46	12
@@ -518,32 +541,234 @@ $
 	+	50	100
 	+	50	83
 	+	51	51
-	+	151	67
-	+	152	0
-	+	157	0
-	+	158	0
-	+	162	0
-	+	163	0
-	+	164	0
-	+	169	0
+	+	169	67
+	+	170	0
+	+	175	0
+	+	176	0
+	+	180	0
 	+	181	0
+	+	182	0
+	+	187	0
+	+	199	0
 	+	52	1
 	+	52	0
 	+	57	0
-	+	127	0
-	+	124	25
+	+	130	1
+	+	126	25
 	+	51	71
-	+	182	0
-	+	188	0
-	+	127	0
+	+	200	0
+	+	206	0
+	+	130	1
 	+	68	1
 	+	57	0
 	+	55	0
 	+	56	0
+	+	114	0
+	+	113	20
+	+	114	0
+	+	113	31
+	+	130	0
+	+	137	0
+	+	138	0
+	+	146	0
+	+	139	0
+	+	140	0
+	+	141	0
+	+	142	0
+	+	143	0
+	+	144	0
+	+	145	0
+	+	91	0
+	+	91	18
+	+	92	0
+	+	120	0
+	+	91	0
+	+	119	6
+	+	120	54
+
+> ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+	*	1610138115	0
+	"	70	0
+	^	83	16
+	.	152	0
+	+	185	4
+	+	184	4
+	+	183	4
+	+	182	4
+	+	181	4
+	+	180	4
+	+	179	4
+	+	178	4
+	+	177	4
+	+	176	4
+	+	171	4
+	+	172	4
+	+	174	4
+	+	175	4
+	+	173	4
+	+	170	4
+	+	169	3
+	+	168	3
+	+	167	4
+	+	166	4
+	+	165	4
+	+	164	4
+	+	163	4
+	+	162	4
+	+	161	4
+	+	160	4
+	+	159	4
+	+	158	4
+	+	157	4
+	+	156	4
+	+	155	4
+	+	154	4
+	+	153	4
+	+	152	4
+	+	151	4
+	+	150	4
+	+	149	4
+	+	148	3
+	+	147	3
+	+	146	4
+	+	145	4
+	+	144	4
+	+	143	4
+	+	142	4
+	+	141	4
+	+	140	4
+	+	139	4
+	+	138	4
+	+	137	4
+	+	136	4
+	+	135	4
+	+	134	4
+	+	133	4
+	+	132	4
+	+	131	4
+	+	130	4
+	+	129	4
+	+	128	0
+	+	212	0
+	+	127	0
+	+	9	0
+	+	274	4
+	+	275	0
+	+	274	0
+	+	126	0
+	+	127	0
+	+	148	0
+	+	169	0
+	+	190	0
+	+	211	0
+	+	232	0
+	+	253	0
+	+	274	4
+	+	75	20
+	+	102	0
+	+	62	0
+	+	61	0
+	+	60	30
+	+	51	0
+	+	44	0
+	+	43	0
+	+	75	0
+	+	74	41
+	+	118	31
+	+	120	0
+	+	119	44
+	+	119	45
+	+	75	5
+	+	77	24
+	+	78	20
+	+	83	97
+	+	83	15
+	+	81	15
+	+	78	0
+	+	77	29
+	+	78	0
+	+	83	16
+	+	131	0
+	+	133	0
+	+	152	0
+
+> ~\download
+	*	1610019636	0
+	"	1	0
+
+> ~\Downloads\download
+	*	1610017730	0
+	"	176	0
+
+> ~\.ghci
+	*	1609529822	0
+	"	1	0
+	.	2	0
+	+	1	13
+	+	2	0
+
+> ~\Desktop\p.py
+	*	1609415054	0
+	"	3	10
+	^	3	10
+	.	3	10
+	+	1	18
+	+	1	6
+	+	1	18
+	+	3	10
+
+> ~\vimfiles\coc-settings.json
+	*	1609414730	0
+	"	1	0
+	.	2	0
+	+	1	0
+	+	2	0
+
+> ~\NERD_tree_1
+	*	1609359573	0
+	"	42	0
+	.	1	0
+	+	1	0
+
+> ~\Desktop\prova.hs
+	*	1609339809	0
+	"	4	6
+	^	4	6
+	.	4	0
+	+	1	13
+	+	2	13
+	+	1	16
+	+	2	30
+	+	2	28
+	+	3	14
+	+	3	3
+	+	3	0
+	+	3	16
+	+	3	0
+	+	3	20
+	+	3	3
+	+	3	18
+	+	3	0
+	+	3	32
+	+	4	0
+
+> ~\desktop\NERD_tree_1
+	*	1609338677	0
+	"	13	0
+	.	1	0
+	+	1	0
+
+> ~\Desktop\prova.py
+	*	1609142532	0
+	"	3	0
+	^	3	1
+	.	3	1
+	+	3	2
+	+	3	1
 
 > ~\vimfiles\NERD_tree_1
-	*	1609099139	0
-	"	10	0
+	*	1609099599	0
+	"	10	1
 	.	1	0
 	+	1	0
 
@@ -551,21 +776,9 @@ $
 	*	1609098598	0
 	"	3147	31
 
-> ~\NERD_tree_1
-	*	1609092529	0
-	"	1	0
-	.	1	0
-	+	1	0
-
 > ~\Desktop\MRHC_FIN.py
 	*	1609077912	0
 	"	269	49
-
-> ~\Desktop\NERD_tree_1
-	*	1609077763	0
-	"	11	0
-	.	1	0
-	+	1	0
 
 > ~\vimwiki\Cpp.wiki
 	*	1609072499	0
@@ -593,87 +806,6 @@ $
 	.	1	12
 	+	1	16
 	+	1	12
-
-> ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-	*	1609061107	0
-	"	62	3
-	.	62	3
-	+	43	32
-	+	41	31
-	+	43	0
-	+	59	0
-	+	55	48
-	+	59	0
-	+	43	0
-	+	39	34
-	+	41	31
-	+	56	34
-	+	41	36
-	+	41	0
-	+	41	35
-	+	41	36
-	+	41	17
-	+	41	31
-	+	41	17
-	+	56	34
-	+	57	0
-	+	41	19
-	+	42	19
-	+	41	18
-	+	99	0
-	+	98	59
-	+	99	6
-	+	103	0
-	+	40	0
-	+	101	0
-	+	11	24
-	+	59	14
-	+	88	1
-	+	75	6
-	+	76	4
-	+	76	5
-	+	89	0
-	+	76	26
-	+	78	0
-	+	76	26
-	+	78	6
-	+	79	6
-	+	80	6
-	+	81	6
-	+	82	6
-	+	83	4
-	+	84	6
-	+	85	4
-	+	86	6
-	+	87	5
-	+	88	0
-	+	76	0
-	+	81	73
-	+	77	33
-	+	75	0
-	+	78	18
-	+	81	26
-	+	74	3
-	+	59	14
-	+	74	0
-	+	61	23
-	+	68	16
-	+	68	14
-	+	65	50
-	+	68	0
-	+	61	27
-	+	65	50
-	+	61	47
-	+	67	56
-	+	68	0
-	+	67	52
-	+	100	18
-	+	58	0
-	+	57	18
-	+	76	21
-	+	62	29
-	+	76	29
-	+	62	3
 
 > ~\vimwiki\Coding.wiki
 	*	1609060843	0
@@ -711,16 +843,6 @@ $
 > C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
 	*	1608139716	0
 	"	198	0
-
-> ~\desktop\prova.py
-	*	1608139360	0
-	"	1	15
-	^	3	23
-	.	3	22
-	+	1	0
-	+	1	6
-	+	1	18
-	+	3	22
 
 > ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Data\Movements\Original\Airport_2015_ARR_JobId1696667.csv
 	*	1608046781	0
@@ -786,15 +908,6 @@ $
 > ~\vimfiles\vs
 	*	1607636229	0
 	"	1	0
-
-> ~\vimfiles\coc-settings.json
-	*	1607634159	0
-	"	15	0
-	.	16	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	16	0
 
 > ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Data\Movements\schedule.csv
 	*	1607629342	0

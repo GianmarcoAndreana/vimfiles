@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Ult. Espressione di Ricerca:
-~MSle0~/gs
+~MSle0~/vim
 
 # Ult. Sostituzione Espressione di Ricerca:
 ~MSle0&#7DAEA3
@@ -20,14 +20,30 @@
 $#458588
 
 # Riga di Comando Storia (da più recente a meno recente):
+:q
+|2,0,1612699179,,"q"
+:w
+|2,0,1612699053,,"w"
+:set notermguicolors
+|2,0,1612698699,,"set notermguicolors"
+:s%\//
+|2,0,1612698419,,"s%\\//"
+:set termguicolors
+|2,0,1612697975,,"set termguicolors"
+:G push
+|2,0,1612697179,,"G push"
+:G commit -m "back to gruvbox"
+|2,0,1612697171,,"G commit -m \"back to gruvbox\""
+:commit -m "back to gruvbox"
+|2,0,1612697149,,"commit -m \"back to gruvbox\""
+:G
+|2,0,1612697122,,"G"
+:commit
+|2,0,1612697097,,"commit"
 :gs
 |2,0,1612696981,,"gs"
-:q
-|2,0,1612696963,,"q"
 :PlugInstall
 |2,0,1612696890,,"PlugInstall"
-:w
-|2,0,1612696885,,"w"
 :q!
 |2,0,1612696842,,"q!"
 :TransparentEnable
@@ -64,8 +80,6 @@ $#458588
 |2,0,1610569907,,"s"
 :cd desktop
 |2,0,1610569739,,"cd desktop"
-:G push
-|2,0,1610569050,,"G push"
 :G commit -m "Change colorscheme to Nord"
 |2,0,1610569001,,"G commit -m \"Change colorscheme to Nord\""
 :colorscheme nord
@@ -106,30 +120,20 @@ $#458588
 |2,0,1609414518,,"CocConfig"
 :CocDiagnostics
 |2,0,1609414256,,"CocDiagnostics"
-:CocInstall coc-dos
-|2,0,1609414083,,"CocInstall coc-dos"
-:/haskell
-|2,0,1609360024,,"/haskell"
-:w .ghci
-|2,0,1609359420,,"w .ghci"
-:84m77
-|2,0,1609359063,,"84m77"
-:term
-|2,0,1609338734,,"term"
-:t
-|2,0,1609337411,,"t"
-:vnew
-|2,0,1609337408,,"vnew"
 
 # Stringa di Ricerca Storia (da più recente a meno recente):
+?/autocmd
+|2,1,1612698861,47,"autocmd"
+? \//
+|2,1,1612698419,,"\\//"
+?/vim
+|2,1,1612698297,47,"vim"
 ?/gs
 |2,1,1612696950,47,"gs"
 ?/G
 |2,1,1612696940,47,"G"
 ?/gruvbox
 |2,1,1612696657,47,"gruvbox"
-?/autocmd
-|2,1,1612696535,47,"autocmd"
 ?/Transparent
 |2,1,1612695875,47,"Transparent"
 ?/plug
@@ -146,8 +150,6 @@ $#458588
 |2,1,1612257060,47,"Haskell"
 ?/haskell
 |2,1,1612257056,47,"haskell"
-?/vim
-|2,1,1611302089,47,"vim"
 ?/POWER
 |2,1,1610713058,47,"POWER"
 ?/powershell
@@ -220,8 +222,6 @@ $#458588
 |2,1,1607600311,47,"\"2015-12-01\""
 ?/Virginia
 |2,1,1607596547,47,"Virginia"
-?/Virgin
-|2,1,1607596521,47,"Virgin"
 
 # Espressione Storia (da più recente a meno recente):
 
@@ -254,9 +254,9 @@ $#458588
 	"purple" : "#B16286"
 |3,0,0,0,19,0,1612694478,"\"background\":\"#282828\",","\"cursorColor\": \"#4F1E22\",","\"black\" : \"#282828\",","\"blue\" : \"#6B897D\",","\"green\": \"#123A31\",","\"brightBlue\" : \"#6B897D\",","\"foreground\" : \"#5C7444\",","\"brightGreen\" : \"#5C7444\",","\"red\" : \"#4F1E22\",","\"white\" : \"#A89984\",","\"yellow\" : \"#AE8F3C\",","\"brightYellow\" : \"#FABD2F\",","\"brightBlack\" : \"#928374\",","\"brightCyan\" : \"#8EC07C\",",>33
 |<"\"brightPurple\" : \"#D3869B\",","\"brightRed\" : \"#FB4934\",","\"brightWhite\" : \"#AE8F3C\",","\"cyan\" : \"#689D6A\",","\"purple\" : \"#B16286\""
-""1	LINE	0
+"1	LINE	0
 	Plug 'kjwon15/vim-transparent'
-|3,1,1,1,1,0,1612696883,"Plug 'kjwon15/vim-transparent'"
+|3,0,1,1,1,0,1612696883,"Plug 'kjwon15/vim-transparent'"
 "2	LINE	0
 	" Vim transparent
 |3,0,2,1,1,0,1612696882,"\" Vim transparent"
@@ -281,389 +281,241 @@ $#458588
 "9	LINE	0
 	"cyan" : "#689D6A",
 |3,0,9,1,1,0,1612695267,"\"cyan\" : \"#689D6A\","
-"-	CHAR	0
-	"
-|3,0,36,0,1,0,1612696744,"\""
+""-	CHAR	0
+	autocmd vimenter * ++nested colorscheme gruvbox " Set Gruvbox colorscheme
+|3,1,36,0,1,0,1612698827,"autocmd vimenter * ++nested colorscheme gruvbox \" Set Gruvbox colorscheme"
 
 # File mark:
-'0  165  0  ~\vimfiles\vimrc
-|4,48,165,0,1612697006,"~\\vimfiles\\vimrc"
-'1  25  0  ~\vimfiles\vimrc
-|4,49,25,0,1612696963,"~\\vimfiles\\vimrc"
-'2  25  0  ~\vimfiles\vimrc
-|4,50,25,0,1612696963,"~\\vimfiles\\vimrc"
-'3  1  0  ~\vimfiles\[Plugins]
-|4,51,1,0,1612696894,"~\\vimfiles\\[Plugins]"
-'4  113  0  ~\vimfiles\vimrc
-|4,52,113,0,1612696748,"~\\vimfiles\\vimrc"
-'5  115  0  ~\vimfiles\vimrc
-|4,53,115,0,1612696748,"~\\vimfiles\\vimrc"
-'6  113  0  ~\vimfiles\vimrc
-|4,54,113,0,1612696748,"~\\vimfiles\\vimrc"
-'7  115  0  ~\vimfiles\vimrc
-|4,55,115,0,1612696748,"~\\vimfiles\\vimrc"
-'8  113  0  ~\vimfiles\vimrc
-|4,56,113,0,1612696748,"~\\vimfiles\\vimrc"
-'9  115  0  ~\vimfiles\vimrc
-|4,57,115,0,1612696748,"~\\vimfiles\\vimrc"
+'0  90  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,48,90,0,1612700036,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+'1  1  0  ~\vimrc
+|4,49,1,0,1612699874,"~\\vimrc"
+'2  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,50,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+'3  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,51,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+'4  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,52,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+'5  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,53,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+'6  119  0  ~\vimfiles\vimrc
+|4,54,119,0,1612699055,"~\\vimfiles\\vimrc"
+'7  1  0  ~\vimrc
+|4,55,1,0,1612698981,"~\\vimrc"
+'8  118  5  ~\vimfiles\vimrc
+|4,56,118,5,1612698944,"~\\vimfiles\\vimrc"
+'9  118  5  ~\vimfiles\vimrc
+|4,57,118,5,1612698944,"~\\vimfiles\\vimrc"
 
 # Jumplist (dai più recenti):
--'  165  0  ~\vimfiles\vimrc
-|4,39,165,0,1612697006,"~\\vimfiles\\vimrc"
--'  3  0  ~\vimfiles\vimrc
-|4,39,3,0,1612696987,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1612696968,"~\\vimfiles\\vimrc"
--'  25  0  ~\vimfiles\vimrc
-|4,39,25,0,1612696963,"~\\vimfiles\\vimrc"
--'  25  0  ~\vimfiles\vimrc
-|4,39,25,0,1612696963,"~\\vimfiles\\vimrc"
--'  2  10  ~\vimfiles\vimrc
-|4,39,2,10,1612696950,"~\\vimfiles\\vimrc"
--'  2  10  ~\vimfiles\vimrc
-|4,39,2,10,1612696950,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1612696940,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\[Plugins]
-|4,39,1,0,1612696894,"~\\vimfiles\\[Plugins]"
--'  1  0  ~\vimfiles\[Plugins]
-|4,39,1,0,1612696894,"~\\vimfiles\\[Plugins]"
--'  1  0  ~\vimfiles\[Plugins]
-|4,39,1,0,1612696894,"~\\vimfiles\\[Plugins]"
--'  1  0  ~\vimfiles\[Plugins]
-|4,39,1,0,1612696894,"~\\vimfiles\\[Plugins]"
--'  2  0  ~\vimfiles\[Plugins]
-|4,39,2,0,1612696892,"~\\vimfiles\\[Plugins]"
--'  2  0  ~\vimfiles\[Plugins]
-|4,39,2,0,1612696892,"~\\vimfiles\\[Plugins]"
--'  2  0  ~\vimfiles\[Plugins]
-|4,39,2,0,1612696892,"~\\vimfiles\\[Plugins]"
--'  2  0  ~\vimfiles\[Plugins]
-|4,39,2,0,1612696892,"~\\vimfiles\\[Plugins]"
--'  5  0  ~\vimfiles\[Plugins]
-|4,39,5,0,1612696891,"~\\vimfiles\\[Plugins]"
--'  3  0  ~\vimfiles\[Plugins]
-|4,39,3,0,1612696891,"~\\vimfiles\\[Plugins]"
--'  5  0  ~\vimfiles\[Plugins]
-|4,39,5,0,1612696891,"~\\vimfiles\\[Plugins]"
--'  3  0  ~\vimfiles\[Plugins]
-|4,39,3,0,1612696891,"~\\vimfiles\\[Plugins]"
--'  5  0  ~\vimfiles\[Plugins]
-|4,39,5,0,1612696891,"~\\vimfiles\\[Plugins]"
--'  3  0  ~\vimfiles\[Plugins]
-|4,39,3,0,1612696891,"~\\vimfiles\\[Plugins]"
--'  5  0  ~\vimfiles\[Plugins]
-|4,39,5,0,1612696891,"~\\vimfiles\\[Plugins]"
--'  3  0  ~\vimfiles\[Plugins]
-|4,39,3,0,1612696891,"~\\vimfiles\\[Plugins]"
--'  112  0  ~\vimfiles\vimrc
-|4,39,112,0,1612696890,"~\\vimfiles\\vimrc"
--'  112  0  ~\vimfiles\vimrc
-|4,39,112,0,1612696890,"~\\vimfiles\\vimrc"
--'  112  0  ~\vimfiles\vimrc
-|4,39,112,0,1612696890,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1612696869,"~\\vimfiles\\vimrc"
--'  113  0  ~\vimfiles\vimrc
-|4,39,113,0,1612696748,"~\\vimfiles\\vimrc"
--'  115  0  ~\vimfiles\vimrc
-|4,39,115,0,1612696748,"~\\vimfiles\\vimrc"
--'  113  0  ~\vimfiles\vimrc
-|4,39,113,0,1612696748,"~\\vimfiles\\vimrc"
--'  115  0  ~\vimfiles\vimrc
-|4,39,115,0,1612696748,"~\\vimfiles\\vimrc"
--'  113  0  ~\vimfiles\vimrc
-|4,39,113,0,1612696748,"~\\vimfiles\\vimrc"
--'  115  0  ~\vimfiles\vimrc
-|4,39,115,0,1612696748,"~\\vimfiles\\vimrc"
--'  115  0  ~\vimfiles\vimrc
-|4,39,115,0,1612696748,"~\\vimfiles\\vimrc"
--'  115  0  ~\vimfiles\vimrc
-|4,39,115,0,1612696748,"~\\vimfiles\\vimrc"
--'  115  0  ~\vimfiles\vimrc
-|4,39,115,0,1612696748,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1612696657,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1612696657,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1612696657,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1612696657,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1612696628,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1612696628,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1612696628,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1612696628,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1612696628,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1612696628,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1612696628,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1612696628,"~\\vimfiles\\vimrc"
--'  117  60  ~\vimfiles\vimrc
-|4,39,117,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  117  60  ~\vimfiles\vimrc
-|4,39,117,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  117  60  ~\vimfiles\vimrc
-|4,39,117,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  119  60  ~\vimfiles\vimrc
-|4,39,119,60,1612696567,"~\\vimfiles\\vimrc"
--'  83  2  ~\vimfiles\vimrc
-|4,39,83,2,1612696541,"~\\vimfiles\\vimrc"
--'  83  2  ~\vimfiles\vimrc
-|4,39,83,2,1612696541,"~\\vimfiles\\vimrc"
--'  83  2  ~\vimfiles\vimrc
-|4,39,83,2,1612696541,"~\\vimfiles\\vimrc"
--'  83  2  ~\vimfiles\vimrc
-|4,39,83,2,1612696541,"~\\vimfiles\\vimrc"
--'  83  2  ~\vimfiles\vimrc
-|4,39,83,2,1612696541,"~\\vimfiles\\vimrc"
--'  83  2  ~\vimfiles\vimrc
-|4,39,83,2,1612696541,"~\\vimfiles\\vimrc"
--'  83  2  ~\vimfiles\vimrc
-|4,39,83,2,1612696541,"~\\vimfiles\\vimrc"
--'  83  2  ~\vimfiles\vimrc
-|4,39,83,2,1612696541,"~\\vimfiles\\vimrc"
--'  83  2  ~\vimfiles\vimrc
-|4,39,83,2,1612696541,"~\\vimfiles\\vimrc"
--'  83  2  ~\vimfiles\vimrc
-|4,39,83,2,1612696541,"~\\vimfiles\\vimrc"
--'  83  2  ~\vimfiles\vimrc
-|4,39,83,2,1612696541,"~\\vimfiles\\vimrc"
--'  83  2  ~\vimfiles\vimrc
-|4,39,83,2,1612696541,"~\\vimfiles\\vimrc"
--'  83  2  ~\vimfiles\vimrc
-|4,39,83,2,1612696541,"~\\vimfiles\\vimrc"
--'  83  2  ~\vimfiles\vimrc
-|4,39,83,2,1612696541,"~\\vimfiles\\vimrc"
--'  83  2  ~\vimfiles\vimrc
-|4,39,83,2,1612696541,"~\\vimfiles\\vimrc"
--'  83  2  ~\vimfiles\vimrc
-|4,39,83,2,1612696541,"~\\vimfiles\\vimrc"
--'  83  2  ~\vimfiles\vimrc
-|4,39,83,2,1612696541,"~\\vimfiles\\vimrc"
--'  83  2  ~\vimfiles\vimrc
-|4,39,83,2,1612696541,"~\\vimfiles\\vimrc"
+-'  90  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,90,0,1612700036,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612700009,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\vimrc
+|4,39,1,0,1612699874,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1612699874,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1612699874,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1612699874,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1612699874,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1612699874,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1612699874,"~\\vimrc"
+-'  1  0  ~\vimrc
+|4,39,1,0,1612699874,"~\\vimrc"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699179,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  1  0  ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+|4,39,1,0,1612699149,"~\\AppData\\Local\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\LocalState\\settings.json"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
+-'  119  0  ~\vimfiles\vimrc
+|4,39,119,0,1612699055,"~\\vimfiles\\vimrc"
 
 # Storia dei mark all'interno dei file (dai più recenti ai meno recenti):
 
-> ~\vimfiles\vimrc
-	*	1612697005	0
-	"	165	0
-	^	117	61
-	.	112	0
-	+	148	0
-	+	106	28
-	+	148	12
-	+	148	26
-	+	148	0
-	+	148	66
-	+	148	73
-	+	148	0
-	+	148	5
-	+	124	0
-	+	125	0
-	+	106	5
-	+	106	1
-	+	109	0
-	+	75	0
-	+	74	0
-	+	75	0
-	+	148	0
-	+	148	9
-	+	112	2
-	+	114	0
-	+	111	0
-	+	112	0
-	+	106	1
-	+	106	34
-	+	106	33
-	+	107	3
-	+	107	0
-	+	109	0
-	+	107	47
-	+	148	0
-	+	147	0
-	+	148	0
-	+	65	1
-	+	62	0
-	+	46	12
-	+	47	41
-	+	46	35
-	+	47	41
-	+	52	1
-	+	48	41
-	+	49	23
-	+	50	100
-	+	50	83
-	+	51	51
-	+	149	67
-	+	150	0
-	+	155	0
-	+	156	0
-	+	160	0
-	+	161	0
-	+	162	0
-	+	167	0
-	+	179	0
-	+	52	1
-	+	52	0
-	+	57	0
-	+	126	1
-	+	123	25
-	+	51	71
-	+	180	0
-	+	186	0
-	+	126	1
-	+	68	1
-	+	57	0
-	+	55	0
-	+	56	0
-	+	112	0
-	+	112	20
-	+	112	0
-	+	112	31
-	+	126	0
-	+	93	0
-	+	93	18
-	+	93	0
-	+	117	0
-	+	93	0
-	+	117	6
-	+	117	54
-	+	93	0
-	+	126	0
-	+	112	0
-	+	78	72
-	+	78	19
-	+	117	0
-	+	114	0
-	+	112	30
-	+	89	19
-	+	90	15
-	+	90	22
-	+	90	15
-	+	91	0
-	+	90	22
-	+	78	0
-	+	117	66
-	+	119	0
-	+	117	60
-	+	90	4
-	+	113	0
-	+	112	0
-
-> ~\vimfiles\colors\bobafett.vim
-	*	1612695831	0
-	"	1	0
-	^	73	1
-	.	73	0
-	+	1	0
-	+	1	39
-	+	1	0
-	+	1	5
-	+	1	0
-	+	1	39
-	+	1	0
-	+	1	28
-	+	1	0
-	+	73	0
-
-> ~\vimfiles\colors\boba.vim
-	*	1612693072	0
-	"	20	19
-	^	20	20
-	.	21	0
-	+	1	0
-	+	2	0
-	+	3	0
-	+	4	0
-	+	5	0
-	+	6	0
-	+	7	0
-	+	8	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	12	0
-	+	13	0
-	+	14	0
-	+	15	0
-	+	16	0
-	+	17	0
-	+	18	0
-	+	19	0
-	+	20	20
-	+	21	0
-
 > ~\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
-	*	1612692924	0
-	"	281	4
-	.	34	23
+	*	1612700035	0
+	"	90	0
+	^	65	34
+	.	65	39
 	+	132	1
 	+	112	3
 	+	132	5
@@ -760,6 +612,161 @@ $#458588
 	+	282	0
 	+	32	0
 	+	34	23
+	+	65	21
+	+	65	39
+
+> ~\vimrc
+	*	1612699872	0
+	"	1	0
+
+> ~\vimfiles\vimrc
+	*	1612699054	0
+	"	119	0
+	^	119	0
+	.	118	73
+	+	149	0
+	+	149	5
+	+	125	0
+	+	126	0
+	+	106	5
+	+	106	1
+	+	109	0
+	+	75	0
+	+	74	0
+	+	75	0
+	+	149	0
+	+	149	9
+	+	112	2
+	+	114	0
+	+	111	0
+	+	112	0
+	+	106	1
+	+	106	34
+	+	106	33
+	+	107	3
+	+	107	0
+	+	109	0
+	+	107	47
+	+	149	0
+	+	148	0
+	+	149	0
+	+	65	1
+	+	62	0
+	+	46	12
+	+	47	41
+	+	46	35
+	+	47	41
+	+	52	1
+	+	48	41
+	+	49	23
+	+	50	100
+	+	50	83
+	+	51	51
+	+	150	67
+	+	151	0
+	+	156	0
+	+	157	0
+	+	161	0
+	+	162	0
+	+	163	0
+	+	168	0
+	+	180	0
+	+	52	1
+	+	52	0
+	+	57	0
+	+	127	1
+	+	124	25
+	+	51	71
+	+	181	0
+	+	187	0
+	+	127	1
+	+	68	1
+	+	57	0
+	+	55	0
+	+	56	0
+	+	112	0
+	+	112	20
+	+	112	0
+	+	112	31
+	+	127	0
+	+	93	0
+	+	93	18
+	+	93	0
+	+	117	0
+	+	93	0
+	+	117	6
+	+	117	54
+	+	93	0
+	+	127	0
+	+	112	0
+	+	78	72
+	+	78	19
+	+	117	0
+	+	114	0
+	+	112	30
+	+	89	19
+	+	90	15
+	+	90	22
+	+	90	15
+	+	91	0
+	+	90	22
+	+	78	0
+	+	117	66
+	+	120	0
+	+	117	60
+	+	90	4
+	+	113	0
+	+	112	0
+	+	130	0
+	+	117	0
+	+	118	0
+	+	117	62
+	+	118	5
+	+	117	0
+	+	118	73
+
+> ~\vimfiles\colors\bobafett.vim
+	*	1612695831	0
+	"	1	0
+	^	73	1
+	.	73	0
+	+	1	0
+	+	1	39
+	+	1	0
+	+	1	5
+	+	1	0
+	+	1	39
+	+	1	0
+	+	1	28
+	+	1	0
+	+	73	0
+
+> ~\vimfiles\colors\boba.vim
+	*	1612693072	0
+	"	20	19
+	^	20	20
+	.	21	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	0
+	+	15	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	19	0
+	+	20	20
+	+	21	0
 
 > C:\Program Files\AMPL\libipoptfort.dll
 	*	1612359299	0
@@ -1013,10 +1020,6 @@ $#458588
 
 > ~\Desktop\vimrc
 	*	1607879989	0
-	"	1	0
-
-> ~\vimrc
-	*	1607856909	0
 	"	1	0
 
 > ~\vimfiles\plugged\YouCompleteMe\install.py

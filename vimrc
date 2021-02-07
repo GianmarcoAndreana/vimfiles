@@ -114,8 +114,9 @@ call plug#end()
 
 
 "******************** Package settings ************************************
-autocmd vimenter * ++nested colorscheme gruvbox " Set Gruvbox colorscheme
-set termguicolors
+autocmd ColorScheme * highlight Normal ctermbg=NONE guibg=NONE
+"autocmd vimenter * ++nested colorscheme gruvbox " Set Gruvbox colorscheme
+set notermguicolors
 " ALE settings
 let g:ale_linters = {
       \   'python': ['flake8', 'pylint'],

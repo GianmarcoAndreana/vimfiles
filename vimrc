@@ -86,10 +86,10 @@ endif
 " Vim-Plug plugins
 call plug#begin('~/vimfiles/plugged')
 
+"Gruvbox colorscheme
+Plug 'morhetz/gruvbox' 
 " NERDtree file browser
 Plug 'scrooloose/nerdtree'
-" Nord colorscheme
-Plug 'arcticicestudio/nord-vim'
 " Airline
 Plug 'vim-airline/vim-airline'
 " Folding plugin
@@ -109,15 +109,12 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'lervag/vimtex'
 " Vim Wiki
 Plug 'vimwiki/vimwiki'
-" Haskell support
-Plug 'neovimhaskell/haskell-vim'
 
 call plug#end()
 
 
 "******************** Package settings ************************************
-" Nord settings
-autocmd vimenter * ++nested colorscheme nord " Set Nord colorscheme
+autocmd vimenter * ++nested colorscheme gruvbox " Set Gruvbox colorscheme
 set termguicolors
 " ALE settings
 let g:ale_linters = {
@@ -126,23 +123,6 @@ let g:ale_linters = {
 " Airline uses Powerline 
 let g:airline_powerline_fonts = 1
 set noshowmode
-" Haskell
-let g:haskell_enable_quantification = 1   " to enable highlighting of `forall`
-let g:haskell_enable_recursivedo = 1      " to enable highlighting of `mdo` and `rec`
-let g:haskell_enable_arrowsyntax = 1      " to enable highlighting of `proc`
-let g:haskell_enable_pattern_synonyms = 1 " to enable highlighting of `pattern`
-let g:haskell_enable_typeroles = 1        " to enable highlighting of type roles
-let g:haskell_enable_static_pointers = 1  " to enable highlighting of `static`
-let g:haskell_backpack = 1                " to enable highlighting of backpack keywords
-let g:haskell_indent_if = 3
-let g:haskell_indent_case = 2
-let g:haskell_indent_let = 4
-let g:haskell_indent_where = 6
-let g:haskell_indent_before_where = 2
-let g:haskell_indent_after_bare_where = 2
-let g:haskell_indent_do = 3
-let g:haskell_indent_in = 1
-let g:haskell_indent_guard = 2
 "******************** Remapped key-bindings *******************************
 " Easy switching between splits using ctrl in normal mode
 nnoremap <C-J> <C-W><C-J>

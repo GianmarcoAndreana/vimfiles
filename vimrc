@@ -86,8 +86,13 @@ endif
 " Vim-Plug plugins
 call plug#begin('~/vimfiles/plugged')
 
-"Gruvbox colorscheme
-Plug 'morhetz/gruvbox' 
+"Colorscheme
+Plug 'colepeters/spacemacs-theme.vim'
+Plug 'sainnhe/gruvbox-material'
+Plug 'phanviet/vim-monokai-pro'
+Plug 'flazz/vim-colorschemes'
+Plug 'chriskempson/base16-vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
 " NERDtree file browser
 Plug 'scrooloose/nerdtree'
 " Airline
@@ -114,9 +119,10 @@ call plug#end()
 
 
 "******************** Package settings ************************************
-autocmd ColorScheme * highlight Normal ctermbg=NONE guibg=NONE
-"autocmd vimenter * ++nested colorscheme gruvbox " Set Gruvbox colorscheme
-set notermguicolors
+"autocmd ColorScheme * highlight Normal ctermbg=NONE guibg=NONE " use when no background"
+autocmd vimenter * ++nested colorscheme gruvbox-material " Set Gruvbox colorscheme
+set termguicolors " set to termguicolors when there is a background"
+"set notermguicolors
 " ALE settings
 let g:ale_linters = {
       \   'python': ['flake8', 'pylint'],

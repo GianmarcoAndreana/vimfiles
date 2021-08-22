@@ -86,13 +86,10 @@ endif
 " Vim-Plug plugins
 call plug#begin('~/vimfiles/plugged')
 
-"Colorscheme
-Plug 'colepeters/spacemacs-theme.vim'
-Plug 'sainnhe/gruvbox-material'
+" Colorscheme
 Plug 'phanviet/vim-monokai-pro'
 Plug 'flazz/vim-colorschemes'
 Plug 'chriskempson/base16-vim'
-Plug 'dracula/vim', { 'as': 'dracula' }
 " NERDtree file browser
 Plug 'scrooloose/nerdtree'
 " Airline
@@ -110,7 +107,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 " Intellisense ConquerOfCompletion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-"LaTex support
+" LaTex support
 Plug 'lervag/vimtex'
 " Vim Wiki
 Plug 'vimwiki/vimwiki'
@@ -119,10 +116,12 @@ call plug#end()
 
 
 "******************** Package settings ************************************
-"autocmd ColorScheme * highlight Normal ctermbg=NONE guibg=NONE " use when no background"
-autocmd vimenter * ++nested colorscheme gruvbox-material " Set Gruvbox colorscheme
+"Colorschemes
 set termguicolors " set to termguicolors when there is a background"
 "set notermguicolors
+colorscheme molokai
+let g:rehash256 = 1
+
 " ALE settings
 let g:ale_linters = {
       \   'python': ['flake8', 'pylint'],

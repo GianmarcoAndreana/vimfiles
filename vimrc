@@ -90,6 +90,7 @@ call plug#begin('~/vimfiles/plugged')
 Plug 'phanviet/vim-monokai-pro'
 Plug 'flazz/vim-colorschemes'
 Plug 'chriskempson/base16-vim'
+Plug 'altercation/vim-colors-solarized'
 " NERDtree file browser
 Plug 'scrooloose/nerdtree'
 " Airline

@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Ult. Espressione di Ricerca:
-~MSle0~/set t
+~MSle0~/color
 
 # Ult. Sostituzione Espressione di Ricerca:
 ~MSle0&#7DAEA3
@@ -20,16 +20,24 @@
 $#458588
 
 # Riga-di-comando Storia (da più recente a meno recente):
-:q!
-|2,0,1629638269,,"q!"
 :q
-|2,0,1629638266,,"q"
+|2,0,1638120537,,"q"
+:w
+|2,0,1638120532,,"w"
+:PlugInstall
+|2,0,1638120491,,"PlugInstall"
+:q!
+|2,0,1638120384,,"q!"
+:w\
+|2,0,1638119699,,"w\\"
+:w gvimrc
+|2,0,1638119273,,"w gvimrc"
+:Q
+|2,0,1638119021,,"Q"
 :a
 |2,0,1629638240,,"a"
 :G
 |2,0,1629638203,,"G"
-:w
-|2,0,1629638196,,"w"
 :w backup.bat
 |2,0,1627816772,,"w backup.bat"
 :PlugUpdate
@@ -46,8 +54,6 @@ $#458588
 |2,0,1627200268,,"v"
 :nw
 |2,0,1627200045,,"nw"
-:Q
-|2,0,1627199331,,"Q"
 :wq
 |2,0,1627199051,,"wq"
 :"q
@@ -100,8 +106,6 @@ $#458588
 |2,0,1615797923,,"e colors.vim"
 :q\
 |2,0,1615797366,,"q\\"
-:PlugInstall
-|2,0,1615797239,,"PlugInstall"
 :e vimfiles/vimrc
 |2,0,1615796755,,"e vimfiles/vimrc"
 :qw
@@ -116,12 +120,12 @@ $#458588
 |2,0,1615753404,,"e vimrc"
 :cd vimfiles
 |2,0,1615753392,,"cd vimfiles"
-:cd ~/vimfiles/vimrc
-|2,0,1615753361,,"cd ~/vimfiles/vimrc"
-:cd vimfiles\vimrc
-|2,0,1615753342,,"cd vimfiles\\vimrc"
 
 # Stringa di Ricerca Storia (da più recente a meno recente):
+?/color
+|2,1,1638120442,47,"color"
+?/plug
+|2,1,1638120227,47,"plug"
 ?/set t
 |2,1,1629638094,47,"set t"
 ?/molokai
@@ -186,10 +190,6 @@ $#458588
 |2,1,1615798414,47,"term"
 ?/gruvbox
 |2,1,1615798252,47,"gruvbox"
-?/color
-|2,1,1615798123,47,"color"
-?/plug
-|2,1,1615797296,47,"plug"
 ?//
 |2,1,1615753236,47,"/"
 ?/ojrq
@@ -242,268 +242,399 @@ $#458588
 	directOthers[i,j,t,c]) *zO))-beta2[t]*fareOthers[i,j,t,c])))
 |3,0,0,0,7,0,1629355560,"(exp(beta0[t]*direct[i,j,t]+beta1[t]*log(1+(direct[i,j,t]*frequency[\\","LEG1[i,j,t]]+(1-direct[i,j,t])*z[i,j,t])))-beta2[t]*fare[i,j,t])/(1+\\","exp(beta0[t]*direct[i,j,t]+beta1[t]*log(1+(direct[i,j,t]*frequency[\\","LEG1[i,j,t]]+(1-direct[i,j,t])*z[i,j,t]))-beta2[t]*fare[i,j,t])+sum{\\","c in COMPETITORS}(exp(beta0[t]*directOthers[i,j,t,c]+beta1[t]*log(1+(\\","directOthers[i,j,t,c]*frequencyOthers[LEG1others[i,j,t,c],c]+(1-\\",>62
 |<"directOthers[i,j,t,c]) *zO))-beta2[t]*fareOthers[i,j,t,c])))"
-"1	LINE	0
-	"autocmd vimenter * ++nested colorscheme gruvbox-material " Set Gruvbox colorscheme
-|3,0,1,1,1,0,1629638175,"\"autocmd vimenter * ++nested colorscheme gruvbox-material \" Set Gruvbox colorscheme"
+"1	CHAR	0
+	'~/vimfiles/plugged')
+	 altercation /
+	
+|3,0,1,0,3,0,1638120248,"'~/vimfiles/plugged')"," altercation /",""
 "2	LINE	0
-	"autocmd ColorScheme * highlight Normal ctermbg=NONE guibg=NONE " use when no background"
-|3,0,2,1,1,0,1629638108,"\"autocmd ColorScheme * highlight Normal ctermbg=NONE guibg=NONE \" use when no background\""
+	"autocmd vimenter * ++nested colorscheme gruvbox-material " Set Gruvbox colorscheme
+|3,0,2,1,1,0,1629638175,"\"autocmd vimenter * ++nested colorscheme gruvbox-material \" Set Gruvbox colorscheme"
 "3	LINE	0
-	Plug 'sainnhe/gruvbox-material'
-|3,0,3,1,1,0,1629637857,"Plug 'sainnhe/gruvbox-material'"
+	"autocmd ColorScheme * highlight Normal ctermbg=NONE guibg=NONE " use when no background"
+|3,0,3,1,1,0,1629638108,"\"autocmd ColorScheme * highlight Normal ctermbg=NONE guibg=NONE \" use when no background\""
 "4	LINE	0
-	Plug 'colepeters/spacemacs-theme.vim'
-|3,0,4,1,1,0,1629637856,"Plug 'colepeters/spacemacs-theme.vim'"
+	Plug 'sainnhe/gruvbox-material'
+|3,0,4,1,1,0,1629637857,"Plug 'sainnhe/gruvbox-material'"
 "5	LINE	0
-	Plug 'dracula/vim', { 'as': 'dracula' }
-|3,0,5,1,1,0,1629637833,"Plug 'dracula/vim', { 'as': 'dracula' }"
+	Plug 'colepeters/spacemacs-theme.vim'
+|3,0,5,1,1,0,1629637856,"Plug 'colepeters/spacemacs-theme.vim'"
 "6	LINE	0
-	PAUSE
-|3,0,6,1,1,0,1628164208,"PAUSE"
+	Plug 'dracula/vim', { 'as': 'dracula' }
+|3,0,6,1,1,0,1629637833,"Plug 'dracula/vim', { 'as': 'dracula' }"
 "7	LINE	0
-	exit
-|3,0,7,1,1,0,1628163918,"exit"
+	PAUSE
+|3,0,7,1,1,0,1628164208,"PAUSE"
 "8	LINE	0
+	exit
+|3,0,8,1,1,0,1628163918,"exit"
+"9	LINE	0
 	452
 <"2647216",London Heathrow Airport,London Heathrow Airport,"Aerfort Londain-Heathrow,Aerodrom Khitrou,Aeroport de Londres Heathrow,Aeroport de Londres-Heathrow,Aeroporto de Heathrow,Aeroporto de Londres Heathrow,Aeroporto di Londra-Heathrow,Aeroportul Londra Heathrow,Aeropuerto London Heathrow,Aeropuerto de Londr",51.471150000000002,-0.456490000000000,S,AIRP,GB,,ENG,GLA,F9,,"0",,"27",Europe/London,2010-08-03,5606,221938.326960802,39.5894268570821
 	"3345295",Cardiff International Airport,Cardiff International Airport,"CWL,Cardiff Airport,Cardiff Wales Airport,EGFF",51.396670000000000,-3.343330000000000,S,AIRP,GB,GB,WLS,Z3,,,"0","67","65",Europe/London,2007-11-07,5614,31236.619138752,5.56405755944995
-|3,0,8,1,2,0,1626962709,>459
+|3,0,9,1,2,0,1626962709,>459
 |<"\"2647216\",London Heathrow Airport,London Heathrow Airport,\"Aerfort Londain-Heathrow,Aerodrom Khitrou,Aeroport de Londres Heathrow,Aeroport de Londres-Heathrow,Aeroporto de Heathrow,Aeroporto de Londres Heathrow,Aeroporto di Londra-Heathrow,Aeroportul Londra Heathrow,Aeropuerto London Heathrow,Aeropuerto de Londr\",51.471150000000002,-0.456490000000000,S,AIRP,GB,,ENG,GLA,F9,,\"0\",,\"27\",Europe/London,2010-08-03,5606,221938.326960802,39.5894268570821",>267
 |<"\"3345295\",Cardiff International Airport,Cardiff International Airport,\"CWL,Cardiff Airport,Cardiff Wales Airport,EGFF\",51.396670000000000,-3.343330000000000,S,AIRP,GB,GB,WLS,Z3,,,\"0\",\"67\",\"65\",Europe/London,2007-11-07,5614,31236.619138752,5.56405755944995"
-"9	LINE	0
-	
-	261
-<"6296573",Coventry Airport,Coventry Airport,"CVT,EGBE,Koventri,Port lotniczy Coventry,ÐÐ¾Ð²ÐµÐ½ÑÑÐ¸",52.369720000000001,-1.479720000000000,S,AIRP,GB,,ENG,P3,44UF,,"0","81","83",Europe/London,2010-05-24,5496,65355.608599782,11.8914862808919
-|3,0,9,1,2,0,1626961345,"","\"6296573\",Coventry Airport,Coventry Airport,\"CVT,EGBE,Koventri,Port lotniczy Coventry,ÐÐ¾Ð²ÐµÐ½ÑÑÐ¸\",52.369720000000001,-1.479720000000000,S,AIRP,GB,,ENG,P3,44UF,,\"0\",\"81\",\"83\",Europe/London,2010-05-24,5496,65355.608599782,11.8914862808919"
 ""-	CHAR	0
-	q
-|3,1,36,0,1,0,1629638253,"q"
+	)
+|3,1,36,0,1,0,1638120272,")"
 
 # File mark:
-'0  2  0  ~\vimfiles\tmp\viminfo
-|4,48,2,0,1629638269,"~\\vimfiles\\tmp\\viminfo"
-'1  123  0  ~\vimfiles\vimrc
-|4,49,123,0,1629638157,"~\\vimfiles\\vimrc"
-'2  124  0  ~\vimfiles\vimrc
-|4,50,124,0,1629638157,"~\\vimfiles\\vimrc"
-'3  122  0  ~\vimfiles\vimrc
-|4,51,122,0,1629638052,"~\\vimfiles\\vimrc"
-'4  123  0  ~\vimfiles\vimrc
-|4,52,123,0,1629638052,"~\\vimfiles\\vimrc"
-'5  123  0  ~\vimfiles\vimrc
-|4,53,123,0,1629638052,"~\\vimfiles\\vimrc"
-'6  124  0  ~\vimfiles\vimrc
-|4,54,124,0,1629638052,"~\\vimfiles\\vimrc"
-'7  122  0  ~\vimfiles\vimrc
-|4,55,122,0,1629637947,"~\\vimfiles\\vimrc"
-'8  123  0  ~\vimfiles\vimrc
-|4,56,123,0,1629637947,"~\\vimfiles\\vimrc"
-'9  123  0  ~\vimfiles\vimrc
-|4,57,123,0,1629637947,"~\\vimfiles\\vimrc"
+'0  1  0  ~\vimfiles\gvimrc
+|4,48,1,0,1638120548,"~\\vimfiles\\gvimrc"
+'1  3  0  ~\vimfiles\gvimrc
+|4,49,3,0,1638120537,"~\\vimfiles\\gvimrc"
+'2  3  0  ~\vimfiles\gvimrc
+|4,50,3,0,1638120537,"~\\vimfiles\\gvimrc"
+'3  1  0  ~\vimfiles\vimrc
+|4,51,1,0,1638120500,"~\\vimfiles\\vimrc"
+'4  93  38  ~\vimfiles\vimrc
+|4,52,93,38,1638120483,"~\\vimfiles\\vimrc"
+'5  93  38  ~\vimfiles\vimrc
+|4,53,93,38,1638120483,"~\\vimfiles\\vimrc"
+'6  1  0  ~\vimfiles\gvimrc
+|4,54,1,0,1638120428,"~\\vimfiles\\gvimrc"
+'7  1  0  ~\vimfiles\gvimrc
+|4,55,1,0,1638120428,"~\\vimfiles\\gvimrc"
+'8  1  0  ~\vimfiles\gvimrc
+|4,56,1,0,1638120428,"~\\vimfiles\\gvimrc"
+'9  1  0  ~\vimfiles\gvimrc
+|4,57,1,0,1638120392,"~\\vimfiles\\gvimrc"
 
 # Jumplist (dai più recenti):
--'  2  0  ~\vimfiles\tmp\viminfo
-|4,39,2,0,1629638269,"~\\vimfiles\\tmp\\viminfo"
--'  22  0  ~\vimfiles\.git\index
-|4,39,22,0,1629638263,"~\\vimfiles\\.git\\index"
--'  120  2  ~\vimfiles\vimrc
-|4,39,120,2,1629638203,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\gvimrc
+|4,39,1,0,1638120548,"~\\vimfiles\\gvimrc"
+-'  3  0  ~\vimfiles\gvimrc
+|4,39,3,0,1638120537,"~\\vimfiles\\gvimrc"
+-'  3  0  ~\vimfiles\gvimrc
+|4,39,3,0,1638120537,"~\\vimfiles\\gvimrc"
+-'  1  0  ~\vimfiles\gvimrc
+|4,39,1,0,1638120503,"~\\vimfiles\\gvimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1629638159,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1629638157,"~\\vimfiles\\vimrc"
--'  124  0  ~\vimfiles\vimrc
-|4,39,124,0,1629638157,"~\\vimfiles\\vimrc"
--'  122  35  ~\vimfiles\vimrc
-|4,39,122,35,1629638144,"~\\vimfiles\\vimrc"
--'  123  35  ~\vimfiles\vimrc
-|4,39,123,35,1629638144,"~\\vimfiles\\vimrc"
--'  121  0  ~\vimfiles\vimrc
-|4,39,121,0,1629638099,"~\\vimfiles\\vimrc"
--'  40  0  ~\vimfiles\vimrc
-|4,39,40,0,1629638098,"~\\vimfiles\\vimrc"
--'  40  0  ~\vimfiles\vimrc
-|4,39,40,0,1629638098,"~\\vimfiles\\vimrc"
+|4,39,1,0,1638120500,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1629638053,"~\\vimfiles\\vimrc"
--'  124  0  ~\vimfiles\vimrc
-|4,39,124,0,1629638052,"~\\vimfiles\\vimrc"
--'  147  0  ~\vimfiles\vimrc
-|4,39,147,0,1629638041,"~\\vimfiles\\vimrc"
--'  148  0  ~\vimfiles\vimrc
-|4,39,148,0,1629638041,"~\\vimfiles\\vimrc"
--'  148  0  ~\vimfiles\vimrc
-|4,39,148,0,1629638041,"~\\vimfiles\\vimrc"
+|4,39,1,0,1638120500,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1629637949,"~\\vimfiles\\vimrc"
--'  124  0  ~\vimfiles\vimrc
-|4,39,124,0,1629637947,"~\\vimfiles\\vimrc"
+|4,39,1,0,1638120500,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1629637816,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\.vimrc
-|4,39,1,0,1629637811,"~\\vimfiles\\.vimrc"
--'  1  0  ~\vimfiles\.vimrc
-|4,39,1,0,1629637811,"~\\vimfiles\\.vimrc"
--'  1  0  ~\vimfiles\.vimrc
-|4,39,1,0,1629637811,"~\\vimfiles\\.vimrc"
--'  1  0  ~\vimfiles\.vimrc
-|4,39,1,0,1629637811,"~\\vimfiles\\.vimrc"
--'  1  0  ~\vimfiles\.vimrc
-|4,39,1,0,1629637811,"~\\vimfiles\\.vimrc"
--'  1  0  ~\vimfiles\.vimrc
-|4,39,1,0,1629637811,"~\\vimfiles\\.vimrc"
--'  1  0  ~\vimfiles\.vimrc
-|4,39,1,0,1629637811,"~\\vimfiles\\.vimrc"
--'  1  0  ~\vimfiles\.vimrc
-|4,39,1,0,1629637811,"~\\vimfiles\\.vimrc"
--'  1  0  ~\vimfiles\.vimrc
-|4,39,1,0,1629637811,"~\\vimfiles\\.vimrc"
--'  1  0  ~\vimfiles\.vimrc
-|4,39,1,0,1629637811,"~\\vimfiles\\.vimrc"
--'  1  0  ~\vimfiles\.vimrc
-|4,39,1,0,1629637811,"~\\vimfiles\\.vimrc"
--'  1  0  ~\vimfiles\.vimrc
-|4,39,1,0,1629637811,"~\\vimfiles\\.vimrc"
--'  1  0  ~\vimfiles\.vimrc
-|4,39,1,0,1629637811,"~\\vimfiles\\.vimrc"
--'  1  0  ~\vimfiles\.vimrc
-|4,39,1,0,1629637811,"~\\vimfiles\\.vimrc"
--'  1  0  ~\vimfiles\.vimrc
-|4,39,1,0,1629637811,"~\\vimfiles\\.vimrc"
--'  1  0  ~\vimfiles\.vimrc
-|4,39,1,0,1629637811,"~\\vimfiles\\.vimrc"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
--'  2  0  ~\Documenti\PowerShell\backup.bat
-|4,39,2,0,1628164221,"~\\Documenti\\PowerShell\\backup.bat"
+|4,39,1,0,1638120500,"~\\vimfiles\\vimrc"
+-'  93  38  ~\vimfiles\vimrc
+|4,39,93,38,1638120483,"~\\vimfiles\\vimrc"
+-'  93  38  ~\vimfiles\vimrc
+|4,39,93,38,1638120483,"~\\vimfiles\\vimrc"
+-'  93  38  ~\vimfiles\vimrc
+|4,39,93,38,1638120483,"~\\vimfiles\\vimrc"
+-'  93  38  ~\vimfiles\vimrc
+|4,39,93,38,1638120483,"~\\vimfiles\\vimrc"
+-'  93  38  ~\vimfiles\vimrc
+|4,39,93,38,1638120483,"~\\vimfiles\\vimrc"
+-'  93  38  ~\vimfiles\vimrc
+|4,39,93,38,1638120483,"~\\vimfiles\\vimrc"
+-'  93  38  ~\vimfiles\vimrc
+|4,39,93,38,1638120483,"~\\vimfiles\\vimrc"
+-'  93  38  ~\vimfiles\vimrc
+|4,39,93,38,1638120483,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1638120442,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1638120442,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1638120442,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1638120442,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\gvimrc
+|4,39,1,0,1638120428,"~\\vimfiles\\gvimrc"
+-'  1  0  ~\vimfiles\gvimrc
+|4,39,1,0,1638120428,"~\\vimfiles\\gvimrc"
+-'  1  0  ~\vimfiles\gvimrc
+|4,39,1,0,1638120428,"~\\vimfiles\\gvimrc"
+-'  1  0  ~\vimfiles\gvimrc
+|4,39,1,0,1638120428,"~\\vimfiles\\gvimrc"
+-'  1  0  ~\vimfiles\gvimrc
+|4,39,1,0,1638120392,"~\\vimfiles\\gvimrc"
+-'  1  0  ~\vimfiles\gvimrc
+|4,39,1,0,1638120392,"~\\vimfiles\\gvimrc"
+-'  1  0  ~\vimfiles\gvimrc
+|4,39,1,0,1638120392,"~\\vimfiles\\gvimrc"
+-'  1  0  ~\vimfiles\gvimrc
+|4,39,1,0,1638120392,"~\\vimfiles\\gvimrc"
+-'  1  33  ~\vimfiles\gvimrc
+|4,39,1,33,1638120384,"~\\vimfiles\\gvimrc"
+-'  1  33  ~\vimfiles\gvimrc
+|4,39,1,33,1638120384,"~\\vimfiles\\gvimrc"
+-'  1  33  ~\vimfiles\gvimrc
+|4,39,1,33,1638120384,"~\\vimfiles\\gvimrc"
+-'  1  33  ~\vimfiles\gvimrc
+|4,39,1,33,1638120384,"~\\vimfiles\\gvimrc"
+-'  102  11  ~\vimfiles\vimrc
+|4,39,102,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  102  11  ~\vimfiles\vimrc
+|4,39,102,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  102  11  ~\vimfiles\vimrc
+|4,39,102,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  102  11  ~\vimfiles\vimrc
+|4,39,102,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  102  11  ~\vimfiles\vimrc
+|4,39,102,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  102  11  ~\vimfiles\vimrc
+|4,39,102,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  102  11  ~\vimfiles\vimrc
+|4,39,102,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  102  11  ~\vimfiles\vimrc
+|4,39,102,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  101  11  ~\vimfiles\vimrc
+|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
+-'  5  14  ~\vimfiles\gvimrc
+|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
+-'  5  14  ~\vimfiles\gvimrc
+|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
+-'  5  14  ~\vimfiles\gvimrc
+|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
+-'  5  14  ~\vimfiles\gvimrc
+|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
+-'  5  14  ~\vimfiles\gvimrc
+|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
+-'  5  14  ~\vimfiles\gvimrc
+|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
+-'  5  14  ~\vimfiles\gvimrc
+|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
+-'  5  14  ~\vimfiles\gvimrc
+|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
+-'  5  14  ~\vimfiles\gvimrc
+|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
+-'  5  14  ~\vimfiles\gvimrc
+|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
+-'  5  14  ~\vimfiles\gvimrc
+|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
+-'  5  14  ~\vimfiles\gvimrc
+|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
+-'  5  14  ~\vimfiles\gvimrc
+|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
+-'  3  36  ~\vimfiles\gvimrc
+|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
+-'  3  36  ~\vimfiles\gvimrc
+|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
+-'  3  36  ~\vimfiles\gvimrc
+|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
+-'  3  36  ~\vimfiles\gvimrc
+|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
+-'  3  36  ~\vimfiles\gvimrc
+|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
+-'  3  36  ~\vimfiles\gvimrc
+|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
+-'  3  36  ~\vimfiles\gvimrc
+|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
+-'  3  36  ~\vimfiles\gvimrc
+|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
+-'  3  36  ~\vimfiles\gvimrc
+|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
+-'  3  36  ~\vimfiles\gvimrc
+|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
+-'  3  36  ~\vimfiles\gvimrc
+|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
 
 # Storia delle marcature all'interno dei file (dalle più recenti alle meno recenti):
+
+> ~\vimfiles\gvimrc
+	*	1638120542	0
+	"	1	0
+	^	3	0
+	.	3	0
+	+	1	34
+	+	1	50
+	+	1	34
+	+	1	52
+	+	1	34
+	+	1	73
+	+	1	34
+	+	2	0
+	+	3	0
+
+> ~\vimfiles\vimrc
+	*	1638120498	0
+	"	1	0
+	^	93	0
+	.	93	0
+	+	133	0
+	+	96	0
+	+	96	18
+	+	96	0
+	+	120	0
+	+	96	0
+	+	120	6
+	+	120	54
+	+	96	0
+	+	133	0
+	+	115	1
+	+	78	72
+	+	78	19
+	+	120	0
+	+	117	0
+	+	115	31
+	+	89	19
+	+	90	15
+	+	90	22
+	+	90	15
+	+	94	0
+	+	90	22
+	+	78	0
+	+	120	66
+	+	122	0
+	+	120	60
+	+	90	4
+	+	115	0
+	+	115	1
+	+	136	0
+	+	120	0
+	+	121	0
+	+	120	62
+	+	121	5
+	+	120	0
+	+	121	73
+	+	121	4
+	+	120	0
+	+	121	0
+	+	121	62
+	+	120	85
+	+	121	50
+	+	120	64
+	+	121	5
+	+	48	0
+	+	46	0
+	+	48	0
+	+	120	0
+	+	121	0
+	+	120	0
+	+	121	0
+	+	121	22
+	+	121	0
+	+	121	22
+	+	90	0
+	+	94	39
+	+	121	0
+	+	89	1
+	+	121	55
+	+	120	0
+	+	121	0
+	+	7	0
+	+	121	0
+	+	120	0
+	+	121	0
+	+	120	14
+	+	120	15
+	+	120	0
+	+	121	0
+	+	122	3
+	+	122	0
+	+	120	0
+	+	122	0
+	+	121	0
+	+	7	0
+	+	121	31
+	+	121	0
+	+	121	2
+	+	121	0
+	+	123	0
+	+	122	0
+	+	121	0
+	+	122	0
+	+	121	0
+	+	122	0
+	+	120	1
+	+	89	1
+	+	111	1
+	+	114	0
+	+	115	0
+	+	94	0
+	+	90	0
+	+	123	19
+	+	121	0
+	+	123	0
+	+	121	0
+	+	125	0
+	+	123	19
+	+	121	0
+	+	93	0
+
+> ~\vimfiles\NERD_tree_1
+	*	1638120194	0
+	"	14	0
+	.	1	0
+	+	1	0
+
+> ~\=
+	*	1638118871	0
+	"	1	0
 
 > ~\vimfiles\tmp\viminfo
 	*	1629638265	0
@@ -511,111 +642,6 @@ $#458588
 	.	2	0
 	+	3	0
 	+	2	0
-
-> ~\vimfiles\vimrc
-	*	1629638199	0
-	"	120	2
-	^	123	0
-	.	120	0
-	+	132	0
-	+	95	0
-	+	95	18
-	+	95	0
-	+	119	0
-	+	95	0
-	+	119	6
-	+	119	54
-	+	95	0
-	+	132	0
-	+	114	1
-	+	78	72
-	+	78	19
-	+	119	0
-	+	116	0
-	+	114	31
-	+	89	19
-	+	90	15
-	+	90	22
-	+	90	15
-	+	93	0
-	+	90	22
-	+	78	0
-	+	119	66
-	+	121	0
-	+	119	60
-	+	90	4
-	+	114	0
-	+	114	1
-	+	135	0
-	+	119	0
-	+	120	0
-	+	119	62
-	+	120	5
-	+	119	0
-	+	120	73
-	+	120	4
-	+	119	0
-	+	120	0
-	+	120	62
-	+	119	85
-	+	120	50
-	+	119	64
-	+	120	5
-	+	48	0
-	+	46	0
-	+	48	0
-	+	119	0
-	+	120	0
-	+	119	0
-	+	120	0
-	+	120	22
-	+	120	0
-	+	120	22
-	+	90	0
-	+	93	39
-	+	120	0
-	+	89	1
-	+	120	55
-	+	119	0
-	+	120	0
-	+	7	0
-	+	120	0
-	+	119	0
-	+	120	0
-	+	119	14
-	+	119	15
-	+	119	0
-	+	120	0
-	+	121	3
-	+	121	0
-	+	119	0
-	+	121	0
-	+	120	0
-	+	7	0
-	+	120	31
-	+	120	0
-	+	120	2
-	+	120	0
-	+	122	0
-	+	121	0
-	+	120	0
-	+	121	0
-	+	120	0
-	+	121	0
-	+	119	1
-	+	89	1
-	+	110	1
-	+	113	0
-	+	114	0
-	+	93	0
-	+	90	0
-	+	122	19
-	+	120	0
-	+	122	0
-	+	120	0
-	+	124	0
-	+	122	19
-	+	120	0
 
 > ~\vimfiles\.vimrc
 	*	1629637808	0
@@ -1115,15 +1141,6 @@ $#458588
 	+	444	0
 	+	812	5
 
-> ~\vimfiles\gvimrc
-	*	1615752662	0
-	"	16	4
-	^	1	1
-	.	1	1
-	+	1	0
-	+	2	0
-	+	1	1
-
 > ~\Desktop\hosts
 	*	1615581099	0
 	"	317	0
@@ -1333,12 +1350,6 @@ $#458588
 	+	3	32
 	+	4	0
 
-> ~\vimfiles\NERD_tree_1
-	*	1609099599	0
-	"	10	1
-	.	1	0
-	+	1	0
-
 > ~\vimfiles\plugged\coc.nvim\doc\coc.txt
 	*	1609098598	0
 	"	3147	31
@@ -1489,7 +1500,3 @@ $#458588
 > ~\Downloads\A
 	*	1607600262	0
 	"	1	0
-
-> ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Data\Movements\Original\A.csv
-	*	1607596593	0
-	"	151199	89

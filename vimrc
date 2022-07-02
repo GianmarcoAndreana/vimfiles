@@ -87,10 +87,7 @@ endif
 call plug#begin('~/vimfiles/plugged')
 
 " Colorscheme
-Plug 'phanviet/vim-monokai-pro'
-Plug 'flazz/vim-colorschemes'
-Plug 'chriskempson/base16-vim'
-Plug 'altercation/vim-colors-solarized'
+Plug 'sainnhe/sonokai'
 " NERDtree file browser
 Plug 'scrooloose/nerdtree'
 " Airline
@@ -118,10 +115,13 @@ call plug#end()
 
 "******************** Package settings ************************************
 "Colorschemes
-set termguicolors " set to termguicolors when there is a background"
-"set notermguicolors
-colorscheme molokai
-let g:rehash256 = 1
+if has('termguicolors')
+  set termguicolors
+endif
+let g:sonokai_style = 'maia'
+let g:sonokai_better_performance = 1
+let g:airline_theme = 'sonokai'
+colorscheme sonokai
 
 " ALE settings
 let g:ale_linters = {

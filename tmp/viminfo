@@ -1,4 +1,4 @@
-# Questo file viminfo è stato generato da Vim 8.2.
+# Questo file viminfo è stato generato da Vim 9.0.
 # File modificabile, attento a quel che fai!
 
 # Viminfo version
@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Ult. Espressione di Ricerca:
-~MSle0~/color
+~MSle0~/airline
 
 # Ult. Sostituzione Espressione di Ricerca:
 ~MSle0&#7DAEA3
@@ -21,27 +21,53 @@ $#458588
 
 # Riga-di-comando Storia (da più recente a meno recente):
 :q
-|2,0,1638120537,,"q"
+|2,0,1656758778,,"q"
 :w
-|2,0,1638120532,,"w"
+|2,0,1656758776,,"w"
+:AirlineTheme sonokai
+|2,0,1656758469,,"AirlineTheme sonokai"
 :PlugInstall
-|2,0,1638120491,,"PlugInstall"
+|2,0,1656758256,,"PlugInstall"
+:PlugUpgrade
+|2,0,1656669354,,"PlugUpgrade"
+:PlugUpdate
+|2,0,1656669330,,"PlugUpdate"
+:70
+|2,0,1644001692,,"70"
+:w Reviewer comment R1.txt
+|2,0,1643983783,,"w Reviewer comment R1.txt"
+:w reviewer comment R1
+|2,0,1643983737,,"w reviewer comment R1"
+:w!
+|2,0,1640361821,,"w!"
+:w resume.md
+|2,0,1639943288,,"w resume.md"
+:w gh-pages.yml
+|2,0,1639938785,,"w gh-pages.yml"
+:w README.md
+|2,0,1639933606,,"w README.md"
+:W
+|2,0,1639925475,,"W"
+:exit
+|2,0,1639923442,,"exit"
+:w site-map.xml
+|2,0,1639866728,,"w site-map.xml"
+:w Jupyter-lab.bat
+|2,0,1639393832,,"w Jupyter-lab.bat"
+:Q
+|2,0,1638868790,,"Q"
 :q!
 |2,0,1638120384,,"q!"
 :w\
 |2,0,1638119699,,"w\\"
 :w gvimrc
 |2,0,1638119273,,"w gvimrc"
-:Q
-|2,0,1638119021,,"Q"
 :a
 |2,0,1629638240,,"a"
 :G
 |2,0,1629638203,,"G"
 :w backup.bat
 |2,0,1627816772,,"w backup.bat"
-:PlugUpdate
-|2,0,1627544253,,"PlugUpdate"
 :e GDPNearAirports2005.csv
 |2,0,1627200429,,"e GDPNearAirports2005.csv"
 :vs
@@ -58,8 +84,6 @@ $#458588
 |2,0,1627199051,,"wq"
 :"q
 |2,0,1627197958,,"\"q"
-:PlugUpgrade
-|2,0,1627197552,,"PlugUpgrade"
 :1642
 |2,0,1626972133,,"1642"
 :1
@@ -96,32 +120,40 @@ $#458588
 |2,0,1615828920,,"w ~/giamm/desktop/test.py"
 :G push
 |2,0,1615799083,,"G push"
-:G commit -m "fixed colorscheme"
-|2,0,1615799072,,"G commit -m \"fixed colorscheme\""
-:W
-|2,0,1615798882,,"W"
-:Q!
-|2,0,1615798386,,"Q!"
-:e colors.vim
-|2,0,1615797923,,"e colors.vim"
-:q\
-|2,0,1615797366,,"q\\"
-:e vimfiles/vimrc
-|2,0,1615796755,,"e vimfiles/vimrc"
-:qw
-|2,0,1615754233,,"qw"
-:sp
-|2,0,1615754214,,"sp"
-:sv
-|2,0,1615754208,,"sv"
-:e! vimrc
-|2,0,1615753412,,"e! vimrc"
-:e vimrc
-|2,0,1615753404,,"e vimrc"
-:cd vimfiles
-|2,0,1615753392,,"cd vimfiles"
 
 # Stringa di Ricerca Storia (da più recente a meno recente):
+?/airline
+|2,1,1656758406,47,"airline"
+?/julia
+|2,1,1640606514,47,"julia"
+?/lang
+|2,1,1639951293,47,"lang"
+?/menu
+|2,1,1639923840,47,"menu"
+?/about
+|2,1,1639922369,47,"about"
+?/[.menu
+|2,1,1639922331,47,"[.menu"
+?/[menu
+|2,1,1639922321,47,"[menu"
+?/avatar
+|2,1,1639913409,47,"avatar"
+?/ava
+|2,1,1639915019,47,"ava"
+?/avata
+|2,1,1639914486,47,"avata"
+?/bri
+|2,1,1638954699,47,"bri"
+?/Mar
+|2,1,1638954584,47,"Mar"
+?/ma
+|2,1,1638954516,47,"ma"
+?/mark
+|2,1,1638954482,47,"mark"
+?/!+0
+|2,1,1638872962,47,"!+0"
+?/!h
+|2,1,1638872935,47,"!h"
 ?/color
 |2,1,1638120442,47,"color"
 ?/plug
@@ -190,38 +222,6 @@ $#458588
 |2,1,1615798414,47,"term"
 ?/gruvbox
 |2,1,1615798252,47,"gruvbox"
-?//
-|2,1,1615753236,47,"/"
-?/ojrq
-|2,1,1615581076,47,"ojrq"
-?/trade
-|2,1,1615500266,47,"trade"
-?/pirate
-|2,1,1615500259,47,"pirate"
-?/dropbox
-|2,1,1615500247,47,"dropbox"
-?/tc
-|2,1,1615500227,47,"tc"
-?/net
-|2,1,1615500215,47,"net"
-?/tradetracker.net
-|2,1,1615500209,47,"tradetracker.net"
-?/tradetracket
-|2,1,1615500176,47,"tradetracket"
-?/tc.tradetracker.net
-|2,1,1615500156,47,"tc.tradetracker.net"
-?/font
-|2,1,1615390505,47,"font"
-? \<Cascadia\>
-|2,1,1615389650,,"\\<Cascadia\\>"
-?/Boba
-|2,1,1612985513,47,"Boba"
-?/boba
-|2,1,1612985510,47,"boba"
-? \//
-|2,1,1612698419,,"\\//"
-?/gs
-|2,1,1612696950,47,"gs"
 
 # Espressione Storia (da più recente a meno recente):
 
@@ -233,283 +233,277 @@ $#458588
 
 # Registri:
 "0	CHAR	0
-	(exp(beta0[t]*direct[i,j,t]+beta1[t]*log(1+(direct[i,j,t]*frequency[\
-	LEG1[i,j,t]]+(1-direct[i,j,t])*z[i,j,t])))-beta2[t]*fare[i,j,t])/(1+\
-	exp(beta0[t]*direct[i,j,t]+beta1[t]*log(1+(direct[i,j,t]*frequency[\
-	LEG1[i,j,t]]+(1-direct[i,j,t])*z[i,j,t]))-beta2[t]*fare[i,j,t])+sum{\
-	c in COMPETITORS}(exp(beta0[t]*directOthers[i,j,t,c]+beta1[t]*log(1+(\
-	directOthers[i,j,t,c]*frequencyOthers[LEG1others[i,j,t,c],c]+(1-\
-	directOthers[i,j,t,c]) *zO))-beta2[t]*fareOthers[i,j,t,c])))
-|3,0,0,0,7,0,1629355560,"(exp(beta0[t]*direct[i,j,t]+beta1[t]*log(1+(direct[i,j,t]*frequency[\\","LEG1[i,j,t]]+(1-direct[i,j,t])*z[i,j,t])))-beta2[t]*fare[i,j,t])/(1+\\","exp(beta0[t]*direct[i,j,t]+beta1[t]*log(1+(direct[i,j,t]*frequency[\\","LEG1[i,j,t]]+(1-direct[i,j,t])*z[i,j,t]))-beta2[t]*fare[i,j,t])+sum{\\","c in COMPETITORS}(exp(beta0[t]*directOthers[i,j,t,c]+beta1[t]*log(1+(\\","directOthers[i,j,t,c]*frequencyOthers[LEG1others[i,j,t,c],c]+(1-\\",>62
-|<"directOthers[i,j,t,c]) *zO))-beta2[t]*fareOthers[i,j,t,c])))"
-"1	CHAR	0
-	'~/vimfiles/plugged')
-	 altercation /
+	sonokai'
+|3,0,0,0,1,0,1656758193,"sonokai'"
+"1	LINE	0
 	
-|3,0,1,0,3,0,1638120248,"'~/vimfiles/plugged')"," altercation /",""
+|3,0,1,1,1,0,1656758711,""
 "2	LINE	0
-	"autocmd vimenter * ++nested colorscheme gruvbox-material " Set Gruvbox colorscheme
-|3,0,2,1,1,0,1629638175,"\"autocmd vimenter * ++nested colorscheme gruvbox-material \" Set Gruvbox colorscheme"
+	let g:airline_theme = 'sonokai'
+|3,0,2,1,1,0,1656758703,"let g:airline_theme = 'sonokai'"
 "3	LINE	0
-	"autocmd ColorScheme * highlight Normal ctermbg=NONE guibg=NONE " use when no background"
-|3,0,3,1,1,0,1629638108,"\"autocmd ColorScheme * highlight Normal ctermbg=NONE guibg=NONE \" use when no background\""
+	"set notermguicolors
+|3,0,3,1,1,0,1656758687,"\"set notermguicolors"
 "4	LINE	0
-	Plug 'sainnhe/gruvbox-material'
-|3,0,4,1,1,0,1629637857,"Plug 'sainnhe/gruvbox-material'"
+	set termguicolors " set to termguicolors when there is a background"
+|3,0,4,1,1,0,1656758686,"set termguicolors \" set to termguicolors when there is a background\""
 "5	LINE	0
-	Plug 'colepeters/spacemacs-theme.vim'
-|3,0,5,1,1,0,1629637856,"Plug 'colepeters/spacemacs-theme.vim'"
+	cjhfjhfgfjkgh
+|3,0,5,1,1,0,1656758288,"cjhfjhfgfjkgh"
 "6	LINE	0
-	Plug 'dracula/vim', { 'as': 'dracula' }
-|3,0,6,1,1,0,1629637833,"Plug 'dracula/vim', { 'as': 'dracula' }"
-"7	LINE	0
-	PAUSE
-|3,0,7,1,1,0,1628164208,"PAUSE"
+	Plug 'bluz71/vim-nightfly-guicolors'
+|3,0,6,1,1,0,1656758164,"Plug 'bluz71/vim-nightfly-guicolors'"
+"7	CHAR	0
+	This paper aim to investigate the impact of Environmental-social-governance (ESG)on the resiliance of travel firm, specifically airlines, during the COVID-19 pandemic.
+	The paper is well written and clear to read. Introduction, literature review, methodology and results discussion are clear and logically consequential.
+	
+	I have only some minor comments that I will state below.
+	
+	Authors applies straight-forward the econometrics based on the methodology proposed by Chan & Maheu (2002). I would appreciate seeing the autocorrelation and the partial autocorrelation functions through diagnostic plots of the residuals.
+	A goodness-of-fit specification, as the Pearson test is required.
+	Testing the correctness of the conditional distribution specification, using a likelihood ratio test, is necessary.
+	There is a typo on the date at the end of page 8.
+|3,0,7,0,9,0,1644073987,"This paper aim to investigate the impact of Environmental-social-governance (ESG)on the resiliance of travel firm, specifically airlines, during the COVID-19 pandemic.","The paper is well written and clear to read. Introduction, literature review, methodology and results discussion are clear and logically consequential.","","I have only some minor comments that I will state below.","",>240
+|<"Authors applies straight-forward the econometrics based on the methodology proposed by Chan & Maheu (2002). I would appreciate seeing the autocorrelation and the partial autocorrelation functions through diagnostic plots of the residuals.","A goodness-of-fit specification, as the Pearson test is required.","Testing the correctness of the conditional distribution specification, using a likelihood ratio test, is necessary.","There is a typo on the date at the end of page 8."
 "8	LINE	0
-	exit
-|3,0,8,1,1,0,1628163918,"exit"
+	let base16colorspace=256  " Access colors present in 256 colorspace
+|3,0,8,1,1,0,1644002217,"let base16colorspace=256  \" Access colors present in 256 colorspace"
 "9	LINE	0
-	452
-<"2647216",London Heathrow Airport,London Heathrow Airport,"Aerfort Londain-Heathrow,Aerodrom Khitrou,Aeroport de Londres Heathrow,Aeroport de Londres-Heathrow,Aeroporto de Heathrow,Aeroporto de Londres Heathrow,Aeroporto di Londra-Heathrow,Aeroportul Londra Heathrow,Aeropuerto London Heathrow,Aeropuerto de Londr",51.471150000000002,-0.456490000000000,S,AIRP,GB,,ENG,GLA,F9,,"0",,"27",Europe/London,2010-08-03,5606,221938.326960802,39.5894268570821
-	"3345295",Cardiff International Airport,Cardiff International Airport,"CWL,Cardiff Airport,Cardiff Wales Airport,EGFF",51.396670000000000,-3.343330000000000,S,AIRP,GB,GB,WLS,Z3,,,"0","67","65",Europe/London,2007-11-07,5614,31236.619138752,5.56405755944995
-|3,0,9,1,2,0,1626962709,>459
-|<"\"2647216\",London Heathrow Airport,London Heathrow Airport,\"Aerfort Londain-Heathrow,Aerodrom Khitrou,Aeroport de Londres Heathrow,Aeroport de Londres-Heathrow,Aeroporto de Heathrow,Aeroporto de Londres Heathrow,Aeroporto di Londra-Heathrow,Aeroportul Londra Heathrow,Aeropuerto London Heathrow,Aeropuerto de Londr\",51.471150000000002,-0.456490000000000,S,AIRP,GB,,ENG,GLA,F9,,\"0\",,\"27\",Europe/London,2010-08-03,5606,221938.326960802,39.5894268570821",>267
-|<"\"3345295\",Cardiff International Airport,Cardiff International Airport,\"CWL,Cardiff Airport,Cardiff Wales Airport,EGFF\",51.396670000000000,-3.343330000000000,S,AIRP,GB,GB,WLS,Z3,,,\"0\",\"67\",\"65\",Europe/London,2007-11-07,5614,31236.619138752,5.56405755944995"
+	let g:rehash256 = 1
+|3,0,9,1,1,0,1644001647,"let g:rehash256 = 1"
 ""-	CHAR	0
-	)
-|3,1,36,0,1,0,1638120272,")"
+	nightfly
+|3,1,36,0,1,0,1656758769,"nightfly"
 
 # File mark:
-'0  1  0  ~\vimfiles\gvimrc
-|4,48,1,0,1638120548,"~\\vimfiles\\gvimrc"
-'1  3  0  ~\vimfiles\gvimrc
-|4,49,3,0,1638120537,"~\\vimfiles\\gvimrc"
-'2  3  0  ~\vimfiles\gvimrc
-|4,50,3,0,1638120537,"~\\vimfiles\\gvimrc"
-'3  1  0  ~\vimfiles\vimrc
-|4,51,1,0,1638120500,"~\\vimfiles\\vimrc"
-'4  93  38  ~\vimfiles\vimrc
-|4,52,93,38,1638120483,"~\\vimfiles\\vimrc"
-'5  93  38  ~\vimfiles\vimrc
-|4,53,93,38,1638120483,"~\\vimfiles\\vimrc"
-'6  1  0  ~\vimfiles\gvimrc
-|4,54,1,0,1638120428,"~\\vimfiles\\gvimrc"
-'7  1  0  ~\vimfiles\gvimrc
-|4,55,1,0,1638120428,"~\\vimfiles\\gvimrc"
-'8  1  0  ~\vimfiles\gvimrc
-|4,56,1,0,1638120428,"~\\vimfiles\\gvimrc"
-'9  1  0  ~\vimfiles\gvimrc
-|4,57,1,0,1638120392,"~\\vimfiles\\gvimrc"
+'0  5  18  ~\vimfiles\gvimrc
+|4,48,5,18,1656758778,"~\\vimfiles\\gvimrc"
+'1  76  0  ~\vimfiles\vimrc
+|4,49,76,0,1656758731,"~\\vimfiles\\vimrc"
+'2  123  0  ~\vimfiles\vimrc
+|4,50,123,0,1656758714,"~\\vimfiles\\vimrc"
+'3  123  0  ~\vimfiles\vimrc
+|4,51,123,0,1656758714,"~\\vimfiles\\vimrc"
+'4  118  26  ~\vimfiles\vimrc
+|4,52,118,26,1656758601,"~\\vimfiles\\vimrc"
+'5  120  26  ~\vimfiles\vimrc
+|4,53,120,26,1656758601,"~\\vimfiles\\vimrc"
+'6  118  26  ~\vimfiles\vimrc
+|4,54,118,26,1656758601,"~\\vimfiles\\vimrc"
+'7  120  26  ~\vimfiles\vimrc
+|4,55,120,26,1656758601,"~\\vimfiles\\vimrc"
+'8  128  18  ~\vimfiles\vimrc
+|4,56,128,18,1656758218,"~\\vimfiles\\vimrc"
+'9  126  18  ~\vimfiles\vimrc
+|4,57,126,18,1656758218,"~\\vimfiles\\vimrc"
 
 # Jumplist (dai più recenti):
+-'  5  18  ~\vimfiles\gvimrc
+|4,39,5,18,1656758778,"~\\vimfiles\\gvimrc"
+-'  5  18  ~\vimfiles\gvimrc
+|4,39,5,18,1656758778,"~\\vimfiles\\gvimrc"
+-'  5  18  ~\vimfiles\gvimrc
+|4,39,5,18,1656758778,"~\\vimfiles\\gvimrc"
 -'  1  0  ~\vimfiles\gvimrc
-|4,39,1,0,1638120548,"~\\vimfiles\\gvimrc"
--'  3  0  ~\vimfiles\gvimrc
-|4,39,3,0,1638120537,"~\\vimfiles\\gvimrc"
--'  3  0  ~\vimfiles\gvimrc
-|4,39,3,0,1638120537,"~\\vimfiles\\gvimrc"
+|4,39,1,0,1656758763,"~\\vimfiles\\gvimrc"
 -'  1  0  ~\vimfiles\gvimrc
-|4,39,1,0,1638120503,"~\\vimfiles\\gvimrc"
+|4,39,1,0,1656758763,"~\\vimfiles\\gvimrc"
+-'  1  0  ~\vimfiles\gvimrc
+|4,39,1,0,1656758763,"~\\vimfiles\\gvimrc"
+-'  76  0  ~\vimfiles\vimrc
+|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
+-'  76  0  ~\vimfiles\vimrc
+|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
+-'  76  0  ~\vimfiles\vimrc
+|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
+-'  76  0  ~\vimfiles\vimrc
+|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
+-'  76  0  ~\vimfiles\vimrc
+|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
+-'  76  0  ~\vimfiles\vimrc
+|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
+-'  76  0  ~\vimfiles\vimrc
+|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
+-'  76  0  ~\vimfiles\vimrc
+|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
+-'  76  0  ~\vimfiles\vimrc
+|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
+-'  76  0  ~\vimfiles\vimrc
+|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
+-'  76  0  ~\vimfiles\vimrc
+|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
+-'  76  0  ~\vimfiles\vimrc
+|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1638120500,"~\\vimfiles\\vimrc"
+|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1638120500,"~\\vimfiles\\vimrc"
+|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1638120500,"~\\vimfiles\\vimrc"
+|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1638120500,"~\\vimfiles\\vimrc"
--'  93  38  ~\vimfiles\vimrc
-|4,39,93,38,1638120483,"~\\vimfiles\\vimrc"
--'  93  38  ~\vimfiles\vimrc
-|4,39,93,38,1638120483,"~\\vimfiles\\vimrc"
--'  93  38  ~\vimfiles\vimrc
-|4,39,93,38,1638120483,"~\\vimfiles\\vimrc"
--'  93  38  ~\vimfiles\vimrc
-|4,39,93,38,1638120483,"~\\vimfiles\\vimrc"
--'  93  38  ~\vimfiles\vimrc
-|4,39,93,38,1638120483,"~\\vimfiles\\vimrc"
--'  93  38  ~\vimfiles\vimrc
-|4,39,93,38,1638120483,"~\\vimfiles\\vimrc"
--'  93  38  ~\vimfiles\vimrc
-|4,39,93,38,1638120483,"~\\vimfiles\\vimrc"
--'  93  38  ~\vimfiles\vimrc
-|4,39,93,38,1638120483,"~\\vimfiles\\vimrc"
+|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1638120442,"~\\vimfiles\\vimrc"
+|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1638120442,"~\\vimfiles\\vimrc"
+|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1638120442,"~\\vimfiles\\vimrc"
+|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1638120442,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\gvimrc
-|4,39,1,0,1638120428,"~\\vimfiles\\gvimrc"
--'  1  0  ~\vimfiles\gvimrc
-|4,39,1,0,1638120428,"~\\vimfiles\\gvimrc"
--'  1  0  ~\vimfiles\gvimrc
-|4,39,1,0,1638120428,"~\\vimfiles\\gvimrc"
--'  1  0  ~\vimfiles\gvimrc
-|4,39,1,0,1638120428,"~\\vimfiles\\gvimrc"
--'  1  0  ~\vimfiles\gvimrc
-|4,39,1,0,1638120392,"~\\vimfiles\\gvimrc"
--'  1  0  ~\vimfiles\gvimrc
-|4,39,1,0,1638120392,"~\\vimfiles\\gvimrc"
--'  1  0  ~\vimfiles\gvimrc
-|4,39,1,0,1638120392,"~\\vimfiles\\gvimrc"
--'  1  0  ~\vimfiles\gvimrc
-|4,39,1,0,1638120392,"~\\vimfiles\\gvimrc"
--'  1  33  ~\vimfiles\gvimrc
-|4,39,1,33,1638120384,"~\\vimfiles\\gvimrc"
--'  1  33  ~\vimfiles\gvimrc
-|4,39,1,33,1638120384,"~\\vimfiles\\gvimrc"
--'  1  33  ~\vimfiles\gvimrc
-|4,39,1,33,1638120384,"~\\vimfiles\\gvimrc"
--'  1  33  ~\vimfiles\gvimrc
-|4,39,1,33,1638120384,"~\\vimfiles\\gvimrc"
--'  102  11  ~\vimfiles\vimrc
-|4,39,102,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  102  11  ~\vimfiles\vimrc
-|4,39,102,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  102  11  ~\vimfiles\vimrc
-|4,39,102,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  102  11  ~\vimfiles\vimrc
-|4,39,102,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  102  11  ~\vimfiles\vimrc
-|4,39,102,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  102  11  ~\vimfiles\vimrc
-|4,39,102,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  102  11  ~\vimfiles\vimrc
-|4,39,102,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  102  11  ~\vimfiles\vimrc
-|4,39,102,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  101  11  ~\vimfiles\vimrc
-|4,39,101,11,1638120315,"~\\vimfiles\\vimrc"
--'  5  14  ~\vimfiles\gvimrc
-|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
--'  5  14  ~\vimfiles\gvimrc
-|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
--'  5  14  ~\vimfiles\gvimrc
-|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
--'  5  14  ~\vimfiles\gvimrc
-|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
--'  5  14  ~\vimfiles\gvimrc
-|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
--'  5  14  ~\vimfiles\gvimrc
-|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
--'  5  14  ~\vimfiles\gvimrc
-|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
--'  5  14  ~\vimfiles\gvimrc
-|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
--'  5  14  ~\vimfiles\gvimrc
-|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
--'  5  14  ~\vimfiles\gvimrc
-|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
--'  5  14  ~\vimfiles\gvimrc
-|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
--'  5  14  ~\vimfiles\gvimrc
-|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
--'  5  14  ~\vimfiles\gvimrc
-|4,39,5,14,1638120308,"~\\vimfiles\\gvimrc"
--'  3  36  ~\vimfiles\gvimrc
-|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
--'  3  36  ~\vimfiles\gvimrc
-|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
--'  3  36  ~\vimfiles\gvimrc
-|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
--'  3  36  ~\vimfiles\gvimrc
-|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
--'  3  36  ~\vimfiles\gvimrc
-|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
--'  3  36  ~\vimfiles\gvimrc
-|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
--'  3  36  ~\vimfiles\gvimrc
-|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
--'  3  36  ~\vimfiles\gvimrc
-|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
--'  3  36  ~\vimfiles\gvimrc
-|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
--'  3  36  ~\vimfiles\gvimrc
-|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
--'  3  36  ~\vimfiles\gvimrc
-|4,39,3,36,1638120253,"~\\vimfiles\\gvimrc"
+|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  123  0  ~\vimfiles\vimrc
+|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
+-'  1  0  ~\vimfiles\vimrc
+|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
+-'  118  26  ~\vimfiles\vimrc
+|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
+-'  120  26  ~\vimfiles\vimrc
+|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
+-'  118  26  ~\vimfiles\vimrc
+|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
+-'  120  26  ~\vimfiles\vimrc
+|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
+-'  118  26  ~\vimfiles\vimrc
+|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
+-'  120  26  ~\vimfiles\vimrc
+|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
+-'  118  26  ~\vimfiles\vimrc
+|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
+-'  120  26  ~\vimfiles\vimrc
+|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
+-'  118  26  ~\vimfiles\vimrc
+|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
+-'  120  26  ~\vimfiles\vimrc
+|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
+-'  118  26  ~\vimfiles\vimrc
+|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
+-'  120  26  ~\vimfiles\vimrc
+|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
+-'  118  26  ~\vimfiles\vimrc
+|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
+-'  120  26  ~\vimfiles\vimrc
+|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
+-'  118  26  ~\vimfiles\vimrc
+|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
+-'  120  26  ~\vimfiles\vimrc
+|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
+-'  118  26  ~\vimfiles\vimrc
+|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
+-'  120  26  ~\vimfiles\vimrc
+|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
+-'  118  26  ~\vimfiles\vimrc
+|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
+-'  120  26  ~\vimfiles\vimrc
+|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
+-'  118  26  ~\vimfiles\vimrc
+|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
+-'  120  26  ~\vimfiles\vimrc
+|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
+-'  118  26  ~\vimfiles\vimrc
+|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
+-'  120  26  ~\vimfiles\vimrc
+|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
+-'  118  26  ~\vimfiles\vimrc
+|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
+-'  120  26  ~\vimfiles\vimrc
+|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
+-'  118  26  ~\vimfiles\vimrc
+|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
+-'  120  26  ~\vimfiles\vimrc
+|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
+-'  118  26  ~\vimfiles\vimrc
+|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
+-'  120  26  ~\vimfiles\vimrc
+|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
+-'  118  26  ~\vimfiles\vimrc
+|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
+-'  120  26  ~\vimfiles\vimrc
+|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
+-'  118  26  ~\vimfiles\vimrc
+|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
 
 # Storia delle marcature all'interno dei file (dalle più recenti alle meno recenti):
 
 > ~\vimfiles\gvimrc
-	*	1638120542	0
-	"	1	0
-	^	3	0
-	.	3	0
+	*	1656758777	0
+	"	5	18
+	^	5	19
+	.	5	18
 	+	1	34
 	+	1	50
 	+	1	34
@@ -519,116 +513,577 @@ $#458588
 	+	1	34
 	+	2	0
 	+	3	0
+	+	6	0
+	+	5	18
 
 > ~\vimfiles\vimrc
-	*	1638120498	0
-	"	1	0
-	^	93	0
-	.	93	0
-	+	133	0
-	+	96	0
-	+	96	18
-	+	96	0
-	+	120	0
-	+	96	0
-	+	120	6
-	+	120	54
-	+	96	0
-	+	133	0
-	+	115	1
-	+	78	72
-	+	78	19
-	+	120	0
-	+	117	0
-	+	115	31
-	+	89	19
-	+	90	15
+	*	1656758729	0
+	"	76	0
+	.	123	0
 	+	90	22
 	+	90	15
-	+	94	0
+	+	90	0
 	+	90	22
 	+	78	0
-	+	120	66
-	+	122	0
-	+	120	60
+	+	117	66
+	+	118	0
+	+	117	60
 	+	90	4
-	+	115	0
-	+	115	1
+	+	112	0
+	+	112	1
 	+	136	0
-	+	120	0
-	+	121	0
-	+	120	62
-	+	121	5
-	+	120	0
-	+	121	73
-	+	121	4
-	+	120	0
-	+	121	0
-	+	121	62
-	+	120	85
-	+	121	50
-	+	120	64
-	+	121	5
+	+	117	0
+	+	118	0
+	+	117	62
+	+	118	5
+	+	117	0
+	+	118	73
+	+	118	4
+	+	117	0
+	+	118	0
+	+	118	62
+	+	117	85
+	+	118	50
+	+	117	64
+	+	118	5
 	+	48	0
 	+	46	0
 	+	48	0
-	+	120	0
-	+	121	0
-	+	120	0
-	+	121	0
-	+	121	22
-	+	121	0
-	+	121	22
+	+	117	0
+	+	118	0
+	+	117	0
+	+	118	0
+	+	118	22
+	+	118	0
+	+	118	22
 	+	90	0
-	+	94	39
-	+	121	0
+	+	90	39
+	+	118	0
 	+	89	1
-	+	121	55
-	+	120	0
-	+	121	0
+	+	118	55
+	+	117	0
+	+	118	0
 	+	7	0
-	+	121	0
-	+	120	0
-	+	121	0
-	+	120	14
-	+	120	15
-	+	120	0
-	+	121	0
-	+	122	3
-	+	122	0
-	+	120	0
-	+	122	0
-	+	121	0
+	+	118	0
+	+	117	0
+	+	118	0
+	+	117	14
+	+	117	15
+	+	117	0
+	+	118	0
+	+	118	3
+	+	118	0
+	+	117	0
+	+	118	0
 	+	7	0
-	+	121	31
-	+	121	0
-	+	121	2
-	+	121	0
-	+	123	0
-	+	122	0
-	+	121	0
-	+	122	0
-	+	121	0
-	+	122	0
-	+	120	1
+	+	118	31
+	+	118	0
+	+	118	2
+	+	118	0
+	+	117	1
 	+	89	1
-	+	111	1
-	+	114	0
-	+	115	0
-	+	94	0
+	+	108	1
+	+	111	0
+	+	112	0
 	+	90	0
-	+	123	19
-	+	121	0
-	+	123	0
-	+	121	0
+	+	118	19
+	+	118	0
 	+	125	0
-	+	123	19
-	+	121	0
-	+	93	0
+	+	118	19
+	+	118	0
+	+	90	0
+	+	125	67
+	+	118	12
+	+	90	0
+	+	118	0
+	+	125	0
+	+	90	22
+	+	118	19
+	+	54	0
+	+	131	33
+	+	132	0
+	+	118	0
+	+	122	0
+	+	118	0
+	+	120	0
+	+	119	1
+	+	118	0
+	+	132	0
+	+	123	0
+	a	118	23
+
+> ~\Desktop\Uni\PhD\Reviewer\JATM-D-21-00240\review.txt
+	*	1644073991	0
+	"	1	0
+	^	1	49
+	.	1	0
+	+	1	0
+	+	1	123
+	+	1	88
+	+	1	0
+	+	1	166
+	+	1	39
+	+	1	100
+	+	1	0
+	+	1	151
+	+	1	0
+	+	1	104
+	+	1	55
+	+	1	196
+	+	1	238
+	+	1	63
+	+	1	83
+	+	1	100
+	+	1	48
+	+	1	0
 
 > ~\vimfiles\NERD_tree_1
-	*	1638120194	0
-	"	14	0
+	*	1644002432	0
+	"	11	0
+	.	1	0
+	+	1	0
+
+> ~\Desktop\Uni\PhD\Reviewer\JATM-D-21-00338\Reviewer comment R1.txt
+	*	1643986308	0
+	"	1	90
+	^	1	91
+	.	1	71
+	+	1	71
+
+> ~\Desktop\Uni\PhD\Reviewer\JATM-D-21-00338\reviewer comment R1
+	*	1643983740	0
+	"	1	0
+
+> ~\Desktop\testomail.txt
+	*	1641766656	0
+	"	8	0
+	^	8	10
+	.	9	0
+	+	3	102
+	+	3	0
+	+	3	151
+	+	4	0
+	+	5	0
+	+	4	0
+	+	4	184
+	+	5	79
+	+	8	9
+	+	9	0
+
+> C:\ProgramData\jupyter\kernels\ir\kernel.js
+	*	1640606517	0
+	"	59	0
+
+> ~\Desktop\hosts
+	*	1640362705	0
+	"	22	0
+	.	23	0
+	+	1	0
+	+	22	0
+	+	23	0
+
+> C:\Windows\System32\drivers\etc\hosts
+	*	1640361853	0
+	"	1	0
+	.	23	0
+	+	130	0
+	+	610	0
+	+	25	0
+	+	23	0
+
+> ~\Downloads\Adobe Acrobat Pro DC 2021.007.20102 Ml\Info.nfo
+	*	1640356332	0
+	"	5	17
+
+> ~\Desktop\gianmarcoandreana.github.io\themes\LoveIt\exampleSite\config.toml
+	*	1639951549	0
+	"	465	8
+
+> ~\Desktop\resume\resume.md
+	*	1639943289	0
+	"	1	0
+
+> ~\Desktop\GianmarcoAndreana\.github\workflows\gh-pages.yml
+	*	1639938827	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~\Desktop\GianmarcoAndreana\config.toml
+	*	1639937356	0
+	"	1	0
+	^	11	0
+	.	11	0
+	+	646	8
+	+	646	9
+	+	646	11
+	+	646	15
+	+	646	0
+	+	646	19
+	+	646	33
+	+	646	19
+	+	646	0
+	+	646	14
+	+	646	1
+	+	646	21
+	+	646	11
+	+	646	16
+	+	646	0
+	+	646	22
+	+	646	17
+	+	646	46
+	+	646	26
+	+	646	13
+	+	646	0
+	+	13	13
+	+	14	0
+	+	549	31
+	+	551	28
+	+	560	0
+	+	553	23
+	+	556	18
+	+	557	18
+	+	567	15
+	+	575	15
+	+	583	15
+	+	569	31
+	+	572	25
+	+	569	20
+	+	573	25
+	+	553	24
+	+	574	15
+	+	80	31
+	+	82	0
+	+	86	18
+	+	132	0
+	+	138	51
+	+	144	0
+	+	156	14
+	+	158	15
+	+	159	17
+	+	160	16
+	+	161	16
+	+	209	53
+	+	210	40
+	+	218	39
+	+	304	18
+	+	307	20
+	+	306	20
+	+	294	18
+	+	289	20
+	+	298	17
+	+	320	20
+	+	354	21
+	+	415	14
+	+	416	12
+	+	11	0
+
+> ~\Desktop\gianmarcoandreana.github.io\README.md
+	*	1639933608	0
+	"	1	0
+
+> ~\Desktop\GianmarcoAndreana\content\publications\index.en.md
+	*	1639924642	0
+	"	8	4
+	^	2	24
+	.	24	0
+	+	2	23
+	+	12	0
+	+	24	0
+
+> ~\Desktop\GianmarcoAndreana\themes\LoveIt\exampleSite\assets\css\_override.scss
+	*	1639924094	0
+	"	1	0
+
+> ~\Desktop\GianmarcoAndreana\themes\LoveIt\exampleSite\assets\css\_custom.scss
+	*	1639924079	0
+	"	1	0
+
+> ~\Desktop\GianmarcoAndreana\themes\LoveIt\exampleSite\config.toml
+	*	1639923957	0
+	"	49	1
+
+> ~\Desktop\GianmarcoAndreana\themes\LoveIt\exampleSite\NERD_tree_1
+	*	1639923827	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~\Desktop\GianmarcoAndreana\content\about\index.en.md
+	*	1639923438	0
+	"	1	0
+
+> ~\Desktop\GianmarcoAndreana\themes\LoveIt\assets\css\_page\_home.scss
+	*	1639916180	0
+	"	13	19
+	^	13	20
+	.	13	19
+	+	14	16
+	+	12	18
+	+	12	0
+	+	15	32
+	+	8	0
+	+	12	18
+	+	13	17
+	+	12	18
+	+	13	19
+	u	12	16
+
+> ~\Desktop\GianmarcoAndreana\themes\LoveIt\layouts\partials\home\profile.html
+	*	1639915285	0
+	"	29	0
+	^	33	0
+	.	1	0
+	+	1	0
+
+> ~\Desktop\GianmarcoAndreana\themes\LoveIt\layouts\partials\plugin\image.html
+	*	1639915020	0
+	"	25	0
+
+> ~\Desktop\GianmarcoAndreana\themes\LoveIt\assets\css\_core\_media.scss
+	*	1639914489	0
+	"	80	0
+
+> ~\Desktop\GianmarcoAndreana\themes\LoveIt\assets\css\_core\_layout.scss
+	*	1639914461	0
+	"	1	0
+
+> ~\Desktop\GianmarcoAndreana\themes\LoveIt\assets\css\_core\_base.scss
+	*	1639914451	0
+	"	17	0
+
+> ~\Desktop\GianmarcoAndreana\themes\LoveIt\assets\css\style.scss
+	*	1639914416	0
+	"	1	0
+
+> ~\Desktop\GianmarcoAndreana\themes\LoveIt\assets\css\style
+	*	1639914406	0
+	"	1	0
+
+> ~\Desktop\GianmarcoAndreana\themes\LoveIt\theme.toml
+	*	1639914340	0
+	"	1	0
+
+> ~\Desktop\starter-academic\theme.toml
+	*	1639911108	0
+	"	39	0
+
+> ~\Desktop\GianmarcoAndreana\content\posts\my-first-post.md
+	*	1639908912	0
+	"	5	2
+	^	4	12
+	.	4	11
+	+	7	4
+	+	4	11
+
+> ~\Desktop\site-map.xml
+	*	1639866757	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~\Desktop\Jupyter-lab.bat
+	*	1639393921	0
+	"	1	13
+	^	1	5
+	.	1	13
+	+	1	0
+	+	2	0
+	+	1	13
+
+> ~\.workspacer\workspacer.config.csx
+	*	1638955070	0
+	"	90	13
+	^	90	14
+	.	90	13
+	+	1	0
+	+	1	6
+	+	1	4
+	+	1	0
+	+	1	3
+	+	1	0
+	+	1	3
+	+	1	0
+	+	1	3
+	+	1	4
+	+	1	35
+	+	1	0
+	+	1	1
+	+	1	0
+	+	1	3
+	+	1	7
+	+	1	11
+	+	1	7
+	+	1	29
+	+	1	0
+	+	103	0
+	+	1	0
+	+	43	0
+	+	67	0
+	+	92	37
+	+	67	0
+	+	90	0
+	+	67	0
+	+	92	0
+	+	90	0
+	+	92	0
+	+	90	13
+
+> ~\.workspacer\project.json
+	*	1638953319	0
+	"	1	0
+
+> ~\Documenti\PowerShell\tiling.bat
+	*	1638904387	0
+	"	1	5
+	^	1	29
+	.	1	5
+	+	1	10
+	+	1	0
+	+	1	40
+	+	1	41
+	+	1	100
+	+	1	97
+	+	1	40
+	+	1	99
+	+	1	102
+	+	1	125
+	+	1	102
+	+	1	40
+	+	1	78
+	+	1	5
+
+> ~\Documenti\PowerShell\NERD_tree_1
+	*	1638904018	0
+	"	10	0
+	.	1	0
+	+	1	0
+
+> C:\Program Files\workspacer\workspacer.Watcher.deps.json
+	*	1638896802	0
+	"	163	0
+
+> ~\.workspacer\NERD_tree_1
+	*	1638894755	0
+	"	2	0
+	.	1	0
+	+	1	0
+
+> C:\Program Files\komorebi-0.1.6\komorebi.ahk
+	*	1638875336	0
+	"	1	0
+
+> ~\Documenti\PowerShell\backup.bat
+	*	1638875098	0
+	"	1	0
+	^	2	25
+	.	3	0
+	+	2	24
+	+	3	0
+
+> C:\Program Files\komorebi-0.1.6\komorebi.sample.ahk
+	*	1638873887	0
+	"	225	0
+	^	232	4
+	.	232	3
+	+	225	0
+	+	226	59
+	+	227	5
+	+	228	32
+	+	229	40
+	+	230	15
+	+	232	33
+	+	230	41
+	+	232	33
+	+	230	0
+	+	231	2
+	+	230	0
+	+	228	33
+	+	227	2
+	+	231	2
+	+	225	0
+	+	231	5
+	+	233	0
+	+	229	0
+	+	227	5
+	+	225	0
+	+	227	1
+	+	231	1
+	+	226	66
+	+	227	1
+	+	231	1
+	+	226	60
+	+	227	0
+	+	231	2
+	+	227	2
+	+	228	40
+	+	232	6
+	+	232	0
+	+	228	0
+	+	234	0
+	+	233	0
+	+	229	5
+	+	228	3
+	+	232	3
+
+> C:\Program Files\komorebi-0.1.6\NERD_tree_1
+	*	1638873807	0
+	"	7	0
+	.	1	0
+	+	1	0
+
+> ~\Documenti\PowerShell\tiling.ps1
+	*	1638868871	0
+	"	1	0
+
+> ~\Desktop\Uni\PhD\Aviation\Paper noise\Paper\video\NERD_tree_1
+	*	1638815340	0
+	"	7	0
+	.	1	0
+	+	1	0
+
+> ~\Desktop\Uni\PhD\Aviation\Paper noise\Paper\video\sub.srt
+	*	1638815339	0
+	"	132	51
+	^	132	52
+	.	132	51
+	+	119	15
+	+	2	24
+	+	6	24
+	+	10	24
+	+	119	21
+	+	120	45
+	+	119	19
+	+	123	19
+	+	124	78
+	+	123	20
+	+	127	18
+	+	128	54
+	+	127	20
+	+	132	51
+
+> ~\Desktop\GianmarcoAndreana.github.io\Gemfile
+	*	1638284058	0
+	"	1	0
+	.	2	0
+	+	1	0
+	+	1	25
+	+	1	20
+	+	1	25
+	+	1	21
+	+	1	17
+	+	1	20
+	+	1	12
+	+	1	0
+	+	2	0
+
+> ~\Desktop\Review_Due.ics
+	*	1638192404	0
+	"	1	0
+
+> ~\Desktop\NERD_tree_1
+	*	1638192403	0
+	"	15	0
 	.	1	0
 	+	1	0
 
@@ -647,25 +1102,11 @@ $#458588
 	*	1629637808	0
 	"	1	0
 
-> ~\Documenti\PowerShell\backup.bat
-	*	1628164211	0
-	"	2	0
-	^	2	25
-	.	3	0
-	+	2	24
-	+	3	0
-
 > ~\Documenti\PowerShell\backup.ps1
 	*	1628163920	0
 	"	2	0
 	.	3	0
 	+	3	0
-
-> ~\Documenti\PowerShell\NERD_tree_1
-	*	1627816988	0
-	"	7	0
-	.	1	0
-	+	1	0
 
 > ~\Desktop\backup.bat
 	*	1627816773	0
@@ -822,12 +1263,6 @@ $#458588
 > ~\Desktop\ampl.lic
 	*	1619450866	0
 	"	1	0
-
-> ~\Desktop\NERD_tree_1
-	*	1617132216	0
-	"	13	0
-	.	1	0
-	+	1	0
 
 > ~\Desktop\scholar.enw
 	*	1617132213	0
@@ -1141,17 +1576,6 @@ $#458588
 	+	444	0
 	+	812	5
 
-> ~\Desktop\hosts
-	*	1615581099	0
-	"	317	0
-
-> C:\Windows\System32\drivers\etc\hosts
-	*	1615500074	0
-	"	1	0
-	.	610	0
-	+	130	0
-	+	610	0
-
 > C:\Program Files\Alacritty\alacritty.exe
 	*	1615458811	0
 	"	1	0
@@ -1197,306 +1621,3 @@ $#458588
 > ~\Desktop\Uni\PhD\Aviation\Paper COVID-19\COVID_note\our_paper.tex
 	*	1613552020	0
 	"	152	0
-
-> ~\Desktop\test.py
-	*	1613077495	0
-	"	1	18
-	^	1	19
-	.	1	18
-	+	1	0
-	+	2	0
-	+	1	18
-
-> ~\vimrc
-	*	1612699872	0
-	"	1	0
-
-> ~\vimfiles\colors\bobafett.vim
-	*	1612695831	0
-	"	1	0
-	^	73	1
-	.	73	0
-	+	1	0
-	+	1	39
-	+	1	0
-	+	1	5
-	+	1	0
-	+	1	39
-	+	1	0
-	+	1	28
-	+	1	0
-	+	73	0
-
-> ~\vimfiles\colors\boba.vim
-	*	1612693072	0
-	"	20	19
-	^	20	20
-	.	21	0
-	+	1	0
-	+	2	0
-	+	3	0
-	+	4	0
-	+	5	0
-	+	6	0
-	+	7	0
-	+	8	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	12	0
-	+	13	0
-	+	14	0
-	+	15	0
-	+	16	0
-	+	17	0
-	+	18	0
-	+	19	0
-	+	20	20
-	+	21	0
-
-> C:\Program Files\AMPL\libipoptfort.dll
-	*	1612359299	0
-	"	1	0
-
-> ~\Desktop\csds-jan20-exp-pa.xlsx
-	*	1612204342	0
-	"	1	0
-
-> ~\Desktop\airlinesAid\airlinesAid.dat
-	*	1612015105	0
-	"	9	0
-
-> ~\Desktop\vimfiles\vimrc
-	*	1612008987	0
-	"	149	2
-
-> ~\option-window
-	*	1611327651	0
-	"	1	0
-	.	1006	0
-	+	1006	0
-
-> ~\Desktop\settings.json
-	*	1611261410	0
-	"	64	0
-	^	64	21
-	.	64	22
-	+	64	22
-
-> ~\Desktop\Uni\PhD\Teaching\2020-2021\HEP\Tutorials\Tutorial 8\PM10\do.do
-	*	1610909988	0
-	"	1	7
-	^	1	8
-	.	1	0
-	+	1	7
-	+	12	0
-	+	1	0
-
-> ~\Desktop\a.json
-	*	1610569217	0
-	"	1	0
-
-> ~\download
-	*	1610019636	0
-	"	1	0
-
-> ~\Downloads\download
-	*	1610017730	0
-	"	176	0
-
-> ~\.ghci
-	*	1609529822	0
-	"	1	0
-	.	2	0
-	+	1	13
-	+	2	0
-
-> ~\Desktop\p.py
-	*	1609415054	0
-	"	3	10
-	^	3	10
-	.	3	10
-	+	1	18
-	+	1	6
-	+	1	18
-	+	3	10
-
-> ~\vimfiles\coc-settings.json
-	*	1609414730	0
-	"	1	0
-	.	2	0
-	+	1	0
-	+	2	0
-
-> ~\Desktop\prova.hs
-	*	1609339809	0
-	"	4	6
-	^	4	6
-	.	4	0
-	+	1	13
-	+	2	13
-	+	1	16
-	+	2	30
-	+	2	28
-	+	3	14
-	+	3	3
-	+	3	0
-	+	3	16
-	+	3	0
-	+	3	20
-	+	3	3
-	+	3	18
-	+	3	0
-	+	3	32
-	+	4	0
-
-> ~\vimfiles\plugged\coc.nvim\doc\coc.txt
-	*	1609098598	0
-	"	3147	31
-
-> ~\Desktop\MRHC_FIN.py
-	*	1609077912	0
-	"	269	49
-
-> ~\vimwiki\Cpp.wiki
-	*	1609072499	0
-	"	1	159
-	^	1	160
-	.	1	160
-	+	1	162
-	+	1	160
-
-> ~\vimwiki\index.wiki
-	*	1609072355	0
-	"	3	3
-	^	3	8
-	.	3	7
-	+	1	10
-	+	2	0
-	+	1	0
-	+	3	6
-	+	3	7
-
-> ~\vimwiki\Python.wiki
-	*	1609072291	0
-	"	1	0
-	^	1	12
-	.	1	12
-	+	1	16
-	+	1	12
-
-> ~\vimwiki\Coding.wiki
-	*	1609060843	0
-	"	1	0
-
-> ~\Desktop\prova.cpp
-	*	1608750031	0
-	"	6	0
-	.	5	10
-	+	1	19
-	+	3	12
-	+	4	29
-	+	6	0
-	+	5	10
-
-> C:\Program Files\Vim\vim82\doc\uganda.txt
-	*	1608396266	0
-	"	15	1
-
-> ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Mathematica\.gitignore
-	*	1608217115	0
-	"	4	12
-	^	4	13
-	.	4	12
-	+	3	13
-	+	5	0
-	+	4	12
-
-> ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Mathematica\NERD_tree_1
-	*	1608217040	0
-	"	18	0
-	.	1	0
-	+	1	0
-
-> C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.4.3243.0_x64__8wekyb3d8bbwe\defaults.json
-	*	1608139716	0
-	"	198	0
-
-> ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Data\Movements\Original\Airport_2015_ARR_JobId1696667.csv
-	*	1608046781	0
-	"	1	41
-
-> ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Data\Movements\Original\NERD_tree_1
-	*	1608046749	0
-	"	5	0
-	.	1	0
-	+	1	0
-
-> ~\vimfiles\vimfiles
-	*	1607981586	0
-	"	1	0
-
-> ~\Documenti\WindowsPowerShell\NERD_tree_1
-	*	1607978431	0
-	"	7	0
-	.	1	0
-	+	1	0
-
-> ~\Documenti\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
-	*	1607978430	0
-	"	3	0
-	^	3	0
-	.	4	0
-	+	3	0
-	+	1	0
-	+	3	0
-	+	4	0
-
-> ~\desktop\prova.tex
-	*	1607890432	0
-	"	7	0
-	.	7	0
-	+	1	22
-	+	4	10
-	+	7	13
-	+	3	0
-	+	4	0
-	+	5	45
-	+	8	0
-	+	9	0
-	+	6	11
-	+	7	0
-
-> ~\AppData\Local\Programs\Python\Python39\Lib\site-packages\numpy\__init__.py
-	*	1607880148	0
-	"	21	0
-
-> ~\Desktop\vimrc
-	*	1607879989	0
-	"	1	0
-
-> ~\vimfiles\plugged\YouCompleteMe\install.py
-	*	1607808647	0
-	"	42	0
-
-> ~\vimfiles\vs
-	*	1607636229	0
-	"	1	0
-
-> ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\Data\Movements\schedule.csv
-	*	1607629342	0
-	"	1	0
-
-> ~\Downloads\NERD_tree_1
-	*	1607600339	0
-	"	12	0
-	.	1	0
-	+	1	0
-
-> ~\Downloads\A.csv
-	*	1607600336	0
-	"	774637	331
-
-> ~\Downloads\A
-	*	1607600262	0
-	"	1	0

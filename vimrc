@@ -103,8 +103,6 @@ Plug  'tpope/vim-fugitive'
 " Add fuzzy search
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-" Intellisense ConquerOfCompletion
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " LaTex support
 Plug 'lervag/vimtex'
 " Vim Wiki

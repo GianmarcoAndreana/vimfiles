@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Ult. Espressione di Ricerca:
-~MSle0~/airline
+~MSle0~/coc
 
 # Ult. Sostituzione Espressione di Ricerca:
 ~MSle0&#7DAEA3
@@ -21,17 +21,31 @@ $#458588
 
 # Riga-di-comando Storia (da più recente a meno recente):
 :q
-|2,0,1656758778,,"q"
+|2,0,1664278915,,"q"
 :w
-|2,0,1656758776,,"w"
+|2,0,1664278913,,"w"
+:PlugUpdate
+|2,0,1664278814,,"PlugUpdate"
+:W
+|2,0,1663573121,,"W"
+:q!
+|2,0,1662649511,,"q!"
+:PlugUpgrade
+|2,0,1661283187,,"PlugUpgrade"
+:w list_command.txt
+|2,0,1657636483,,"w list_command.txt"
+:! pippo.py
+|2,0,1656929550,,"! pippo.py"
+:.!
+|2,0,1656929543,,".!"
+:!
+|2,0,1656929528,,"!"
+:w pippo.py
+|2,0,1656929427,,"w pippo.py"
 :AirlineTheme sonokai
 |2,0,1656758469,,"AirlineTheme sonokai"
 :PlugInstall
 |2,0,1656758256,,"PlugInstall"
-:PlugUpgrade
-|2,0,1656669354,,"PlugUpgrade"
-:PlugUpdate
-|2,0,1656669330,,"PlugUpdate"
 :70
 |2,0,1644001692,,"70"
 :w Reviewer comment R1.txt
@@ -46,8 +60,6 @@ $#458588
 |2,0,1639938785,,"w gh-pages.yml"
 :w README.md
 |2,0,1639933606,,"w README.md"
-:W
-|2,0,1639925475,,"W"
 :exit
 |2,0,1639923442,,"exit"
 :w site-map.xml
@@ -56,8 +68,6 @@ $#458588
 |2,0,1639393832,,"w Jupyter-lab.bat"
 :Q
 |2,0,1638868790,,"Q"
-:q!
-|2,0,1638120384,,"q!"
 :w\
 |2,0,1638119699,,"w\\"
 :w gvimrc
@@ -110,18 +120,10 @@ $#458588
 |2,0,1615886506,,"set runtimepath"
 :! prova.py
 |2,0,1615838925,,"! prova.py"
-:! py prova.py
-|2,0,1615838880,,"! py prova.py"
-:files
-|2,0,1615828985,,"files"
-:w desktop/prova.py
-|2,0,1615828963,,"w desktop/prova.py"
-:w ~/giamm/desktop/test.py
-|2,0,1615828920,,"w ~/giamm/desktop/test.py"
-:G push
-|2,0,1615799083,,"G push"
 
 # Stringa di Ricerca Storia (da più recente a meno recente):
+?/coc
+|2,1,1664278906,47,"coc"
 ?/airline
 |2,1,1656758406,47,"airline"
 ?/julia
@@ -220,8 +222,6 @@ $#458588
 |2,1,1615798572,47,"highlight"
 ?/term
 |2,1,1615798414,47,"term"
-?/gruvbox
-|2,1,1615798252,47,"gruvbox"
 
 # Espressione Storia (da più recente a meno recente):
 
@@ -235,25 +235,31 @@ $#458588
 "0	CHAR	0
 	sonokai'
 |3,0,0,0,1,0,1656758193,"sonokai'"
-"1	LINE	0
-	
-|3,0,1,1,1,0,1656758711,""
+""1	LINE	0
+	" Intellisense ConquerOfCompletion
+|3,1,1,1,1,0,1664278911,"\" Intellisense ConquerOfCompletion"
 "2	LINE	0
-	let g:airline_theme = 'sonokai'
-|3,0,2,1,1,0,1656758703,"let g:airline_theme = 'sonokai'"
+	Plug 'neoclide/coc.nvim', {'branch': 'release'}
+|3,0,2,1,1,0,1664278909,"Plug 'neoclide/coc.nvim', {'branch': 'release'}"
 "3	LINE	0
-	"set notermguicolors
-|3,0,3,1,1,0,1656758687,"\"set notermguicolors"
+	
+|3,0,3,1,1,0,1656758711,""
 "4	LINE	0
-	set termguicolors " set to termguicolors when there is a background"
-|3,0,4,1,1,0,1656758686,"set termguicolors \" set to termguicolors when there is a background\""
+	let g:airline_theme = 'sonokai'
+|3,0,4,1,1,0,1656758703,"let g:airline_theme = 'sonokai'"
 "5	LINE	0
-	cjhfjhfgfjkgh
-|3,0,5,1,1,0,1656758288,"cjhfjhfgfjkgh"
+	"set notermguicolors
+|3,0,5,1,1,0,1656758687,"\"set notermguicolors"
 "6	LINE	0
+	set termguicolors " set to termguicolors when there is a background"
+|3,0,6,1,1,0,1656758686,"set termguicolors \" set to termguicolors when there is a background\""
+"7	LINE	0
+	cjhfjhfgfjkgh
+|3,0,7,1,1,0,1656758288,"cjhfjhfgfjkgh"
+"8	LINE	0
 	Plug 'bluz71/vim-nightfly-guicolors'
-|3,0,6,1,1,0,1656758164,"Plug 'bluz71/vim-nightfly-guicolors'"
-"7	CHAR	0
+|3,0,8,1,1,0,1656758164,"Plug 'bluz71/vim-nightfly-guicolors'"
+"9	CHAR	0
 	This paper aim to investigate the impact of Environmental-social-governance (ESG)on the resiliance of travel firm, specifically airlines, during the COVID-19 pandemic.
 	The paper is well written and clear to read. Introduction, literature review, methodology and results discussion are clear and logically consequential.
 	
@@ -263,241 +269,365 @@ $#458588
 	A goodness-of-fit specification, as the Pearson test is required.
 	Testing the correctness of the conditional distribution specification, using a likelihood ratio test, is necessary.
 	There is a typo on the date at the end of page 8.
-|3,0,7,0,9,0,1644073987,"This paper aim to investigate the impact of Environmental-social-governance (ESG)on the resiliance of travel firm, specifically airlines, during the COVID-19 pandemic.","The paper is well written and clear to read. Introduction, literature review, methodology and results discussion are clear and logically consequential.","","I have only some minor comments that I will state below.","",>240
+|3,0,9,0,9,0,1644073987,"This paper aim to investigate the impact of Environmental-social-governance (ESG)on the resiliance of travel firm, specifically airlines, during the COVID-19 pandemic.","The paper is well written and clear to read. Introduction, literature review, methodology and results discussion are clear and logically consequential.","","I have only some minor comments that I will state below.","",>240
 |<"Authors applies straight-forward the econometrics based on the methodology proposed by Chan & Maheu (2002). I would appreciate seeing the autocorrelation and the partial autocorrelation functions through diagnostic plots of the residuals.","A goodness-of-fit specification, as the Pearson test is required.","Testing the correctness of the conditional distribution specification, using a likelihood ratio test, is necessary.","There is a typo on the date at the end of page 8."
-"8	LINE	0
-	let base16colorspace=256  " Access colors present in 256 colorspace
-|3,0,8,1,1,0,1644002217,"let base16colorspace=256  \" Access colors present in 256 colorspace"
-"9	LINE	0
-	let g:rehash256 = 1
-|3,0,9,1,1,0,1644001647,"let g:rehash256 = 1"
-""-	CHAR	0
-	nightfly
-|3,1,36,0,1,0,1656758769,"nightfly"
+"-	CHAR	0
+	 
+|3,0,36,0,1,0,1657636444," "
 
 # File mark:
-'0  5  18  ~\vimfiles\gvimrc
-|4,48,5,18,1656758778,"~\\vimfiles\\gvimrc"
-'1  76  0  ~\vimfiles\vimrc
-|4,49,76,0,1656758731,"~\\vimfiles\\vimrc"
-'2  123  0  ~\vimfiles\vimrc
-|4,50,123,0,1656758714,"~\\vimfiles\\vimrc"
-'3  123  0  ~\vimfiles\vimrc
-|4,51,123,0,1656758714,"~\\vimfiles\\vimrc"
-'4  118  26  ~\vimfiles\vimrc
-|4,52,118,26,1656758601,"~\\vimfiles\\vimrc"
-'5  120  26  ~\vimfiles\vimrc
-|4,53,120,26,1656758601,"~\\vimfiles\\vimrc"
-'6  118  26  ~\vimfiles\vimrc
-|4,54,118,26,1656758601,"~\\vimfiles\\vimrc"
-'7  120  26  ~\vimfiles\vimrc
-|4,55,120,26,1656758601,"~\\vimfiles\\vimrc"
-'8  128  18  ~\vimfiles\vimrc
-|4,56,128,18,1656758218,"~\\vimfiles\\vimrc"
-'9  126  18  ~\vimfiles\vimrc
-|4,57,126,18,1656758218,"~\\vimfiles\\vimrc"
+'0  106  0  ~\vimfiles\vimrc
+|4,48,106,0,1664278915,"~\\vimfiles\\vimrc"
+'1  1971200  10  ~\Desktop\Uni\PhD\Aviation\Paper Environmental Game\pyomo\travel_time.csv
+|4,49,1971200,10,1663573154,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Environmental Game\\pyomo\\travel_time.csv"
+'2  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,50,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+'3  1  0  ~\[Plugins]
+|4,51,1,0,1661283196,"~\\[Plugins]"
+'4  5  35  ~\Desktop\list_command.txt
+|4,52,5,35,1657636489,"~\\Desktop\\list_command.txt"
+'5  2  0  ~\Desktop\pippo.py
+|4,53,2,0,1656929555,"~\\Desktop\\pippo.py"
+'6  5  18  ~\vimfiles\gvimrc
+|4,54,5,18,1656758778,"~\\vimfiles\\gvimrc"
+'7  76  0  ~\vimfiles\vimrc
+|4,55,76,0,1656758731,"~\\vimfiles\\vimrc"
+'8  121  0  ~\vimfiles\vimrc
+|4,56,121,0,1656758714,"~\\vimfiles\\vimrc"
+'9  121  0  ~\vimfiles\vimrc
+|4,57,121,0,1656758714,"~\\vimfiles\\vimrc"
 
 # Jumplist (dai più recenti):
--'  5  18  ~\vimfiles\gvimrc
-|4,39,5,18,1656758778,"~\\vimfiles\\gvimrc"
--'  5  18  ~\vimfiles\gvimrc
-|4,39,5,18,1656758778,"~\\vimfiles\\gvimrc"
--'  5  18  ~\vimfiles\gvimrc
-|4,39,5,18,1656758778,"~\\vimfiles\\gvimrc"
--'  1  0  ~\vimfiles\gvimrc
-|4,39,1,0,1656758763,"~\\vimfiles\\gvimrc"
--'  1  0  ~\vimfiles\gvimrc
-|4,39,1,0,1656758763,"~\\vimfiles\\gvimrc"
--'  1  0  ~\vimfiles\gvimrc
-|4,39,1,0,1656758763,"~\\vimfiles\\gvimrc"
--'  76  0  ~\vimfiles\vimrc
-|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
--'  76  0  ~\vimfiles\vimrc
-|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
--'  76  0  ~\vimfiles\vimrc
-|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
--'  76  0  ~\vimfiles\vimrc
-|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
--'  76  0  ~\vimfiles\vimrc
-|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
--'  76  0  ~\vimfiles\vimrc
-|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
--'  76  0  ~\vimfiles\vimrc
-|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
--'  76  0  ~\vimfiles\vimrc
-|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
--'  76  0  ~\vimfiles\vimrc
-|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
--'  76  0  ~\vimfiles\vimrc
-|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
--'  76  0  ~\vimfiles\vimrc
-|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
--'  76  0  ~\vimfiles\vimrc
-|4,39,76,0,1656758731,"~\\vimfiles\\vimrc"
+-'  106  0  ~\vimfiles\vimrc
+|4,39,106,0,1664278915,"~\\vimfiles\\vimrc"
+-'  64  0  ~\vimfiles\vimrc
+|4,39,64,0,1664278906,"~\\vimfiles\\vimrc"
 -'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758715,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  123  0  ~\vimfiles\vimrc
-|4,39,123,0,1656758714,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
--'  1  0  ~\vimfiles\vimrc
-|4,39,1,0,1656758608,"~\\vimfiles\\vimrc"
--'  118  26  ~\vimfiles\vimrc
-|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
--'  120  26  ~\vimfiles\vimrc
-|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
--'  118  26  ~\vimfiles\vimrc
-|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
--'  120  26  ~\vimfiles\vimrc
-|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
--'  118  26  ~\vimfiles\vimrc
-|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
--'  120  26  ~\vimfiles\vimrc
-|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
--'  118  26  ~\vimfiles\vimrc
-|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
--'  120  26  ~\vimfiles\vimrc
-|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
--'  118  26  ~\vimfiles\vimrc
-|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
--'  120  26  ~\vimfiles\vimrc
-|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
--'  118  26  ~\vimfiles\vimrc
-|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
--'  120  26  ~\vimfiles\vimrc
-|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
--'  118  26  ~\vimfiles\vimrc
-|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
--'  120  26  ~\vimfiles\vimrc
-|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
--'  118  26  ~\vimfiles\vimrc
-|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
--'  120  26  ~\vimfiles\vimrc
-|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
--'  118  26  ~\vimfiles\vimrc
-|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
--'  120  26  ~\vimfiles\vimrc
-|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
--'  118  26  ~\vimfiles\vimrc
-|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
--'  120  26  ~\vimfiles\vimrc
-|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
--'  118  26  ~\vimfiles\vimrc
-|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
--'  120  26  ~\vimfiles\vimrc
-|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
--'  118  26  ~\vimfiles\vimrc
-|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
--'  120  26  ~\vimfiles\vimrc
-|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
--'  118  26  ~\vimfiles\vimrc
-|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
--'  120  26  ~\vimfiles\vimrc
-|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
--'  118  26  ~\vimfiles\vimrc
-|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
--'  120  26  ~\vimfiles\vimrc
-|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
--'  118  26  ~\vimfiles\vimrc
-|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
--'  120  26  ~\vimfiles\vimrc
-|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
--'  118  26  ~\vimfiles\vimrc
-|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
--'  120  26  ~\vimfiles\vimrc
-|4,39,120,26,1656758601,"~\\vimfiles\\vimrc"
--'  118  26  ~\vimfiles\vimrc
-|4,39,118,26,1656758601,"~\\vimfiles\\vimrc"
+|4,39,1,0,1664278897,"~\\vimfiles\\vimrc"
+-'  1971200  10  ~\Desktop\Uni\PhD\Aviation\Paper Environmental Game\pyomo\travel_time.csv
+|4,39,1971200,10,1663573154,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Environmental Game\\pyomo\\travel_time.csv"
+-'  1971200  10  ~\Desktop\Uni\PhD\Aviation\Paper Environmental Game\pyomo\travel_time.csv
+|4,39,1971200,10,1663573154,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Environmental Game\\pyomo\\travel_time.csv"
+-'  1971200  10  ~\Desktop\Uni\PhD\Aviation\Paper Environmental Game\pyomo\travel_time.csv
+|4,39,1971200,10,1663573154,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Environmental Game\\pyomo\\travel_time.csv"
+-'  1971200  10  ~\Desktop\Uni\PhD\Aviation\Paper Environmental Game\pyomo\travel_time.csv
+|4,39,1971200,10,1663573154,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Environmental Game\\pyomo\\travel_time.csv"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\Paper Environmental Game\pyomo\travel_time.csv
+|4,39,1,0,1663573030,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Environmental Game\\pyomo\\travel_time.csv"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\Paper Environmental Game\pyomo\travel_time.csv
+|4,39,1,0,1663573030,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Environmental Game\\pyomo\\travel_time.csv"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\Paper Environmental Game\pyomo\travel_time.csv
+|4,39,1,0,1663573030,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Environmental Game\\pyomo\\travel_time.csv"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\Paper Environmental Game\pyomo\travel_time.csv
+|4,39,1,0,1663573030,"~\\Desktop\\Uni\\PhD\\Aviation\\Paper Environmental Game\\pyomo\\travel_time.csv"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
+-'  1  0  ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+|4,39,1,0,1662274552,"~\\Desktop\\Uni\\PhD\\Aviation\\NERD_tree_1"
 
 # Storia delle marcature all'interno dei file (dalle più recenti alle meno recenti):
+
+> ~\vimfiles\vimrc
+	*	1664278914	0
+	"	106	0
+	.	106	0
+	+	90	22
+	+	90	15
+	+	90	0
+	+	90	22
+	+	78	0
+	+	115	66
+	+	116	0
+	+	115	60
+	+	90	4
+	+	110	0
+	+	110	1
+	+	134	0
+	+	115	0
+	+	116	0
+	+	115	62
+	+	116	5
+	+	115	0
+	+	116	73
+	+	116	4
+	+	115	0
+	+	116	0
+	+	116	62
+	+	115	85
+	+	116	50
+	+	115	64
+	+	116	5
+	+	48	0
+	+	46	0
+	+	48	0
+	+	115	0
+	+	116	0
+	+	115	0
+	+	116	0
+	+	116	22
+	+	116	0
+	+	116	22
+	+	90	0
+	+	90	39
+	+	116	0
+	+	89	1
+	+	116	55
+	+	115	0
+	+	116	0
+	+	7	0
+	+	116	0
+	+	115	0
+	+	116	0
+	+	115	14
+	+	115	15
+	+	115	0
+	+	116	0
+	+	116	3
+	+	116	0
+	+	115	0
+	+	116	0
+	+	7	0
+	+	116	31
+	+	116	0
+	+	116	2
+	+	116	0
+	+	115	1
+	+	89	1
+	+	106	1
+	+	109	0
+	+	110	0
+	+	90	0
+	+	116	19
+	+	116	0
+	+	123	0
+	+	116	19
+	+	116	0
+	+	90	0
+	+	123	67
+	+	116	12
+	+	90	0
+	+	116	0
+	+	123	0
+	+	90	22
+	+	116	19
+	+	54	0
+	+	129	33
+	+	130	0
+	+	116	0
+	+	120	0
+	+	116	0
+	+	118	0
+	+	117	1
+	+	116	0
+	+	130	0
+	+	121	0
+	+	106	0
+	a	116	23
+
+> ~\Desktop\Uni\PhD\Aviation\Paper Environmental Game\pyomo\travel_time.csv
+	*	1663573152	0
+	"	1971200	10
+	^	1971200	11
+	.	1971200	11
+	+	1971200	11
+
+> ~\Desktop\Uni\PhD\Aviation\NERD_tree_1
+	*	1662274538	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~\Desktop\list_command.txt
+	*	1657636486	0
+	"	5	35
+	^	5	0
+	.	5	0
+	+	1	0
+	+	2	44
+	+	3	0
+	+	4	23
+	+	5	0
+
+> ~\Desktop\pippo.py
+	*	1656929553	0
+	"	2	0
+	^	3	22
+	.	3	21
+	+	3	21
 
 > ~\vimfiles\gvimrc
 	*	1656758777	0
@@ -515,102 +645,6 @@ $#458588
 	+	3	0
 	+	6	0
 	+	5	18
-
-> ~\vimfiles\vimrc
-	*	1656758729	0
-	"	76	0
-	.	123	0
-	+	90	22
-	+	90	15
-	+	90	0
-	+	90	22
-	+	78	0
-	+	117	66
-	+	118	0
-	+	117	60
-	+	90	4
-	+	112	0
-	+	112	1
-	+	136	0
-	+	117	0
-	+	118	0
-	+	117	62
-	+	118	5
-	+	117	0
-	+	118	73
-	+	118	4
-	+	117	0
-	+	118	0
-	+	118	62
-	+	117	85
-	+	118	50
-	+	117	64
-	+	118	5
-	+	48	0
-	+	46	0
-	+	48	0
-	+	117	0
-	+	118	0
-	+	117	0
-	+	118	0
-	+	118	22
-	+	118	0
-	+	118	22
-	+	90	0
-	+	90	39
-	+	118	0
-	+	89	1
-	+	118	55
-	+	117	0
-	+	118	0
-	+	7	0
-	+	118	0
-	+	117	0
-	+	118	0
-	+	117	14
-	+	117	15
-	+	117	0
-	+	118	0
-	+	118	3
-	+	118	0
-	+	117	0
-	+	118	0
-	+	7	0
-	+	118	31
-	+	118	0
-	+	118	2
-	+	118	0
-	+	117	1
-	+	89	1
-	+	108	1
-	+	111	0
-	+	112	0
-	+	90	0
-	+	118	19
-	+	118	0
-	+	125	0
-	+	118	19
-	+	118	0
-	+	90	0
-	+	125	67
-	+	118	12
-	+	90	0
-	+	118	0
-	+	125	0
-	+	90	22
-	+	118	19
-	+	54	0
-	+	131	33
-	+	132	0
-	+	118	0
-	+	122	0
-	+	118	0
-	+	120	0
-	+	119	1
-	+	118	0
-	+	132	0
-	+	123	0
-	a	118	23
 
 > ~\Desktop\Uni\PhD\Reviewer\JATM-D-21-00240\review.txt
 	*	1644073991	0
@@ -1605,19 +1639,3 @@ $#458588
 > ~\AppData\Local\Temp\transp3.mpeg
 	*	1614678670	0
 	"	1	0
-
-> ~\Desktop\Uni\PhD\Aviation\Paper Airlines Aid\Airline-Aid\README.md
-	*	1613582089	0
-	"	1	0
-
-> ~\Desktop\Adobe Acrobat Pro DC 2020.012.20043 - Old MethodSee Description\data.dat
-	*	1613560830	0
-	"	1	0
-
-> ~\Downloads\Adobe Acrobat Pro DC 2020.012.20043 - Old MethodSee Description\Info.nfo
-	*	1613560717	0
-	"	1	0
-
-> ~\Desktop\Uni\PhD\Aviation\Paper COVID-19\COVID_note\our_paper.tex
-	*	1613552020	0
-	"	152	0
